@@ -1,0 +1,2376 @@
+=== ru
+Способ установки
+Стандартный (системный)
+Встроенный установщик Android. Запрашивает подтверждение.
+Установка без подтверждения через Privileged Extension (системное приложение или модуль Magisk). Если недоступно, используется стандартный установщик.
+Установка без подтверждения с правами root (Magisk, KernelSU). Если root-доступ отклонён, используется стандартный установщик.
+Root-доступ предоставлен
+Root-доступ отклонён или недоступен. Используется стандартный установщик.
+Privileged Extension найдено и готово к работе
+Privileged Extension не установлено. Используется стандартный установщик.
+Privileged Extension установлено, но не имеет системных привилегий или не доверяет подписи этого приложения. Используется стандартный установщик.
+Установка без подтверждения через Shizuku (Shizuku должен быть запущен, а доступ — разрешён). Если недоступно, используется стандартный установщик.
+Shizuku готов
+Shizuku не установлен или не запущен. Используется стандартный установщик.
+Доступ к Shizuku отклонён. Разрешите F-Droid в приложении Shizuku. Используется стандартный установщик.
+Установленная версия Shizuku слишком старая. Используется стандартный установщик.
+Установка без подтверждения от имени владельца устройства через Dhizuku (Dhizuku должен быть настроен, а доступ — разрешён). Если недоступно, используется стандартный установщик.
+Dhizuku готов
+Dhizuku не установлен или не активен. Используется стандартный установщик.
+Доступ к Dhizuku отклонён. Используется стандартный установщик.
+Установка через установщик microG Companion. Требуется microG Companion; microG всё равно может показать свой диалог. Если недоступно, используется стандартный установщик.
+microG Companion найден
+microG Companion с поддержкой установки не найден. Используется стандартный установщик.
+Другое приложение-установщик
+Передаёт APK другому приложению-установщику по имени пакета (например, App Manager). Если недоступно, используется стандартный установщик.
+Приложение-установщик найдено
+Имя пакета не указано. Пока вы его не зададите, используется стандартный установщик.
+Это приложение не установлено. Пока вы не исправите имя пакета, используется стандартный установщик.
+Это приложение не умеет устанавливать APK-файлы. Пока вы не выберете другое, используется стандартный установщик.
+Имя пакета приложения-установщика
+Не задано
+Например, io.github.muntashirakon.AppManager
+Недопустимое имя пакета
+=== fr
+Méthode d'installation
+Standard (système)
+Installateur intégré d'Android. Demande une confirmation.
+Installation silencieuse via la Privileged Extension (application système ou module Magisk). Retour à l'installateur standard si indisponible.
+Installation silencieuse avec les droits root (Magisk, KernelSU). Retour à l'installateur standard si l'accès root est refusé.
+Accès root accordé
+L'accès root a été refusé ou n'est pas disponible. Utilisation de l'installateur standard.
+Privileged Extension trouvée et prête
+La Privileged Extension n'est pas installée. Utilisation de l'installateur standard.
+La Privileged Extension est installée, mais n'a pas de droits système ou ne fait pas confiance à la signature de cette application. Utilisation de l'installateur standard.
+Installation silencieuse via Shizuku (Shizuku doit être lancé et l'accès autorisé). Retour à l'installateur standard si indisponible.
+Shizuku est prêt
+Shizuku n'est pas installé ou n'est pas lancé. Utilisation de l'installateur standard.
+L'accès à Shizuku a été refusé. Autorisez F-Droid dans l'application Shizuku. Utilisation de l'installateur standard.
+La version de Shizuku installée est trop ancienne. Utilisation de l'installateur standard.
+Installation silencieuse en tant que propriétaire de l'appareil via Dhizuku (Dhizuku doit être configuré et l'accès autorisé). Retour à l'installateur standard si indisponible.
+Dhizuku est prêt
+Dhizuku n'est pas installé ou n'est pas actif. Utilisation de l'installateur standard.
+L'accès à Dhizuku a été refusé. Utilisation de l'installateur standard.
+Installe via l'installateur de microG Companion. Nécessite microG Companion ; microG peut tout de même afficher une boîte de dialogue. Retour à l'installateur standard si indisponible.
+microG Companion trouvé
+microG Companion avec prise en charge de l'installation introuvable. Utilisation de l'installateur standard.
+Autre application d'installation
+Transmet l'APK à une autre application d'installation, identifiée par son nom de paquet (p. ex. App Manager). Retour à l'installateur standard si indisponible.
+Application d'installation trouvée
+Aucun nom de paquet saisi. L'installateur standard est utilisé tant que vous n'en indiquez pas.
+Cette application n'est pas installée. L'installateur standard est utilisé tant que le nom de paquet n'est pas corrigé.
+Cette application ne peut pas installer de fichiers APK. L'installateur standard est utilisé tant que vous n'en choisissez pas une autre.
+Nom de paquet de l'application d'installation
+Non défini
+Par exemple io.github.muntashirakon.AppManager
+Ce nom de paquet n'est pas valide
+=== es
+Método de instalación
+Estándar (sistema)
+Instalador integrado de Android. Pide confirmación.
+Instalación silenciosa mediante Privileged Extension (aplicación del sistema o módulo de Magisk). Si no está disponible, se usa el instalador estándar.
+Instalación silenciosa con permisos de root (Magisk, KernelSU). Si se deniega el root, se usa el instalador estándar.
+Acceso root concedido
+Se denegó el acceso root o no está disponible. Se usa el instalador estándar.
+Privileged Extension encontrada y lista
+Privileged Extension no está instalada. Se usa el instalador estándar.
+Privileged Extension está instalada, pero no tiene privilegios de sistema o no confía en la firma de esta aplicación. Se usa el instalador estándar.
+Instalación silenciosa mediante Shizuku (Shizuku debe estar en ejecución y con el acceso concedido). Si no está disponible, se usa el instalador estándar.
+Shizuku está listo
+Shizuku no está instalado o no se está ejecutando. Se usa el instalador estándar.
+Se denegó el acceso a Shizuku. Permite F-Droid en la aplicación Shizuku. Se usa el instalador estándar.
+La versión instalada de Shizuku es demasiado antigua. Se usa el instalador estándar.
+Instalación silenciosa como propietario del dispositivo mediante Dhizuku (Dhizuku debe estar configurado y con el acceso concedido). Si no está disponible, se usa el instalador estándar.
+Dhizuku está listo
+Dhizuku no está instalado o no está activo. Se usa el instalador estándar.
+Se denegó el acceso a Dhizuku. Se usa el instalador estándar.
+Instala mediante el instalador de microG Companion. Requiere microG Companion y microG aún podría mostrar un cuadro de diálogo. Si no está disponible, se usa el instalador estándar.
+microG Companion encontrado
+No se encontró microG Companion con compatibilidad de instalación. Se usa el instalador estándar.
+Otra aplicación instaladora
+Entrega el APK a otra aplicación instaladora según su nombre de paquete (p. ej., App Manager). Si no está disponible, se usa el instalador estándar.
+Aplicación instaladora encontrada
+No se ha introducido ningún nombre de paquete. Se usa el instalador estándar hasta que lo indiques.
+Esta aplicación no está instalada. Se usa el instalador estándar hasta que corrijas el nombre de paquete.
+Esta aplicación no puede instalar archivos APK. Se usa el instalador estándar hasta que elijas otra.
+Nombre de paquete de la aplicación instaladora
+Sin definir
+Por ejemplo, io.github.muntashirakon.AppManager
+No es un nombre de paquete válido
+=== it
+Metodo di installazione
+Standard (di sistema)
+Installer integrato di Android. Richiede conferma.
+Installazione silenziosa tramite Privileged Extension (app di sistema o modulo Magisk). Se non disponibile, viene usato l'installer standard.
+Installazione silenziosa con permessi di root (Magisk, KernelSU). Se il root viene negato, viene usato l'installer standard.
+Accesso root concesso
+L'accesso root è stato negato o non è disponibile. Viene usato l'installer standard.
+Privileged Extension trovata e pronta
+Privileged Extension non è installata. Viene usato l'installer standard.
+Privileged Extension è installata, ma non ha privilegi di sistema o non si fida della firma di questa app. Viene usato l'installer standard.
+Installazione silenziosa tramite Shizuku (Shizuku deve essere in esecuzione e l'accesso concesso). Se non disponibile, viene usato l'installer standard.
+Shizuku è pronto
+Shizuku non è installato o non è in esecuzione. Viene usato l'installer standard.
+L'accesso a Shizuku è stato negato. Consenti F-Droid nell'app Shizuku. Viene usato l'installer standard.
+La versione di Shizuku installata è troppo vecchia. Viene usato l'installer standard.
+Installazione silenziosa come proprietario del dispositivo tramite Dhizuku (Dhizuku deve essere configurato e l'accesso concesso). Se non disponibile, viene usato l'installer standard.
+Dhizuku è pronto
+Dhizuku non è installato o non è attivo. Viene usato l'installer standard.
+L'accesso a Dhizuku è stato negato. Viene usato l'installer standard.
+Installa tramite l'installer di microG Companion. Richiede microG Companion e microG potrebbe comunque mostrare una finestra di dialogo. Se non disponibile, viene usato l'installer standard.
+microG Companion trovato
+microG Companion con supporto all'installazione non trovato. Viene usato l'installer standard.
+Altra app di installazione
+Passa l'APK a un'altra app di installazione in base al nome del pacchetto (ad es. App Manager). Se non disponibile, viene usato l'installer standard.
+App di installazione trovata
+Nessun nome del pacchetto inserito. Viene usato l'installer standard finché non ne imposti uno.
+Questa app non è installata. Viene usato l'installer standard finché non correggi il nome del pacchetto.
+Questa app non può installare file APK. Viene usato l'installer standard finché non ne scegli un'altra.
+Nome del pacchetto dell'app di installazione
+Non impostato
+Ad esempio io.github.muntashirakon.AppManager
+Non è un nome di pacchetto valido
+=== pt-PT
+Método de instalação
+Padrão (sistema)
+Instalador integrado do Android. Pede confirmação.
+Instalação silenciosa através da Privileged Extension (aplicação de sistema ou módulo Magisk). Se não estiver disponível, é usado o instalador padrão.
+Instalação silenciosa com permissões de root (Magisk, KernelSU). Se o root for recusado, é usado o instalador padrão.
+Acesso root concedido
+O acesso root foi recusado ou não está disponível. A usar o instalador padrão.
+Privileged Extension encontrada e pronta
+A Privileged Extension não está instalada. A usar o instalador padrão.
+A Privileged Extension está instalada, mas não tem privilégios de sistema ou não confia na assinatura desta aplicação. A usar o instalador padrão.
+Instalação silenciosa através do Shizuku (o Shizuku tem de estar em execução e o acesso concedido). Se não estiver disponível, é usado o instalador padrão.
+O Shizuku está pronto
+O Shizuku não está instalado ou não está em execução. A usar o instalador padrão.
+O acesso ao Shizuku foi recusado. Permita o F-Droid na aplicação Shizuku. A usar o instalador padrão.
+A versão instalada do Shizuku é demasiado antiga. A usar o instalador padrão.
+Instalação silenciosa como proprietário do dispositivo através do Dhizuku (o Dhizuku tem de estar configurado e o acesso concedido). Se não estiver disponível, é usado o instalador padrão.
+O Dhizuku está pronto
+O Dhizuku não está instalado ou não está ativo. A usar o instalador padrão.
+O acesso ao Dhizuku foi recusado. A usar o instalador padrão.
+Instala através do instalador do microG Companion. Requer o microG Companion e o microG pode mesmo assim mostrar uma caixa de diálogo. Se não estiver disponível, é usado o instalador padrão.
+microG Companion encontrado
+Não foi encontrado o microG Companion com suporte de instalação. A usar o instalador padrão.
+Outra aplicação de instalação
+Entrega o APK a outra aplicação de instalação pelo nome do pacote (p. ex., App Manager). Se não estiver disponível, é usado o instalador padrão.
+Aplicação de instalação encontrada
+Nenhum nome de pacote introduzido. É usado o instalador padrão até definir um.
+Esta aplicação não está instalada. É usado o instalador padrão até corrigir o nome do pacote.
+Esta aplicação não consegue instalar ficheiros APK. É usado o instalador padrão até escolher outra.
+Nome do pacote da aplicação de instalação
+Não definido
+Por exemplo, io.github.muntashirakon.AppManager
+Este nome de pacote não é válido
+=== pt-BR
+Método de instalação
+Padrão (sistema)
+Instalador integrado do Android. Pede confirmação.
+Instalação silenciosa pela Privileged Extension (app do sistema ou módulo do Magisk). Se não estiver disponível, usa o instalador padrão.
+Instalação silenciosa com permissões de root (Magisk, KernelSU). Se o root for negado, usa o instalador padrão.
+Acesso root concedido
+O acesso root foi negado ou não está disponível. Usando o instalador padrão.
+Privileged Extension encontrada e pronta
+A Privileged Extension não está instalada. Usando o instalador padrão.
+A Privileged Extension está instalada, mas não tem privilégios de sistema ou não confia na assinatura deste app. Usando o instalador padrão.
+Instalação silenciosa pelo Shizuku (o Shizuku precisa estar em execução e com o acesso concedido). Se não estiver disponível, usa o instalador padrão.
+O Shizuku está pronto
+O Shizuku não está instalado ou não está em execução. Usando o instalador padrão.
+O acesso ao Shizuku foi negado. Permita o F-Droid no app Shizuku. Usando o instalador padrão.
+A versão instalada do Shizuku é muito antiga. Usando o instalador padrão.
+Instalação silenciosa como proprietário do dispositivo pelo Dhizuku (o Dhizuku precisa estar configurado e com o acesso concedido). Se não estiver disponível, usa o instalador padrão.
+O Dhizuku está pronto
+O Dhizuku não está instalado ou não está ativo. Usando o instalador padrão.
+O acesso ao Dhizuku foi negado. Usando o instalador padrão.
+Instala pelo instalador do microG Companion. Requer o microG Companion, e o microG ainda pode mostrar uma caixa de diálogo. Se não estiver disponível, usa o instalador padrão.
+microG Companion encontrado
+O microG Companion com suporte a instalação não foi encontrado. Usando o instalador padrão.
+Outro app instalador
+Entrega o APK a outro app instalador pelo nome do pacote (por exemplo, App Manager). Se não estiver disponível, usa o instalador padrão.
+App instalador encontrado
+Nenhum nome de pacote informado. Usando o instalador padrão até você definir um.
+Este app não está instalado. Usando o instalador padrão até você corrigir o nome do pacote.
+Este app não consegue instalar arquivos APK. Usando o instalador padrão até você escolher outro.
+Nome do pacote do app instalador
+Não definido
+Por exemplo, io.github.muntashirakon.AppManager
+Este nome de pacote não é válido
+=== pl
+Metoda instalacji
+Standardowa (systemowa)
+Wbudowany instalator Androida. Prosi o potwierdzenie.
+Instalacja bez potwierdzeń przez Privileged Extension (aplikacja systemowa lub moduł Magisk). Jeśli jest niedostępna, używany jest instalator standardowy.
+Instalacja bez potwierdzeń z uprawnieniami roota (Magisk, KernelSU). Jeśli dostęp root zostanie odrzucony, używany jest instalator standardowy.
+Przyznano dostęp root
+Odmówiono dostępu root lub jest on niedostępny. Używany jest instalator standardowy.
+Znaleziono Privileged Extension, jest gotowe
+Privileged Extension nie jest zainstalowane. Używany jest instalator standardowy.
+Privileged Extension jest zainstalowane, ale nie ma uprawnień systemowych albo nie ufa podpisowi tej aplikacji. Używany jest instalator standardowy.
+Instalacja bez potwierdzeń przez Shizuku (Shizuku musi działać, a dostęp musi być przyznany). Jeśli jest niedostępny, używany jest instalator standardowy.
+Shizuku jest gotowy
+Shizuku nie jest zainstalowany lub nie działa. Używany jest instalator standardowy.
+Odmówiono dostępu do Shizuku. Zezwól F-Droid w aplikacji Shizuku. Używany jest instalator standardowy.
+Zainstalowana wersja Shizuku jest zbyt stara. Używany jest instalator standardowy.
+Instalacja bez potwierdzeń jako właściciel urządzenia przez Dhizuku (Dhizuku musi być skonfigurowany, a dostęp przyznany). Jeśli jest niedostępny, używany jest instalator standardowy.
+Dhizuku jest gotowy
+Dhizuku nie jest zainstalowany lub nie jest aktywny. Używany jest instalator standardowy.
+Odmówiono dostępu do Dhizuku. Używany jest instalator standardowy.
+Instaluje przez instalator microG Companion. Wymaga microG Companion, a microG nadal może wyświetlić własne okno. Jeśli jest niedostępny, używany jest instalator standardowy.
+Znaleziono microG Companion
+Nie znaleziono microG Companion z obsługą instalacji. Używany jest instalator standardowy.
+Inna aplikacja instalująca
+Przekazuje plik APK innej aplikacji instalującej na podstawie nazwy pakietu (np. App Manager). Jeśli jest niedostępna, używany jest instalator standardowy.
+Znaleziono aplikację instalującą
+Nie podano nazwy pakietu. Do czasu jej ustawienia używany jest instalator standardowy.
+Ta aplikacja nie jest zainstalowana. Do czasu poprawienia nazwy pakietu używany jest instalator standardowy.
+Ta aplikacja nie potrafi instalować plików APK. Do czasu wybrania innej używany jest instalator standardowy.
+Nazwa pakietu aplikacji instalującej
+Nie ustawiono
+Na przykład io.github.muntashirakon.AppManager
+To nie jest prawidłowa nazwa pakietu
+=== nl
+Installatiemethode
+Standaard (systeem)
+Ingebouwd installatieprogramma van Android. Vraagt om bevestiging.
+Stille installatie via de Privileged Extension (systeemapp of Magisk-module). Valt terug op het standaard installatieprogramma als dit niet beschikbaar is.
+Stille installatie met rootrechten (Magisk, KernelSU). Valt terug op het standaard installatieprogramma als root wordt geweigerd.
+Roottoegang verleend
+Roottoegang is geweigerd of niet beschikbaar. Het standaard installatieprogramma wordt gebruikt.
+Privileged Extension gevonden en klaar
+Privileged Extension is niet geïnstalleerd. Het standaard installatieprogramma wordt gebruikt.
+Privileged Extension is geïnstalleerd, maar heeft geen systeemrechten of vertrouwt de handtekening van deze app niet. Het standaard installatieprogramma wordt gebruikt.
+Stille installatie via Shizuku (Shizuku moet draaien en toegang moet zijn verleend). Valt terug op het standaard installatieprogramma als dit niet beschikbaar is.
+Shizuku is klaar
+Shizuku is niet geïnstalleerd of draait niet. Het standaard installatieprogramma wordt gebruikt.
+Toegang tot Shizuku is geweigerd. Sta F-Droid toe in de Shizuku-app. Het standaard installatieprogramma wordt gebruikt.
+De geïnstalleerde versie van Shizuku is te oud. Het standaard installatieprogramma wordt gebruikt.
+Stille installatie als apparaateigenaar via Dhizuku (Dhizuku moet zijn ingesteld en toegang moet zijn verleend). Valt terug op het standaard installatieprogramma als dit niet beschikbaar is.
+Dhizuku is klaar
+Dhizuku is niet geïnstalleerd of niet actief. Het standaard installatieprogramma wordt gebruikt.
+Toegang tot Dhizuku is geweigerd. Het standaard installatieprogramma wordt gebruikt.
+Installeert via het installatieprogramma van microG Companion. Vereist microG Companion en microG kan nog steeds een dialoogvenster tonen. Valt terug op het standaard installatieprogramma als dit niet beschikbaar is.
+microG Companion gevonden
+microG Companion met installatieondersteuning is niet gevonden. Het standaard installatieprogramma wordt gebruikt.
+Andere installatie-app
+Geeft de APK door aan een andere installatie-app via de pakketnaam (bijv. App Manager). Valt terug op het standaard installatieprogramma als dit niet beschikbaar is.
+Installatie-app gevonden
+Geen pakketnaam ingevoerd. Het standaard installatieprogramma wordt gebruikt totdat je er een instelt.
+Deze app is niet geïnstalleerd. Het standaard installatieprogramma wordt gebruikt totdat je de pakketnaam corrigeert.
+Deze app kan geen APK-bestanden installeren. Het standaard installatieprogramma wordt gebruikt totdat je een andere kiest.
+Pakketnaam van de installatie-app
+Niet ingesteld
+Bijvoorbeeld io.github.muntashirakon.AppManager
+Dit is geen geldige pakketnaam
+=== uk
+Спосіб встановлення
+Стандартний (системний)
+Вбудований інсталятор Android. Запитує підтвердження.
+Встановлення без підтвердження через Privileged Extension (системний застосунок або модуль Magisk). Якщо недоступно, використовується стандартний інсталятор.
+Встановлення без підтвердження з правами root (Magisk, KernelSU). Якщо root-доступ відхилено, використовується стандартний інсталятор.
+Root-доступ надано
+Root-доступ відхилено або недоступний. Використовується стандартний інсталятор.
+Privileged Extension знайдено, готово до роботи
+Privileged Extension не встановлено. Використовується стандартний інсталятор.
+Privileged Extension встановлено, але воно не має системних привілеїв або не довіряє підпису цього застосунку. Використовується стандартний інсталятор.
+Встановлення без підтвердження через Shizuku (Shizuku має бути запущено, а доступ — надано). Якщо недоступно, використовується стандартний інсталятор.
+Shizuku готовий
+Shizuku не встановлено або не запущено. Використовується стандартний інсталятор.
+Доступ до Shizuku відхилено. Дозвольте F-Droid у застосунку Shizuku. Використовується стандартний інсталятор.
+Встановлена версія Shizuku надто стара. Використовується стандартний інсталятор.
+Встановлення без підтвердження від імені власника пристрою через Dhizuku (Dhizuku має бути налаштовано, а доступ — надано). Якщо недоступно, використовується стандартний інсталятор.
+Dhizuku готовий
+Dhizuku не встановлено або не активовано. Використовується стандартний інсталятор.
+Доступ до Dhizuku відхилено. Використовується стандартний інсталятор.
+Встановлення через інсталятор microG Companion. Потрібен microG Companion; microG усе одно може показати власне діалогове вікно. Якщо недоступно, використовується стандартний інсталятор.
+microG Companion знайдено
+microG Companion з підтримкою встановлення не знайдено. Використовується стандартний інсталятор.
+Інший застосунок-інсталятор
+Передає APK іншому застосунку-інсталятору за назвою пакета (наприклад, App Manager). Якщо недоступно, використовується стандартний інсталятор.
+Застосунок-інсталятор знайдено
+Назву пакета не вказано. Доки ви її не задасте, використовується стандартний інсталятор.
+Цей застосунок не встановлено. Доки ви не виправите назву пакета, використовується стандартний інсталятор.
+Цей застосунок не вміє встановлювати APK-файли. Доки ви не оберете інший, використовується стандартний інсталятор.
+Назва пакета застосунку-інсталятора
+Не задано
+Наприклад, io.github.muntashirakon.AppManager
+Недійсна назва пакета
+=== tr
+Kurulum yöntemi
+Standart (sistem)
+Android'in yerleşik yükleyicisi. Onay ister.
+Privileged Extension ile sessiz kurulum (sistem uygulaması veya Magisk modülü). Kullanılamıyorsa standart yükleyiciye geri dönülür.
+Root yetkileriyle sessiz kurulum (Magisk, KernelSU). Root reddedilirse standart yükleyiciye geri dönülür.
+Root erişimi verildi
+Root erişimi reddedildi veya kullanılamıyor. Standart yükleyici kullanılıyor.
+Privileged Extension bulundu ve hazır
+Privileged Extension yüklü değil. Standart yükleyici kullanılıyor.
+Privileged Extension yüklü ancak sistem ayrıcalıklarına sahip değil veya bu uygulamanın imzasına güvenmiyor. Standart yükleyici kullanılıyor.
+Shizuku ile sessiz kurulum (Shizuku çalışıyor olmalı ve erişim verilmiş olmalı). Kullanılamıyorsa standart yükleyiciye geri dönülür.
+Shizuku hazır
+Shizuku yüklü değil veya çalışmıyor. Standart yükleyici kullanılıyor.
+Shizuku erişimi reddedildi. Shizuku uygulamasında F-Droid'e izin verin. Standart yükleyici kullanılıyor.
+Yüklü Shizuku sürümü çok eski. Standart yükleyici kullanılıyor.
+Dhizuku ile cihaz sahibi olarak sessiz kurulum (Dhizuku kurulmuş olmalı ve erişim verilmiş olmalı). Kullanılamıyorsa standart yükleyiciye geri dönülür.
+Dhizuku hazır
+Dhizuku yüklü değil veya etkin değil. Standart yükleyici kullanılıyor.
+Dhizuku erişimi reddedildi. Standart yükleyici kullanılıyor.
+microG Companion'ın yükleyicisi üzerinden kurar. microG Companion gerekir ve microG yine de bir iletişim kutusu gösterebilir. Kullanılamıyorsa standart yükleyiciye geri dönülür.
+microG Companion bulundu
+Kurulum desteği olan microG Companion bulunamadı. Standart yükleyici kullanılıyor.
+Başka bir yükleyici uygulama
+APK'yı paket adıyla belirtilen başka bir yükleyici uygulamaya verir (ör. App Manager). Kullanılamıyorsa standart yükleyiciye geri dönülür.
+Yükleyici uygulama bulundu
+Paket adı girilmedi. Siz bir tane belirleyene kadar standart yükleyici kullanılıyor.
+Bu uygulama yüklü değil. Paket adını düzeltene kadar standart yükleyici kullanılıyor.
+Bu uygulama APK dosyalarını kuramıyor. Başka birini seçene kadar standart yükleyici kullanılıyor.
+Yükleyici uygulamanın paket adı
+Ayarlanmadı
+Örneğin io.github.muntashirakon.AppManager
+Bu geçerli bir paket adı değil
+=== ja
+インストール方法
+標準（システム）
+Android 内蔵のインストーラーです。確認が表示されます。
+Privileged Extension（システムアプリまたは Magisk モジュール）による確認なしのインストール。利用できない場合は標準インストーラーに切り替わります。
+root 権限による確認なしのインストール（Magisk、KernelSU）。root が拒否された場合は標準インストーラーに切り替わります。
+root アクセスが許可されました
+root アクセスが拒否されたか、利用できません。標準インストーラーを使用します。
+Privileged Extension が見つかり、利用可能です
+Privileged Extension がインストールされていません。標準インストーラーを使用します。
+Privileged Extension はインストールされていますが、特権がないか、このアプリの署名を信頼していません。標準インストーラーを使用します。
+Shizuku による確認なしのインストール（Shizuku が起動していて、アクセスが許可されている必要があります）。利用できない場合は標準インストーラーに切り替わります。
+Shizuku は利用可能です
+Shizuku がインストールされていないか、起動していません。標準インストーラーを使用します。
+Shizuku へのアクセスが拒否されました。Shizuku アプリで F-Droid を許可してください。標準インストーラーを使用します。
+インストールされている Shizuku のバージョンが古すぎます。標準インストーラーを使用します。
+Dhizuku によるデバイス所有者としての確認なしのインストール（Dhizuku が設定済みで、アクセスが許可されている必要があります）。利用できない場合は標準インストーラーに切り替わります。
+Dhizuku は利用可能です
+Dhizuku がインストールされていないか、有効ではありません。標準インストーラーを使用します。
+Dhizuku へのアクセスが拒否されました。標準インストーラーを使用します。
+microG Companion のインストーラー経由でインストールします。microG Companion が必要で、microG のダイアログが表示される場合があります。利用できない場合は標準インストーラーに切り替わります。
+microG Companion が見つかりました
+インストールに対応した microG Companion が見つかりません。標準インストーラーを使用します。
+他のインストーラーアプリ
+パッケージ名で指定した別のインストーラーアプリに APK を渡します（例: App Manager）。利用できない場合は標準インストーラーに切り替わります。
+インストーラーアプリが見つかりました
+パッケージ名が入力されていません。設定するまで標準インストーラーを使用します。
+このアプリはインストールされていません。パッケージ名を修正するまで標準インストーラーを使用します。
+このアプリは APK ファイルをインストールできません。別のアプリを選ぶまで標準インストーラーを使用します。
+インストーラーアプリのパッケージ名
+未設定
+例: io.github.muntashirakon.AppManager
+有効なパッケージ名ではありません
+=== ko
+설치 방법
+기본값(시스템)
+Android 내장 설치 프로그램입니다. 확인을 요청합니다.
+Privileged Extension(시스템 앱 또는 Magisk 모듈)을 통한 무확인 설치입니다. 사용할 수 없으면 기본 설치 프로그램으로 전환됩니다.
+root 권한을 이용한 무확인 설치입니다(Magisk, KernelSU). root가 거부되면 기본 설치 프로그램으로 전환됩니다.
+root 접근이 허용되었습니다
+root 접근이 거부되었거나 사용할 수 없습니다. 기본 설치 프로그램을 사용합니다.
+Privileged Extension을 찾았으며 사용할 수 있습니다
+Privileged Extension이 설치되어 있지 않습니다. 기본 설치 프로그램을 사용합니다.
+Privileged Extension이 설치되어 있지만 시스템 권한이 없거나 이 앱의 서명을 신뢰하지 않습니다. 기본 설치 프로그램을 사용합니다.
+Shizuku를 통한 무확인 설치입니다(Shizuku가 실행 중이어야 하고 접근이 허용되어야 합니다). 사용할 수 없으면 기본 설치 프로그램으로 전환됩니다.
+Shizuku를 사용할 수 있습니다
+Shizuku가 설치되어 있지 않거나 실행 중이 아닙니다. 기본 설치 프로그램을 사용합니다.
+Shizuku 접근이 거부되었습니다. Shizuku 앱에서 F-Droid를 허용해 주세요. 기본 설치 프로그램을 사용합니다.
+설치된 Shizuku 버전이 너무 오래되었습니다. 기본 설치 프로그램을 사용합니다.
+Dhizuku를 통해 기기 소유자 권한으로 무확인 설치합니다(Dhizuku가 설정되어 있고 접근이 허용되어야 합니다). 사용할 수 없으면 기본 설치 프로그램으로 전환됩니다.
+Dhizuku를 사용할 수 있습니다
+Dhizuku가 설치되어 있지 않거나 활성화되어 있지 않습니다. 기본 설치 프로그램을 사용합니다.
+Dhizuku 접근이 거부되었습니다. 기본 설치 프로그램을 사용합니다.
+microG Companion의 설치 프로그램으로 설치합니다. microG Companion이 필요하며 microG의 대화상자가 계속 표시될 수 있습니다. 사용할 수 없으면 기본 설치 프로그램으로 전환됩니다.
+microG Companion을 찾았습니다
+설치를 지원하는 microG Companion을 찾을 수 없습니다. 기본 설치 프로그램을 사용합니다.
+다른 설치 앱
+패키지 이름으로 지정한 다른 설치 앱에 APK를 전달합니다(예: App Manager). 사용할 수 없으면 기본 설치 프로그램으로 전환됩니다.
+설치 앱을 찾았습니다
+패키지 이름이 입력되지 않았습니다. 설정할 때까지 기본 설치 프로그램을 사용합니다.
+이 앱이 설치되어 있지 않습니다. 패키지 이름을 수정할 때까지 기본 설치 프로그램을 사용합니다.
+이 앱은 APK 파일을 설치할 수 없습니다. 다른 앱을 선택할 때까지 기본 설치 프로그램을 사용합니다.
+설치 앱의 패키지 이름
+설정되지 않음
+예: io.github.muntashirakon.AppManager
+올바른 패키지 이름이 아닙니다
+=== zh-CN
+安装方式
+标准（系统）
+Android 内置安装程序。会请求确认。
+通过 Privileged Extension（系统应用或 Magisk 模块）静默安装。不可用时回退到标准安装程序。
+使用 root 权限静默安装（Magisk、KernelSU）。root 被拒绝时回退到标准安装程序。
+已授予 root 权限
+root 权限被拒绝或不可用。正在使用标准安装程序。
+已找到 Privileged Extension 并可使用
+未安装 Privileged Extension。正在使用标准安装程序。
+已安装 Privileged Extension，但它没有系统特权，或不信任本应用的签名。正在使用标准安装程序。
+通过 Shizuku 静默安装（需要 Shizuku 正在运行并已授予权限）。不可用时回退到标准安装程序。
+Shizuku 已就绪
+未安装 Shizuku 或 Shizuku 未运行。正在使用标准安装程序。
+Shizuku 访问被拒绝。请在 Shizuku 应用中允许 F-Droid。正在使用标准安装程序。
+已安装的 Shizuku 版本过旧。正在使用标准安装程序。
+通过 Dhizuku 以设备所有者身份静默安装（需要已设置 Dhizuku 并已授予权限）。不可用时回退到标准安装程序。
+Dhizuku 已就绪
+未安装 Dhizuku 或 Dhizuku 未激活。正在使用标准安装程序。
+Dhizuku 访问被拒绝。正在使用标准安装程序。
+通过 microG Companion 的安装程序安装。需要 microG Companion，microG 仍可能显示对话框。不可用时回退到标准安装程序。
+已找到 microG Companion
+未找到支持安装的 microG Companion。正在使用标准安装程序。
+其他安装应用
+按包名把 APK 交给另一个安装应用（例如 App Manager）。不可用时回退到标准安装程序。
+已找到安装应用
+未输入包名。在您设置之前将使用标准安装程序。
+该应用未安装。在您修正包名之前将使用标准安装程序。
+该应用无法安装 APK 文件。在您选择其他应用之前将使用标准安装程序。
+安装应用的包名
+未设置
+例如 io.github.muntashirakon.AppManager
+这不是有效的包名
+=== zh-TW
+安裝方式
+標準（系統）
+Android 內建的安裝程式。會要求確認。
+透過 Privileged Extension（系統應用程式或 Magisk 模組）靜默安裝。無法使用時會改用標準安裝程式。
+使用 root 權限靜默安裝（Magisk、KernelSU）。root 遭拒絕時會改用標準安裝程式。
+已授予 root 存取權
+root 存取遭拒絕或無法使用。正在使用標準安裝程式。
+已找到 Privileged Extension，可以使用
+未安裝 Privileged Extension。正在使用標準安裝程式。
+已安裝 Privileged Extension，但它沒有系統權限，或不信任此應用程式的簽章。正在使用標準安裝程式。
+透過 Shizuku 靜默安裝（需要 Shizuku 正在執行並已授予存取權）。無法使用時會改用標準安裝程式。
+Shizuku 已就緒
+未安裝 Shizuku 或 Shizuku 未執行。正在使用標準安裝程式。
+Shizuku 存取遭拒絕。請在 Shizuku 應用程式中允許 F-Droid。正在使用標準安裝程式。
+已安裝的 Shizuku 版本過舊。正在使用標準安裝程式。
+透過 Dhizuku 以裝置擁有者身分靜默安裝（需要已設定 Dhizuku 並已授予存取權）。無法使用時會改用標準安裝程式。
+Dhizuku 已就緒
+未安裝 Dhizuku 或 Dhizuku 未啟用。正在使用標準安裝程式。
+Dhizuku 存取遭拒絕。正在使用標準安裝程式。
+透過 microG Companion 的安裝程式安裝。需要 microG Companion，microG 仍可能顯示對話框。無法使用時會改用標準安裝程式。
+已找到 microG Companion
+找不到支援安裝的 microG Companion。正在使用標準安裝程式。
+其他安裝應用程式
+依套件名稱把 APK 交給另一個安裝應用程式（例如 App Manager）。無法使用時會改用標準安裝程式。
+已找到安裝應用程式
+尚未輸入套件名稱。在您設定之前會使用標準安裝程式。
+此應用程式未安裝。在您修正套件名稱之前會使用標準安裝程式。
+此應用程式無法安裝 APK 檔案。在您選擇其他應用程式之前會使用標準安裝程式。
+安裝應用程式的套件名稱
+未設定
+例如 io.github.muntashirakon.AppManager
+這不是有效的套件名稱
+=== ar
+طريقة التثبيت
+القياسية (النظام)
+أداة التثبيت المدمجة في أندرويد. تطلب التأكيد.
+تثبيت صامت عبر Privileged Extension (تطبيق نظام أو وحدة Magisk). يتم الرجوع إلى أداة التثبيت القياسية إذا لم تكن متاحة.
+تثبيت صامت بصلاحيات الروت (Magisk، KernelSU). يتم الرجوع إلى أداة التثبيت القياسية إذا رُفض الروت.
+تم منح صلاحية الروت
+رُفضت صلاحية الروت أو أنها غير متاحة. يتم استخدام أداة التثبيت القياسية.
+تم العثور على Privileged Extension وهي جاهزة
+Privileged Extension غير مثبتة. يتم استخدام أداة التثبيت القياسية.
+Privileged Extension مثبتة، لكنها ليست مميزة أو لا تثق بتوقيع هذا التطبيق. يتم استخدام أداة التثبيت القياسية.
+تثبيت صامت عبر Shizuku (يجب أن يكون Shizuku قيد التشغيل وأن يكون الوصول ممنوحًا). يتم الرجوع إلى أداة التثبيت القياسية إذا لم يكن متاحًا.
+Shizuku جاهز
+Shizuku غير مثبت أو غير قيد التشغيل. يتم استخدام أداة التثبيت القياسية.
+رُفض الوصول إلى Shizuku. اسمح لـ F-Droid في تطبيق Shizuku. يتم استخدام أداة التثبيت القياسية.
+إصدار Shizuku المثبت قديم جدًا. يتم استخدام أداة التثبيت القياسية.
+تثبيت صامت بصفة مالك الجهاز عبر Dhizuku (يجب إعداد Dhizuku ومنح الوصول). يتم الرجوع إلى أداة التثبيت القياسية إذا لم يكن متاحًا.
+Dhizuku جاهز
+Dhizuku غير مثبت أو غير مفعّل. يتم استخدام أداة التثبيت القياسية.
+رُفض الوصول إلى Dhizuku. يتم استخدام أداة التثبيت القياسية.
+يثبّت عبر أداة التثبيت في microG Companion. يتطلب microG Companion وقد يعرض microG مع ذلك مربع حوار. يتم الرجوع إلى أداة التثبيت القياسية إذا لم يكن متاحًا.
+تم العثور على microG Companion
+لم يتم العثور على microG Companion مع دعم التثبيت. يتم استخدام أداة التثبيت القياسية.
+تطبيق تثبيت آخر
+يمرّر ملف APK إلى تطبيق تثبيت آخر باسم الحزمة (مثل App Manager). يتم الرجوع إلى أداة التثبيت القياسية إذا لم يكن متاحًا.
+تم العثور على تطبيق التثبيت
+لم يتم إدخال اسم حزمة. يتم استخدام أداة التثبيت القياسية إلى أن تحدد واحدًا.
+هذا التطبيق غير مثبت. يتم استخدام أداة التثبيت القياسية إلى أن تصحح اسم الحزمة.
+لا يستطيع هذا التطبيق تثبيت ملفات APK. يتم استخدام أداة التثبيت القياسية إلى أن تختار تطبيقًا آخر.
+اسم حزمة تطبيق التثبيت
+غير محدد
+مثال: io.github.muntashirakon.AppManager
+هذا ليس اسم حزمة صالحًا
+=== cs
+Způsob instalace
+Standardní (systém)
+Vestavěný instalátor Androidu. Žádá o potvrzení.
+Tichá instalace přes Privileged Extension (systémová aplikace nebo modul Magisk). Pokud není dostupná, použije se standardní instalátor.
+Tichá instalace s právy root (Magisk, KernelSU). Pokud je root zamítnut, použije se standardní instalátor.
+Přístup root udělen
+Přístup root byl zamítnut nebo není dostupný. Používá se standardní instalátor.
+Privileged Extension nalezeno a připraveno
+Privileged Extension není nainstalováno. Používá se standardní instalátor.
+Privileged Extension je nainstalováno, ale nemá systémová oprávnění nebo nedůvěřuje podpisu této aplikace. Používá se standardní instalátor.
+Tichá instalace přes Shizuku (Shizuku musí běžet a přístup musí být udělen). Pokud není dostupné, použije se standardní instalátor.
+Shizuku je připraveno
+Shizuku není nainstalováno nebo neběží. Používá se standardní instalátor.
+Přístup k Shizuku byl zamítnut. Povolte F-Droid v aplikaci Shizuku. Používá se standardní instalátor.
+Nainstalovaná verze Shizuku je příliš stará. Používá se standardní instalátor.
+Tichá instalace jako vlastník zařízení přes Dhizuku (Dhizuku musí být nastaveno a přístup udělen). Pokud není dostupné, použije se standardní instalátor.
+Dhizuku je připraveno
+Dhizuku není nainstalováno nebo není aktivní. Používá se standardní instalátor.
+Přístup k Dhizuku byl zamítnut. Používá se standardní instalátor.
+Instaluje přes instalátor microG Companion. Vyžaduje microG Companion a microG může stále zobrazit dialog. Pokud není dostupné, použije se standardní instalátor.
+microG Companion nalezeno
+microG Companion s podporou instalace nebyl nalezen. Používá se standardní instalátor.
+Jiná instalační aplikace
+Předá APK jiné instalační aplikaci podle názvu balíčku (např. App Manager). Pokud není dostupná, použije se standardní instalátor.
+Instalační aplikace nalezena
+Nebyl zadán název balíčku. Do jeho nastavení se používá standardní instalátor.
+Tato aplikace není nainstalována. Dokud neopravíte název balíčku, používá se standardní instalátor.
+Tato aplikace neumí instalovat soubory APK. Dokud nevyberete jinou, používá se standardní instalátor.
+Název balíčku instalační aplikace
+Nenastaveno
+Například io.github.muntashirakon.AppManager
+Toto není platný název balíčku
+=== sv
+Installationsmetod
+Standard (system)
+Androids inbyggda installationsprogram. Ber om bekräftelse.
+Tyst installation via Privileged Extension (systemapp eller Magisk-modul). Återgår till standardinstallationen om den inte är tillgänglig.
+Tyst installation med root-behörighet (Magisk, KernelSU). Återgår till standardinstallationen om root nekas.
+Root-åtkomst beviljad
+Root-åtkomst nekades eller är inte tillgänglig. Standardinstallationen används.
+Privileged Extension hittades och är redo
+Privileged Extension är inte installerad. Standardinstallationen används.
+Privileged Extension är installerad men har inga systembehörigheter eller litar inte på den här appens signatur. Standardinstallationen används.
+Tyst installation via Shizuku (Shizuku måste köras och åtkomst måste vara beviljad). Återgår till standardinstallationen om det inte är tillgängligt.
+Shizuku är redo
+Shizuku är inte installerat eller körs inte. Standardinstallationen används.
+Åtkomst till Shizuku nekades. Tillåt F-Droid i Shizuku-appen. Standardinstallationen används.
+Den installerade versionen av Shizuku är för gammal. Standardinstallationen används.
+Tyst installation som enhetsägare via Dhizuku (Dhizuku måste vara konfigurerat och åtkomst beviljad). Återgår till standardinstallationen om det inte är tillgängligt.
+Dhizuku är redo
+Dhizuku är inte installerat eller aktivt. Standardinstallationen används.
+Åtkomst till Dhizuku nekades. Standardinstallationen används.
+Installerar via installationsprogrammet i microG Companion. Kräver microG Companion och microG kan fortfarande visa en dialogruta. Återgår till standardinstallationen om det inte är tillgängligt.
+microG Companion hittades
+microG Companion med stöd för installation hittades inte. Standardinstallationen används.
+Annan installationsapp
+Lämnar över APK-filen till en annan installationsapp via paketnamnet (t.ex. App Manager). Återgår till standardinstallationen om den inte är tillgänglig.
+Installationsappen hittades
+Inget paketnamn angivet. Standardinstallationen används tills du anger ett.
+Den här appen är inte installerad. Standardinstallationen används tills du rättar paketnamnet.
+Den här appen kan inte installera APK-filer. Standardinstallationen används tills du väljer en annan.
+Installationsappens paketnamn
+Inte angivet
+Till exempel io.github.muntashirakon.AppManager
+Det här är inte ett giltigt paketnamn
+=== da
+Installationsmetode
+Standard (system)
+Androids indbyggede installationsprogram. Beder om bekræftelse.
+Stille installation via Privileged Extension (systemapp eller Magisk-modul). Går tilbage til standardinstallationen, hvis den ikke er tilgængelig.
+Stille installation med root-rettigheder (Magisk, KernelSU). Går tilbage til standardinstallationen, hvis root afvises.
+Root-adgang givet
+Root-adgang blev afvist eller er ikke tilgængelig. Standardinstallationen bruges.
+Privileged Extension fundet og klar
+Privileged Extension er ikke installeret. Standardinstallationen bruges.
+Privileged Extension er installeret, men har ikke systemrettigheder eller stoler ikke på denne apps signatur. Standardinstallationen bruges.
+Stille installation via Shizuku (Shizuku skal køre, og adgang skal være givet). Går tilbage til standardinstallationen, hvis det ikke er tilgængeligt.
+Shizuku er klar
+Shizuku er ikke installeret eller kører ikke. Standardinstallationen bruges.
+Adgang til Shizuku blev afvist. Tillad F-Droid i Shizuku-appen. Standardinstallationen bruges.
+Den installerede version af Shizuku er for gammel. Standardinstallationen bruges.
+Stille installation som enhedsejer via Dhizuku (Dhizuku skal være sat op, og adgang skal være givet). Går tilbage til standardinstallationen, hvis det ikke er tilgængeligt.
+Dhizuku er klar
+Dhizuku er ikke installeret eller aktivt. Standardinstallationen bruges.
+Adgang til Dhizuku blev afvist. Standardinstallationen bruges.
+Installerer via installationsprogrammet i microG Companion. Kræver microG Companion, og microG kan stadig vise en dialogboks. Går tilbage til standardinstallationen, hvis det ikke er tilgængeligt.
+microG Companion fundet
+microG Companion med understøttelse af installation blev ikke fundet. Standardinstallationen bruges.
+Anden installationsapp
+Afleverer APK-filen til en anden installationsapp via pakkenavnet (f.eks. App Manager). Går tilbage til standardinstallationen, hvis den ikke er tilgængelig.
+Installationsapp fundet
+Intet pakkenavn indtastet. Standardinstallationen bruges, indtil du angiver et.
+Denne app er ikke installeret. Standardinstallationen bruges, indtil du retter pakkenavnet.
+Denne app kan ikke installere APK-filer. Standardinstallationen bruges, indtil du vælger en anden.
+Installationsappens pakkenavn
+Ikke angivet
+For eksempel io.github.muntashirakon.AppManager
+Dette er ikke et gyldigt pakkenavn
+=== fi
+Asennustapa
+Oletus (järjestelmä)
+Androidin sisäänrakennettu asennusohjelma. Pyytää vahvistuksen.
+Äänetön asennus Privileged Extensionin kautta (järjestelmäsovellus tai Magisk-moduuli). Jos se ei ole käytettävissä, käytetään tavallista asennusohjelmaa.
+Äänetön asennus root-oikeuksilla (Magisk, KernelSU). Jos root evätään, käytetään tavallista asennusohjelmaa.
+Root-käyttöoikeus myönnetty
+Root-käyttöoikeus evättiin tai se ei ole käytettävissä. Käytetään tavallista asennusohjelmaa.
+Privileged Extension löytyi ja on valmis
+Privileged Extensionia ei ole asennettu. Käytetään tavallista asennusohjelmaa.
+Privileged Extension on asennettu, mutta sillä ei ole järjestelmäoikeuksia tai se ei luota tämän sovelluksen allekirjoitukseen. Käytetään tavallista asennusohjelmaa.
+Äänetön asennus Shizukun kautta (Shizukun on oltava käynnissä ja käyttöoikeus myönnetty). Jos se ei ole käytettävissä, käytetään tavallista asennusohjelmaa.
+Shizuku on valmis
+Shizukua ei ole asennettu tai se ei ole käynnissä. Käytetään tavallista asennusohjelmaa.
+Shizukun käyttöoikeus evättiin. Salli F-Droid Shizuku-sovelluksessa. Käytetään tavallista asennusohjelmaa.
+Asennettu Shizuku-versio on liian vanha. Käytetään tavallista asennusohjelmaa.
+Äänetön asennus laitteen omistajana Dhizukun kautta (Dhizuku on määritettävä ja käyttöoikeus myönnettävä). Jos se ei ole käytettävissä, käytetään tavallista asennusohjelmaa.
+Dhizuku on valmis
+Dhizukua ei ole asennettu tai se ei ole aktiivinen. Käytetään tavallista asennusohjelmaa.
+Dhizukun käyttöoikeus evättiin. Käytetään tavallista asennusohjelmaa.
+Asentaa microG Companionin asennusohjelman kautta. Vaatii microG Companionin, ja microG voi silti näyttää oman valintaikkunansa. Jos se ei ole käytettävissä, käytetään tavallista asennusohjelmaa.
+microG Companion löytyi
+microG Companionia, jossa on asennustuki, ei löytynyt. Käytetään tavallista asennusohjelmaa.
+Muu asennussovellus
+Antaa APK-tiedoston toiselle asennussovellukselle pakettinimen perusteella (esim. App Manager). Jos se ei ole käytettävissä, käytetään tavallista asennusohjelmaa.
+Asennussovellus löytyi
+Pakettinimeä ei ole annettu. Käytetään tavallista asennusohjelmaa, kunnes annat sen.
+Tätä sovellusta ei ole asennettu. Käytetään tavallista asennusohjelmaa, kunnes korjaat pakettinimen.
+Tämä sovellus ei voi asentaa APK-tiedostoja. Käytetään tavallista asennusohjelmaa, kunnes valitset toisen.
+Asennussovelluksen pakettinimi
+Ei asetettu
+Esimerkiksi io.github.muntashirakon.AppManager
+Tämä ei ole kelvollinen pakettinimi
+=== nb
+Installasjonsmetode
+Standard (system)
+Androids innebygde installasjonsprogram. Ber om bekreftelse.
+Stille installasjon via Privileged Extension (systemapp eller Magisk-modul). Går tilbake til standard installasjonsprogram hvis det ikke er tilgjengelig.
+Stille installasjon med root-rettigheter (Magisk, KernelSU). Går tilbake til standard installasjonsprogram hvis root nektes.
+Root-tilgang gitt
+Root-tilgang ble nektet eller er ikke tilgjengelig. Standard installasjonsprogram brukes.
+Privileged Extension funnet og klar
+Privileged Extension er ikke installert. Standard installasjonsprogram brukes.
+Privileged Extension er installert, men har ikke systemrettigheter eller stoler ikke på signaturen til denne appen. Standard installasjonsprogram brukes.
+Stille installasjon via Shizuku (Shizuku må kjøre og tilgang må være gitt). Går tilbake til standard installasjonsprogram hvis det ikke er tilgjengelig.
+Shizuku er klar
+Shizuku er ikke installert eller kjører ikke. Standard installasjonsprogram brukes.
+Tilgang til Shizuku ble nektet. Tillat F-Droid i Shizuku-appen. Standard installasjonsprogram brukes.
+Den installerte versjonen av Shizuku er for gammel. Standard installasjonsprogram brukes.
+Stille installasjon som enhetseier via Dhizuku (Dhizuku må være satt opp og tilgang gitt). Går tilbake til standard installasjonsprogram hvis det ikke er tilgjengelig.
+Dhizuku er klar
+Dhizuku er ikke installert eller aktivt. Standard installasjonsprogram brukes.
+Tilgang til Dhizuku ble nektet. Standard installasjonsprogram brukes.
+Installerer via installasjonsprogrammet i microG Companion. Krever microG Companion, og microG kan fortsatt vise en dialogboks. Går tilbake til standard installasjonsprogram hvis det ikke er tilgjengelig.
+microG Companion funnet
+microG Companion med støtte for installasjon ble ikke funnet. Standard installasjonsprogram brukes.
+Annen installasjonsapp
+Gir APK-filen til en annen installasjonsapp via pakkenavnet (f.eks. App Manager). Går tilbake til standard installasjonsprogram hvis den ikke er tilgjengelig.
+Installasjonsapp funnet
+Ingen pakkenavn oppgitt. Standard installasjonsprogram brukes til du oppgir ett.
+Denne appen er ikke installert. Standard installasjonsprogram brukes til du retter pakkenavnet.
+Denne appen kan ikke installere APK-filer. Standard installasjonsprogram brukes til du velger en annen.
+Installasjonsappens pakkenavn
+Ikke angitt
+For eksempel io.github.muntashirakon.AppManager
+Dette er ikke et gyldig pakkenavn
+=== nn
+Installasjonsmetode
+Standard (system)
+Det innebygde installasjonsprogrammet i Android. Ber om stadfesting.
+Stille installasjon via Privileged Extension (systemapp eller Magisk-modul). Går tilbake til standard installasjonsprogram dersom det ikkje er tilgjengeleg.
+Stille installasjon med root-rettar (Magisk, KernelSU). Går tilbake til standard installasjonsprogram dersom root blir nekta.
+Root-tilgang gitt
+Root-tilgang vart nekta eller er ikkje tilgjengeleg. Standard installasjonsprogram blir brukt.
+Privileged Extension er funnen og klar
+Privileged Extension er ikkje installert. Standard installasjonsprogram blir brukt.
+Privileged Extension er installert, men har ikkje systemrettar eller stolar ikkje på signaturen til denne appen. Standard installasjonsprogram blir brukt.
+Stille installasjon via Shizuku (Shizuku må køyre og tilgang må vere gitt). Går tilbake til standard installasjonsprogram dersom det ikkje er tilgjengeleg.
+Shizuku er klar
+Shizuku er ikkje installert eller køyrer ikkje. Standard installasjonsprogram blir brukt.
+Tilgang til Shizuku vart nekta. Tillat F-Droid i Shizuku-appen. Standard installasjonsprogram blir brukt.
+Den installerte versjonen av Shizuku er for gammal. Standard installasjonsprogram blir brukt.
+Stille installasjon som eigar av eininga via Dhizuku (Dhizuku må vere sett opp og tilgang gitt). Går tilbake til standard installasjonsprogram dersom det ikkje er tilgjengeleg.
+Dhizuku er klar
+Dhizuku er ikkje installert eller aktivt. Standard installasjonsprogram blir brukt.
+Tilgang til Dhizuku vart nekta. Standard installasjonsprogram blir brukt.
+Installerer via installasjonsprogrammet i microG Companion. Krev microG Companion, og microG kan framleis vise ein dialogboks. Går tilbake til standard installasjonsprogram dersom det ikkje er tilgjengeleg.
+microG Companion er funnen
+microG Companion med støtte for installasjon vart ikkje funnen. Standard installasjonsprogram blir brukt.
+Anna installasjonsapp
+Gir APK-fila til ei anna installasjonsapp via pakkenamnet (t.d. App Manager). Går tilbake til standard installasjonsprogram dersom ho ikkje er tilgjengeleg.
+Installasjonsappen er funnen
+Inga pakkenamn er oppgitt. Standard installasjonsprogram blir brukt til du oppgir eitt.
+Denne appen er ikkje installert. Standard installasjonsprogram blir brukt til du rettar pakkenamnet.
+Denne appen kan ikkje installere APK-filer. Standard installasjonsprogram blir brukt til du vel ei anna.
+Pakkenamnet til installasjonsappen
+Ikkje angitt
+Til dømes io.github.muntashirakon.AppManager
+Dette er ikkje eit gyldig pakkenamn
+=== hu
+Telepítési mód
+Alapértelmezett (rendszer)
+Az Android beépített telepítője. Megerősítést kér.
+Csendes telepítés a Privileged Extension segítségével (rendszeralkalmazás vagy Magisk-modul). Ha nem érhető el, a szabványos telepítő lesz használva.
+Csendes telepítés root jogosultsággal (Magisk, KernelSU). Ha a root megtagadva, a szabványos telepítő lesz használva.
+Root hozzáférés megadva
+A root hozzáférést megtagadták, vagy nem érhető el. A szabványos telepítő van használatban.
+A Privileged Extension megtalálva, készen áll
+A Privileged Extension nincs telepítve. A szabványos telepítő van használatban.
+A Privileged Extension telepítve van, de nincs rendszerjogosultsága, vagy nem bízik az alkalmazás aláírásában. A szabványos telepítő van használatban.
+Csendes telepítés a Shizuku segítségével (a Shizukunak futnia kell, és a hozzáférést meg kell adni). Ha nem érhető el, a szabványos telepítő lesz használva.
+A Shizuku készen áll
+A Shizuku nincs telepítve, vagy nem fut. A szabványos telepítő van használatban.
+A Shizuku hozzáférést megtagadták. Engedélyezd az F-Droidot a Shizuku alkalmazásban. A szabványos telepítő van használatban.
+A telepített Shizuku-verzió túl régi. A szabványos telepítő van használatban.
+Csendes telepítés eszköztulajdonosként a Dhizuku segítségével (a Dhizukut be kell állítani, és a hozzáférést meg kell adni). Ha nem érhető el, a szabványos telepítő lesz használva.
+A Dhizuku készen áll
+A Dhizuku nincs telepítve, vagy nem aktív. A szabványos telepítő van használatban.
+A Dhizuku hozzáférést megtagadták. A szabványos telepítő van használatban.
+A microG Companion telepítőjén keresztül telepít. A microG Companion szükséges, és a microG ettől még megjeleníthet párbeszédablakot. Ha nem érhető el, a szabványos telepítő lesz használva.
+A microG Companion megtalálva
+A telepítést támogató microG Companion nem található. A szabványos telepítő van használatban.
+Másik telepítőalkalmazás
+Az APK-t átadja egy másik telepítőalkalmazásnak a csomagnév alapján (pl. App Manager). Ha nem érhető el, a szabványos telepítő lesz használva.
+A telepítőalkalmazás megtalálva
+Nincs csomagnév megadva. A szabványos telepítő van használatban, amíg nem adsz meg egyet.
+Ez az alkalmazás nincs telepítve. A szabványos telepítő van használatban, amíg ki nem javítod a csomagnevet.
+Ez az alkalmazás nem tud APK-fájlokat telepíteni. A szabványos telepítő van használatban, amíg másikat nem választasz.
+A telepítőalkalmazás csomagneve
+Nincs beállítva
+Például io.github.muntashirakon.AppManager
+Ez nem érvényes csomagnév
+=== ro
+Metoda de instalare
+Standard (sistem)
+Programul de instalare integrat în Android. Cere confirmare.
+Instalare silențioasă prin Privileged Extension (aplicație de sistem sau modul Magisk). Dacă nu este disponibilă, se folosește programul de instalare standard.
+Instalare silențioasă cu drepturi root (Magisk, KernelSU). Dacă accesul root este refuzat, se folosește programul de instalare standard.
+Acces root acordat
+Accesul root a fost refuzat sau nu este disponibil. Se folosește programul de instalare standard.
+Privileged Extension a fost găsită și este gata
+Privileged Extension nu este instalată. Se folosește programul de instalare standard.
+Privileged Extension este instalată, dar nu are privilegii de sistem sau nu are încredere în semnătura acestei aplicații. Se folosește programul de instalare standard.
+Instalare silențioasă prin Shizuku (Shizuku trebuie să ruleze, iar accesul să fie acordat). Dacă nu este disponibil, se folosește programul de instalare standard.
+Shizuku este gata
+Shizuku nu este instalat sau nu rulează. Se folosește programul de instalare standard.
+Accesul la Shizuku a fost refuzat. Permite F-Droid în aplicația Shizuku. Se folosește programul de instalare standard.
+Versiunea instalată de Shizuku este prea veche. Se folosește programul de instalare standard.
+Instalare silențioasă ca proprietar al dispozitivului prin Dhizuku (Dhizuku trebuie configurat, iar accesul acordat). Dacă nu este disponibil, se folosește programul de instalare standard.
+Dhizuku este gata
+Dhizuku nu este instalat sau nu este activ. Se folosește programul de instalare standard.
+Accesul la Dhizuku a fost refuzat. Se folosește programul de instalare standard.
+Instalează prin programul de instalare din microG Companion. Necesită microG Companion, iar microG poate afișa totuși o casetă de dialog. Dacă nu este disponibil, se folosește programul de instalare standard.
+microG Companion a fost găsit
+microG Companion cu suport pentru instalare nu a fost găsit. Se folosește programul de instalare standard.
+Altă aplicație de instalare
+Predă APK-ul unei alte aplicații de instalare după numele pachetului (de ex. App Manager). Dacă nu este disponibilă, se folosește programul de instalare standard.
+Aplicația de instalare a fost găsită
+Nu a fost introdus niciun nume de pachet. Se folosește programul de instalare standard până setezi unul.
+Această aplicație nu este instalată. Se folosește programul de instalare standard până corectezi numele pachetului.
+Această aplicație nu poate instala fișiere APK. Se folosește programul de instalare standard până alegi alta.
+Numele pachetului aplicației de instalare
+Nesetat
+De exemplu io.github.muntashirakon.AppManager
+Acesta nu este un nume de pachet valid
+=== el
+Μέθοδος εγκατάστασης
+Τυπική (σύστημα)
+Το ενσωματωμένο πρόγραμμα εγκατάστασης του Android. Ζητά επιβεβαίωση.
+Αθόρυβη εγκατάσταση μέσω του Privileged Extension (εφαρμογή συστήματος ή άρθρωμα Magisk). Αν δεν είναι διαθέσιμο, χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Αθόρυβη εγκατάσταση με δικαιώματα root (Magisk, KernelSU). Αν απορριφθεί το root, χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Η πρόσβαση root χορηγήθηκε
+Η πρόσβαση root απορρίφθηκε ή δεν είναι διαθέσιμη. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Το Privileged Extension βρέθηκε και είναι έτοιμο
+Το Privileged Extension δεν είναι εγκατεστημένο. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Το Privileged Extension είναι εγκατεστημένο, αλλά δεν έχει δικαιώματα συστήματος ή δεν εμπιστεύεται την υπογραφή αυτής της εφαρμογής. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Αθόρυβη εγκατάσταση μέσω Shizuku (το Shizuku πρέπει να εκτελείται και η πρόσβαση να έχει χορηγηθεί). Αν δεν είναι διαθέσιμο, χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Το Shizuku είναι έτοιμο
+Το Shizuku δεν είναι εγκατεστημένο ή δεν εκτελείται. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Η πρόσβαση στο Shizuku απορρίφθηκε. Επιτρέψτε το F-Droid στην εφαρμογή Shizuku. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Η εγκατεστημένη έκδοση του Shizuku είναι πολύ παλιά. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Αθόρυβη εγκατάσταση ως κάτοχος της συσκευής μέσω Dhizuku (το Dhizuku πρέπει να έχει ρυθμιστεί και η πρόσβαση να έχει χορηγηθεί). Αν δεν είναι διαθέσιμο, χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Το Dhizuku είναι έτοιμο
+Το Dhizuku δεν είναι εγκατεστημένο ή δεν είναι ενεργό. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Η πρόσβαση στο Dhizuku απορρίφθηκε. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Εγκαθιστά μέσω του προγράμματος εγκατάστασης του microG Companion. Απαιτεί το microG Companion και το microG μπορεί παρ' όλα αυτά να εμφανίσει παράθυρο διαλόγου. Αν δεν είναι διαθέσιμο, χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Το microG Companion βρέθηκε
+Το microG Companion με υποστήριξη εγκατάστασης δεν βρέθηκε. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Άλλη εφαρμογή εγκατάστασης
+Παραδίδει το APK σε άλλη εφαρμογή εγκατάστασης με βάση το όνομα πακέτου (π.χ. App Manager). Αν δεν είναι διαθέσιμη, χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης.
+Η εφαρμογή εγκατάστασης βρέθηκε
+Δεν έχει εισαχθεί όνομα πακέτου. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης μέχρι να ορίσετε ένα.
+Αυτή η εφαρμογή δεν είναι εγκατεστημένη. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης μέχρι να διορθώσετε το όνομα πακέτου.
+Αυτή η εφαρμογή δεν μπορεί να εγκαταστήσει αρχεία APK. Χρησιμοποιείται το τυπικό πρόγραμμα εγκατάστασης μέχρι να επιλέξετε άλλη.
+Όνομα πακέτου της εφαρμογής εγκατάστασης
+Δεν έχει οριστεί
+Για παράδειγμα io.github.muntashirakon.AppManager
+Αυτό δεν είναι έγκυρο όνομα πακέτου
+=== bg
+Метод на инсталиране
+Стандартен (системен)
+Вграденият инсталатор на Android. Иска потвърждение.
+Тиха инсталация чрез Privileged Extension (системно приложение или модул на Magisk). Ако не е налично, се използва стандартният инсталатор.
+Тиха инсталация с root права (Magisk, KernelSU). Ако root е отказан, се използва стандартният инсталатор.
+Root достъпът е предоставен
+Root достъпът е отказан или не е наличен. Използва се стандартният инсталатор.
+Privileged Extension е намерено и е готово
+Privileged Extension не е инсталирано. Използва се стандартният инсталатор.
+Privileged Extension е инсталирано, но няма системни привилегии или не се доверява на подписа на това приложение. Използва се стандартният инсталатор.
+Тиха инсталация чрез Shizuku (Shizuku трябва да работи и достъпът да е предоставен). Ако не е налично, се използва стандартният инсталатор.
+Shizuku е готов
+Shizuku не е инсталиран или не работи. Използва се стандартният инсталатор.
+Достъпът до Shizuku е отказан. Разрешете F-Droid в приложението Shizuku. Използва се стандартният инсталатор.
+Инсталираната версия на Shizuku е твърде стара. Използва се стандартният инсталатор.
+Тиха инсталация като собственик на устройството чрез Dhizuku (Dhizuku трябва да е настроен и достъпът предоставен). Ако не е налично, се използва стандартният инсталатор.
+Dhizuku е готов
+Dhizuku не е инсталиран или не е активен. Използва се стандартният инсталатор.
+Достъпът до Dhizuku е отказан. Използва се стандартният инсталатор.
+Инсталира чрез инсталатора на microG Companion. Изисква microG Companion, а microG може все пак да покаже диалогов прозорец. Ако не е налично, се използва стандартният инсталатор.
+microG Companion е намерен
+microG Companion с поддръжка на инсталиране не е намерен. Използва се стандартният инсталатор.
+Друго приложение за инсталиране
+Предава APK на друго приложение за инсталиране по името на пакета (напр. App Manager). Ако не е налично, се използва стандартният инсталатор.
+Приложението за инсталиране е намерено
+Не е въведено име на пакет. Използва се стандартният инсталатор, докато не зададете такова.
+Това приложение не е инсталирано. Използва се стандартният инсталатор, докато не поправите името на пакета.
+Това приложение не може да инсталира APK файлове. Използва се стандартният инсталатор, докато не изберете друго.
+Име на пакета на приложението за инсталиране
+Не е зададено
+Например io.github.muntashirakon.AppManager
+Това не е валидно име на пакет
+=== sk
+Spôsob inštalácie
+Štandardný (systém)
+Vstavaný inštalátor Androidu. Žiada o potvrdenie.
+Tichá inštalácia cez Privileged Extension (systémová aplikácia alebo modul Magisk). Ak nie je dostupná, použije sa štandardný inštalátor.
+Tichá inštalácia s právami root (Magisk, KernelSU). Ak je root zamietnutý, použije sa štandardný inštalátor.
+Prístup root udelený
+Prístup root bol zamietnutý alebo nie je dostupný. Používa sa štandardný inštalátor.
+Privileged Extension nájdené a pripravené
+Privileged Extension nie je nainštalované. Používa sa štandardný inštalátor.
+Privileged Extension je nainštalované, ale nemá systémové oprávnenia alebo neverí podpisu tejto aplikácie. Používa sa štandardný inštalátor.
+Tichá inštalácia cez Shizuku (Shizuku musí bežať a prístup musí byť udelený). Ak nie je dostupné, použije sa štandardný inštalátor.
+Shizuku je pripravené
+Shizuku nie je nainštalované alebo nebeží. Používa sa štandardný inštalátor.
+Prístup k Shizuku bol zamietnutý. Povoľte F-Droid v aplikácii Shizuku. Používa sa štandardný inštalátor.
+Nainštalovaná verzia Shizuku je príliš stará. Používa sa štandardný inštalátor.
+Tichá inštalácia ako vlastník zariadenia cez Dhizuku (Dhizuku musí byť nastavené a prístup udelený). Ak nie je dostupné, použije sa štandardný inštalátor.
+Dhizuku je pripravené
+Dhizuku nie je nainštalované alebo nie je aktívne. Používa sa štandardný inštalátor.
+Prístup k Dhizuku bol zamietnutý. Používa sa štandardný inštalátor.
+Inštaluje cez inštalátor microG Companion. Vyžaduje microG Companion a microG môže stále zobraziť dialóg. Ak nie je dostupné, použije sa štandardný inštalátor.
+microG Companion nájdený
+microG Companion s podporou inštalácie sa nenašiel. Používa sa štandardný inštalátor.
+Iná inštalačná aplikácia
+Odovzdá APK inej inštalačnej aplikácii podľa názvu balíka (napr. App Manager). Ak nie je dostupná, použije sa štandardný inštalátor.
+Inštalačná aplikácia nájdená
+Nebol zadaný názov balíka. Kým ho nenastavíte, používa sa štandardný inštalátor.
+Táto aplikácia nie je nainštalovaná. Kým neopravíte názov balíka, používa sa štandardný inštalátor.
+Táto aplikácia nevie inštalovať súbory APK. Kým nevyberiete inú, používa sa štandardný inštalátor.
+Názov balíka inštalačnej aplikácie
+Nenastavené
+Napríklad io.github.muntashirakon.AppManager
+Toto nie je platný názov balíka
+=== sl
+Način namestitve
+Standardno (sistem)
+Vgrajeni namestitveni program Androida. Zahteva potrditev.
+Tiha namestitev prek Privileged Extension (sistemska aplikacija ali modul Magisk). Če ni na voljo, se uporabi standardni namestitveni program.
+Tiha namestitev z dovoljenji root (Magisk, KernelSU). Če je root zavrnjen, se uporabi standardni namestitveni program.
+Dostop root odobren
+Dostop root je bil zavrnjen ali ni na voljo. Uporablja se standardni namestitveni program.
+Privileged Extension najden in pripravljen
+Privileged Extension ni nameščen. Uporablja se standardni namestitveni program.
+Privileged Extension je nameščen, vendar nima sistemskih pravic ali ne zaupa podpisu te aplikacije. Uporablja se standardni namestitveni program.
+Tiha namestitev prek Shizuku (Shizuku mora delovati in dostop mora biti odobren). Če ni na voljo, se uporabi standardni namestitveni program.
+Shizuku je pripravljen
+Shizuku ni nameščen ali ne deluje. Uporablja se standardni namestitveni program.
+Dostop do Shizuku je bil zavrnjen. Dovolite F-Droid v aplikaciji Shizuku. Uporablja se standardni namestitveni program.
+Nameščena različica Shizuku je prestara. Uporablja se standardni namestitveni program.
+Tiha namestitev kot lastnik naprave prek Dhizuku (Dhizuku mora biti nastavljen in dostop odobren). Če ni na voljo, se uporabi standardni namestitveni program.
+Dhizuku je pripravljen
+Dhizuku ni nameščen ali ni aktiven. Uporablja se standardni namestitveni program.
+Dostop do Dhizuku je bil zavrnjen. Uporablja se standardni namestitveni program.
+Namesti prek namestitvenega programa microG Companion. Zahteva microG Companion, microG pa lahko še vedno prikaže pogovorno okno. Če ni na voljo, se uporabi standardni namestitveni program.
+microG Companion najden
+microG Companion s podporo za namestitev ni bil najden. Uporablja se standardni namestitveni program.
+Druga namestitvena aplikacija
+Preda APK drugi namestitveni aplikaciji glede na ime paketa (npr. App Manager). Če ni na voljo, se uporabi standardni namestitveni program.
+Namestitvena aplikacija najdena
+Ime paketa ni vneseno. Dokler ga ne nastavite, se uporablja standardni namestitveni program.
+Ta aplikacija ni nameščena. Dokler ne popravite imena paketa, se uporablja standardni namestitveni program.
+Ta aplikacija ne more namestiti datotek APK. Dokler ne izberete druge, se uporablja standardni namestitveni program.
+Ime paketa namestitvene aplikacije
+Ni nastavljeno
+Na primer io.github.muntashirakon.AppManager
+To ni veljavno ime paketa
+=== hr
+Način instalacije
+Standardno (sustav)
+Android-ov ugrađeni instalacijski program. Traži potvrdu.
+Tiha instalacija putem Privileged Extension (sistemska aplikacija ili Magisk modul). Ako nije dostupno, koristi se standardni instalacijski program.
+Tiha instalacija s root pravima (Magisk, KernelSU). Ako je root odbijen, koristi se standardni instalacijski program.
+Root pristup odobren
+Root pristup je odbijen ili nije dostupan. Koristi se standardni instalacijski program.
+Privileged Extension pronađen i spreman
+Privileged Extension nije instaliran. Koristi se standardni instalacijski program.
+Privileged Extension je instaliran, ali nema sistemske privilegije ili ne vjeruje potpisu ove aplikacije. Koristi se standardni instalacijski program.
+Tiha instalacija putem Shizuku (Shizuku mora raditi, a pristup mora biti odobren). Ako nije dostupno, koristi se standardni instalacijski program.
+Shizuku je spreman
+Shizuku nije instaliran ili ne radi. Koristi se standardni instalacijski program.
+Pristup Shizuku odbijen je. Dopustite F-Droid u aplikaciji Shizuku. Koristi se standardni instalacijski program.
+Instalirana verzija Shizuku prestara je. Koristi se standardni instalacijski program.
+Tiha instalacija kao vlasnik uređaja putem Dhizuku (Dhizuku mora biti postavljen, a pristup odobren). Ako nije dostupno, koristi se standardni instalacijski program.
+Dhizuku je spreman
+Dhizuku nije instaliran ili nije aktivan. Koristi se standardni instalacijski program.
+Pristup Dhizuku odbijen je. Koristi se standardni instalacijski program.
+Instalira putem instalacijskog programa microG Companion. Zahtijeva microG Companion, a microG može i dalje prikazati dijalog. Ako nije dostupno, koristi se standardni instalacijski program.
+microG Companion pronađen
+microG Companion s podrškom za instalaciju nije pronađen. Koristi se standardni instalacijski program.
+Druga aplikacija za instalaciju
+Predaje APK drugoj aplikaciji za instalaciju prema nazivu paketa (npr. App Manager). Ako nije dostupna, koristi se standardni instalacijski program.
+Aplikacija za instalaciju pronađena
+Naziv paketa nije unesen. Koristi se standardni instalacijski program dok ga ne postavite.
+Ova aplikacija nije instalirana. Koristi se standardni instalacijski program dok ne ispravite naziv paketa.
+Ova aplikacija ne može instalirati APK datoteke. Koristi se standardni instalacijski program dok ne odaberete drugu.
+Naziv paketa aplikacije za instalaciju
+Nije postavljeno
+Na primjer io.github.muntashirakon.AppManager
+Ovo nije valjan naziv paketa
+=== sr
+Начин инсталације
+Стандардно (систем)
+Уграђени инсталациони програм Андроида. Тражи потврду.
+Тиха инсталација преко Privileged Extension (системска апликација или Magisk модул). Ако није доступно, користи се стандардни инсталациони програм.
+Тиха инсталација са root овлашћењима (Magisk, KernelSU). Ако је root одбијен, користи се стандардни инсталациони програм.
+Root приступ је одобрен
+Root приступ је одбијен или није доступан. Користи се стандардни инсталациони програм.
+Privileged Extension је пронађен и спреман
+Privileged Extension није инсталиран. Користи се стандардни инсталациони програм.
+Privileged Extension је инсталиран, али нема системске привилегије или не верује потпису ове апликације. Користи се стандардни инсталациони програм.
+Тиха инсталација преко Shizuku (Shizuku мора да ради, а приступ мора бити одобрен). Ако није доступно, користи се стандардни инсталациони програм.
+Shizuku је спреман
+Shizuku није инсталиран или не ради. Користи се стандардни инсталациони програм.
+Приступ Shizuku је одбијен. Дозволите F-Droid у апликацији Shizuku. Користи се стандардни инсталациони програм.
+Инсталирана верзија Shizuku је стара. Користи се стандардни инсталациони програм.
+Тиха инсталација као власник уређаја преко Dhizuku (Dhizuku мора бити подешен, а приступ одобрен). Ако није доступно, користи се стандардни инсталациони програм.
+Dhizuku је спреман
+Dhizuku није инсталиран или није активан. Користи се стандардни инсталациони програм.
+Приступ Dhizuku је одбијен. Користи се стандардни инсталациони програм.
+Инсталира преко инсталационог програма microG Companion. Захтева microG Companion, а microG и даље може да прикаже дијалог. Ако није доступно, користи се стандардни инсталациони програм.
+microG Companion је пронађен
+microG Companion са подршком за инсталацију није пронађен. Користи се стандардни инсталациони програм.
+Друга апликација за инсталацију
+Предаје APK другој апликацији за инсталацију према називу пакета (нпр. App Manager). Ако није доступна, користи се стандардни инсталациони програм.
+Апликација за инсталацију је пронађена
+Назив пакета није унет. Користи се стандардни инсталациони програм док га не подесите.
+Ова апликација није инсталирана. Користи се стандардни инсталациони програм док не исправите назив пакета.
+Ова апликација не може да инсталира APK датотеке. Користи се стандардни инсталациони програм док не изаберете другу.
+Назив пакета апликације за инсталацију
+Није подешено
+На пример io.github.muntashirakon.AppManager
+Ово није важећи назив пакета
+=== ca
+Mètode d'instal·lació
+Estàndard (sistema)
+L'instal·lador integrat d'Android. Demana confirmació.
+Instal·lació silenciosa mitjançant Privileged Extension (aplicació del sistema o mòdul de Magisk). Si no està disponible, s'utilitza l'instal·lador estàndard.
+Instal·lació silenciosa amb permisos de root (Magisk, KernelSU). Si es denega el root, s'utilitza l'instal·lador estàndard.
+S'ha concedit l'accés root
+S'ha denegat l'accés root o no està disponible. S'utilitza l'instal·lador estàndard.
+Privileged Extension trobada i preparada
+Privileged Extension no està instal·lada. S'utilitza l'instal·lador estàndard.
+Privileged Extension està instal·lada, però no té privilegis de sistema o no confia en la signatura d'aquesta aplicació. S'utilitza l'instal·lador estàndard.
+Instal·lació silenciosa mitjançant Shizuku (Shizuku ha d'estar en execució i l'accés concedit). Si no està disponible, s'utilitza l'instal·lador estàndard.
+Shizuku està preparat
+Shizuku no està instal·lat o no s'està executant. S'utilitza l'instal·lador estàndard.
+S'ha denegat l'accés a Shizuku. Permeteu F-Droid a l'aplicació Shizuku. S'utilitza l'instal·lador estàndard.
+La versió instal·lada de Shizuku és massa antiga. S'utilitza l'instal·lador estàndard.
+Instal·lació silenciosa com a propietari del dispositiu mitjançant Dhizuku (Dhizuku ha d'estar configurat i l'accés concedit). Si no està disponible, s'utilitza l'instal·lador estàndard.
+Dhizuku està preparat
+Dhizuku no està instal·lat o no està actiu. S'utilitza l'instal·lador estàndard.
+S'ha denegat l'accés a Dhizuku. S'utilitza l'instal·lador estàndard.
+Instal·la mitjançant l'instal·lador de microG Companion. Requereix microG Companion i microG encara pot mostrar un diàleg. Si no està disponible, s'utilitza l'instal·lador estàndard.
+microG Companion trobat
+No s'ha trobat microG Companion amb suport d'instal·lació. S'utilitza l'instal·lador estàndard.
+Una altra aplicació instal·ladora
+Lliura l'APK a una altra aplicació instal·ladora segons el nom del paquet (p. ex., App Manager). Si no està disponible, s'utilitza l'instal·lador estàndard.
+Aplicació instal·ladora trobada
+No s'ha introduït cap nom de paquet. S'utilitza l'instal·lador estàndard fins que n'indiqueu un.
+Aquesta aplicació no està instal·lada. S'utilitza l'instal·lador estàndard fins que corregiu el nom del paquet.
+Aquesta aplicació no pot instal·lar fitxers APK. S'utilitza l'instal·lador estàndard fins que en trieu una altra.
+Nom del paquet de l'aplicació instal·ladora
+Sense definir
+Per exemple, io.github.muntashirakon.AppManager
+Aquest no és un nom de paquet vàlid
+=== he
+שיטת התקנה
+רגילה (מערכת)
+מתקין ההתקנה המובנה של Android. מבקש אישור.
+התקנה שקטה באמצעות Privileged Extension (אפליקציית מערכת או מודול Magisk). אם אינו זמין, יתבצע מעבר למתקין הרגיל.
+התקנה שקטה עם הרשאות root (Magisk, KernelSU). אם ה-root נדחה, יתבצע מעבר למתקין הרגיל.
+גישת root אושרה
+גישת root נדחתה או שאינה זמינה. נעשה שימוש במתקין הרגיל.
+Privileged Extension נמצא ומוכן
+Privileged Extension אינו מותקן. נעשה שימוש במתקין הרגיל.
+Privileged Extension מותקן, אך אין לו הרשאות מערכת או שאינו סומך על החתימה של אפליקציה זו. נעשה שימוש במתקין הרגיל.
+התקנה שקטה באמצעות Shizuku (Shizuku חייב לפעול והגישה חייבת להיות מאושרת). אם אינו זמין, יתבצע מעבר למתקין הרגיל.
+Shizuku מוכן
+Shizuku אינו מותקן או שאינו פועל. נעשה שימוש במתקין הרגיל.
+הגישה ל-Shizuku נדחתה. אפשרו את F-Droid באפליקציית Shizuku. נעשה שימוש במתקין הרגיל.
+גרסת Shizuku המותקנת ישנה מדי. נעשה שימוש במתקין הרגיל.
+התקנה שקטה כבעלים של המכשיר באמצעות Dhizuku (Dhizuku חייב להיות מוגדר והגישה מאושרת). אם אינו זמין, יתבצע מעבר למתקין הרגיל.
+Dhizuku מוכן
+Dhizuku אינו מותקן או שאינו פעיל. נעשה שימוש במתקין הרגיל.
+הגישה ל-Dhizuku נדחתה. נעשה שימוש במתקין הרגיל.
+מתקין דרך המתקין של microG Companion. דורש את microG Companion, ו-microG עשוי עדיין להציג חלון דו-שיח. אם אינו זמין, יתבצע מעבר למתקין הרגיל.
+microG Companion נמצא
+microG Companion עם תמיכה בהתקנה לא נמצא. נעשה שימוש במתקין הרגיל.
+אפליקציית התקנה אחרת
+מעביר את קובץ ה-APK לאפליקציית התקנה אחרת לפי שם החבילה (לדוגמה App Manager). אם אינה זמינה, יתבצע מעבר למתקין הרגיל.
+אפליקציית ההתקנה נמצאה
+לא הוזן שם חבילה. נעשה שימוש במתקין הרגיל עד שתגדירו שם.
+אפליקציה זו אינה מותקנת. נעשה שימוש במתקין הרגיל עד שתתקנו את שם החבילה.
+אפליקציה זו אינה יכולה להתקין קובצי APK. נעשה שימוש במתקין הרגיל עד שתבחרו אחרת.
+שם החבילה של אפליקציית ההתקנה
+לא הוגדר
+לדוגמה io.github.muntashirakon.AppManager
+זה אינו שם חבילה תקין
+=== fa
+روش نصب
+استاندارد (سیستم)
+نصب‌کنندهٔ داخلی اندروید. تأیید می‌خواهد.
+نصب بی‌صدا از طریق Privileged Extension (برنامهٔ سیستمی یا ماژول Magisk). اگر در دسترس نباشد، به نصب‌کنندهٔ استاندارد بازمی‌گردد.
+نصب بی‌صدا با دسترسی روت (Magisk، KernelSU). اگر روت رد شود، به نصب‌کنندهٔ استاندارد بازمی‌گردد.
+دسترسی روت داده شد
+دسترسی روت رد شد یا در دسترس نیست. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+Privileged Extension پیدا شد و آماده است
+Privileged Extension نصب نشده است. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+Privileged Extension نصب شده است، اما امتیاز سیستمی ندارد یا به امضای این برنامه اعتماد نمی‌کند. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+نصب بی‌صدا از طریق Shizuku (Shizuku باید در حال اجرا باشد و دسترسی داده شده باشد). اگر در دسترس نباشد، به نصب‌کنندهٔ استاندارد بازمی‌گردد.
+Shizuku آماده است
+Shizuku نصب نشده یا در حال اجرا نیست. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+دسترسی به Shizuku رد شد. در برنامهٔ Shizuku به F-Droid اجازه بدهید. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+نسخهٔ نصب‌شدهٔ Shizuku خیلی قدیمی است. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+نصب بی‌صدا به‌عنوان مالک دستگاه از طریق Dhizuku (Dhizuku باید راه‌اندازی شده و دسترسی داده شده باشد). اگر در دسترس نباشد، به نصب‌کنندهٔ استاندارد بازمی‌گردد.
+Dhizuku آماده است
+Dhizuku نصب نشده یا فعال نیست. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+دسترسی به Dhizuku رد شد. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+نصب از طریق نصب‌کنندهٔ microG Companion. به microG Companion نیاز دارد و microG ممکن است باز هم یک پنجرهٔ گفتگو نشان دهد. اگر در دسترس نباشد، به نصب‌کنندهٔ استاندارد بازمی‌گردد.
+microG Companion پیدا شد
+microG Companion با پشتیبانی از نصب پیدا نشد. از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+برنامهٔ نصب‌کنندهٔ دیگر
+فایل APK را بر اساس نام بسته به برنامهٔ نصب‌کنندهٔ دیگری می‌دهد (مثلاً App Manager). اگر در دسترس نباشد، به نصب‌کنندهٔ استاندارد بازمی‌گردد.
+برنامهٔ نصب‌کننده پیدا شد
+نام بسته وارد نشده است. تا زمانی که نامی تعیین نکنید، از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+این برنامه نصب نشده است. تا زمانی که نام بسته را اصلاح نکنید، از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+این برنامه نمی‌تواند فایل‌های APK را نصب کند. تا زمانی که برنامهٔ دیگری انتخاب نکنید، از نصب‌کنندهٔ استاندارد استفاده می‌شود.
+نام بستهٔ برنامهٔ نصب‌کننده
+تنظیم نشده
+برای مثال io.github.muntashirakon.AppManager
+این نام بستهٔ معتبری نیست
+=== hi
+इंस्टॉल करने का तरीका
+मानक (सिस्टम)
+Android का अंतर्निहित इंस्टॉलर। पुष्टि माँगता है।
+Privileged Extension (सिस्टम ऐप या Magisk मॉड्यूल) के ज़रिए बिना पुष्टि के इंस्टॉल। उपलब्ध न होने पर मानक इंस्टॉलर का उपयोग किया जाता है।
+root अधिकारों के साथ बिना पुष्टि के इंस्टॉल (Magisk, KernelSU)। root अस्वीकार होने पर मानक इंस्टॉलर का उपयोग किया जाता है।
+root एक्सेस दे दिया गया
+root एक्सेस अस्वीकार कर दिया गया या उपलब्ध नहीं है। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+Privileged Extension मिल गया और तैयार है
+Privileged Extension इंस्टॉल नहीं है। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+Privileged Extension इंस्टॉल है, लेकिन उसके पास सिस्टम अधिकार नहीं हैं या वह इस ऐप के हस्ताक्षर पर भरोसा नहीं करता। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+Shizuku के ज़रिए बिना पुष्टि के इंस्टॉल (Shizuku चल रहा होना चाहिए और एक्सेस दिया गया होना चाहिए)। उपलब्ध न होने पर मानक इंस्टॉलर का उपयोग किया जाता है।
+Shizuku तैयार है
+Shizuku इंस्टॉल नहीं है या चल नहीं रहा है। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+Shizuku का एक्सेस अस्वीकार कर दिया गया। Shizuku ऐप में F-Droid को अनुमति दें। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+इंस्टॉल किया गया Shizuku संस्करण बहुत पुराना है। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+Dhizuku के ज़रिए डिवाइस के मालिक के रूप में बिना पुष्टि के इंस्टॉल (Dhizuku सेट अप होना चाहिए और एक्सेस दिया गया होना चाहिए)। उपलब्ध न होने पर मानक इंस्टॉलर का उपयोग किया जाता है।
+Dhizuku तैयार है
+Dhizuku इंस्टॉल नहीं है या सक्रिय नहीं है। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+Dhizuku का एक्सेस अस्वीकार कर दिया गया। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+microG Companion के इंस्टॉलर के ज़रिए इंस्टॉल करता है। इसके लिए microG Companion ज़रूरी है, और microG फिर भी एक डायलॉग दिखा सकता है। उपलब्ध न होने पर मानक इंस्टॉलर का उपयोग किया जाता है।
+microG Companion मिल गया
+इंस्टॉल सपोर्ट वाला microG Companion नहीं मिला। मानक इंस्टॉलर का उपयोग किया जा रहा है।
+अन्य इंस्टॉलर ऐप
+पैकेज नाम के आधार पर APK को किसी अन्य इंस्टॉलर ऐप को सौंपता है (जैसे App Manager)। उपलब्ध न होने पर मानक इंस्टॉलर का उपयोग किया जाता है।
+इंस्टॉलर ऐप मिल गया
+कोई पैकेज नाम दर्ज नहीं किया गया। जब तक आप कोई नाम नहीं देते, मानक इंस्टॉलर का उपयोग किया जाएगा।
+यह ऐप इंस्टॉल नहीं है। जब तक आप पैकेज नाम ठीक नहीं करते, मानक इंस्टॉलर का उपयोग किया जाएगा।
+यह ऐप APK फ़ाइलें इंस्टॉल नहीं कर सकता। जब तक आप कोई दूसरा ऐप नहीं चुनते, मानक इंस्टॉलर का उपयोग किया जाएगा।
+इंस्टॉलर ऐप का पैकेज नाम
+सेट नहीं है
+उदाहरण: io.github.muntashirakon.AppManager
+यह मान्य पैकेज नाम नहीं है
+=== id
+Metode penginstalan
+Standar (sistem)
+Penginstal bawaan Android. Meminta konfirmasi.
+Penginstalan senyap melalui Privileged Extension (aplikasi sistem atau modul Magisk). Jika tidak tersedia, penginstal standar digunakan.
+Penginstalan senyap dengan hak akses root (Magisk, KernelSU). Jika root ditolak, penginstal standar digunakan.
+Akses root diberikan
+Akses root ditolak atau tidak tersedia. Menggunakan penginstal standar.
+Privileged Extension ditemukan dan siap
+Privileged Extension tidak terinstal. Menggunakan penginstal standar.
+Privileged Extension terinstal, tetapi tidak memiliki hak istimewa sistem atau tidak memercayai tanda tangan aplikasi ini. Menggunakan penginstal standar.
+Penginstalan senyap melalui Shizuku (Shizuku harus berjalan dan akses harus diberikan). Jika tidak tersedia, penginstal standar digunakan.
+Shizuku siap
+Shizuku tidak terinstal atau tidak berjalan. Menggunakan penginstal standar.
+Akses Shizuku ditolak. Izinkan F-Droid di aplikasi Shizuku. Menggunakan penginstal standar.
+Versi Shizuku yang terinstal terlalu lama. Menggunakan penginstal standar.
+Penginstalan senyap sebagai pemilik perangkat melalui Dhizuku (Dhizuku harus disiapkan dan akses harus diberikan). Jika tidak tersedia, penginstal standar digunakan.
+Dhizuku siap
+Dhizuku tidak terinstal atau tidak aktif. Menggunakan penginstal standar.
+Akses Dhizuku ditolak. Menggunakan penginstal standar.
+Menginstal melalui penginstal microG Companion. Memerlukan microG Companion, dan microG masih dapat menampilkan dialog. Jika tidak tersedia, penginstal standar digunakan.
+microG Companion ditemukan
+microG Companion dengan dukungan penginstalan tidak ditemukan. Menggunakan penginstal standar.
+Aplikasi penginstal lain
+Menyerahkan APK ke aplikasi penginstal lain berdasarkan nama paketnya (mis. App Manager). Jika tidak tersedia, penginstal standar digunakan.
+Aplikasi penginstal ditemukan
+Nama paket belum dimasukkan. Penginstal standar digunakan sampai Anda menentukannya.
+Aplikasi ini tidak terinstal. Penginstal standar digunakan sampai Anda memperbaiki nama paket.
+Aplikasi ini tidak dapat menginstal file APK. Penginstal standar digunakan sampai Anda memilih yang lain.
+Nama paket aplikasi penginstal
+Belum diatur
+Contoh: io.github.muntashirakon.AppManager
+Ini bukan nama paket yang valid
+=== vi
+Phương thức cài đặt
+Tiêu chuẩn (hệ thống)
+Trình cài đặt tích hợp của Android. Yêu cầu xác nhận.
+Cài đặt âm thầm qua Privileged Extension (ứng dụng hệ thống hoặc mô-đun Magisk). Nếu không khả dụng, sẽ dùng trình cài đặt tiêu chuẩn.
+Cài đặt âm thầm bằng quyền root (Magisk, KernelSU). Nếu root bị từ chối, sẽ dùng trình cài đặt tiêu chuẩn.
+Đã cấp quyền root
+Quyền root bị từ chối hoặc không khả dụng. Đang dùng trình cài đặt tiêu chuẩn.
+Đã tìm thấy Privileged Extension và sẵn sàng
+Privileged Extension chưa được cài đặt. Đang dùng trình cài đặt tiêu chuẩn.
+Privileged Extension đã được cài đặt nhưng không có đặc quyền hệ thống hoặc không tin cậy chữ ký của ứng dụng này. Đang dùng trình cài đặt tiêu chuẩn.
+Cài đặt âm thầm qua Shizuku (Shizuku phải đang chạy và đã được cấp quyền truy cập). Nếu không khả dụng, sẽ dùng trình cài đặt tiêu chuẩn.
+Shizuku đã sẵn sàng
+Shizuku chưa được cài đặt hoặc không chạy. Đang dùng trình cài đặt tiêu chuẩn.
+Quyền truy cập Shizuku bị từ chối. Hãy cho phép F-Droid trong ứng dụng Shizuku. Đang dùng trình cài đặt tiêu chuẩn.
+Phiên bản Shizuku đã cài quá cũ. Đang dùng trình cài đặt tiêu chuẩn.
+Cài đặt âm thầm với tư cách chủ sở hữu thiết bị qua Dhizuku (Dhizuku phải được thiết lập và cấp quyền truy cập). Nếu không khả dụng, sẽ dùng trình cài đặt tiêu chuẩn.
+Dhizuku đã sẵn sàng
+Dhizuku chưa được cài đặt hoặc chưa kích hoạt. Đang dùng trình cài đặt tiêu chuẩn.
+Quyền truy cập Dhizuku bị từ chối. Đang dùng trình cài đặt tiêu chuẩn.
+Cài đặt qua trình cài đặt của microG Companion. Cần có microG Companion, và microG vẫn có thể hiện hộp thoại. Nếu không khả dụng, sẽ dùng trình cài đặt tiêu chuẩn.
+Đã tìm thấy microG Companion
+Không tìm thấy microG Companion có hỗ trợ cài đặt. Đang dùng trình cài đặt tiêu chuẩn.
+Ứng dụng cài đặt khác
+Chuyển APK cho một ứng dụng cài đặt khác theo tên gói (ví dụ App Manager). Nếu không khả dụng, sẽ dùng trình cài đặt tiêu chuẩn.
+Đã tìm thấy ứng dụng cài đặt
+Chưa nhập tên gói. Sẽ dùng trình cài đặt tiêu chuẩn cho đến khi bạn đặt tên gói.
+Ứng dụng này chưa được cài đặt. Sẽ dùng trình cài đặt tiêu chuẩn cho đến khi bạn sửa tên gói.
+Ứng dụng này không thể cài đặt tệp APK. Sẽ dùng trình cài đặt tiêu chuẩn cho đến khi bạn chọn ứng dụng khác.
+Tên gói của ứng dụng cài đặt
+Chưa đặt
+Ví dụ: io.github.muntashirakon.AppManager
+Đây không phải là tên gói hợp lệ
+=== th
+วิธีการติดตั้ง
+มาตรฐาน (ระบบ)
+ตัวติดตั้งในตัวของ Android จะขอการยืนยัน
+ติดตั้งแบบเงียบผ่าน Privileged Extension (แอประบบหรือโมดูล Magisk) หากไม่พร้อมใช้งานจะกลับไปใช้ตัวติดตั้งมาตรฐาน
+ติดตั้งแบบเงียบด้วยสิทธิ์ root (Magisk, KernelSU) หากถูกปฏิเสธ root จะกลับไปใช้ตัวติดตั้งมาตรฐาน
+อนุญาตการเข้าถึง root แล้ว
+การเข้าถึง root ถูกปฏิเสธหรือไม่พร้อมใช้งาน กำลังใช้ตัวติดตั้งมาตรฐาน
+พบ Privileged Extension และพร้อมใช้งาน
+ไม่ได้ติดตั้ง Privileged Extension กำลังใช้ตัวติดตั้งมาตรฐาน
+ติดตั้ง Privileged Extension แล้ว แต่ไม่มีสิทธิ์ระดับระบบหรือไม่เชื่อถือลายเซ็นของแอปนี้ กำลังใช้ตัวติดตั้งมาตรฐาน
+ติดตั้งแบบเงียบผ่าน Shizuku (ต้องเปิด Shizuku ทำงานอยู่และอนุญาตการเข้าถึงแล้ว) หากไม่พร้อมใช้งานจะกลับไปใช้ตัวติดตั้งมาตรฐาน
+Shizuku พร้อมใช้งาน
+ไม่ได้ติดตั้ง Shizuku หรือไม่ได้ทำงานอยู่ กำลังใช้ตัวติดตั้งมาตรฐาน
+การเข้าถึง Shizuku ถูกปฏิเสธ โปรดอนุญาต F-Droid ในแอป Shizuku กำลังใช้ตัวติดตั้งมาตรฐาน
+Shizuku เวอร์ชันที่ติดตั้งเก่าเกินไป กำลังใช้ตัวติดตั้งมาตรฐาน
+ติดตั้งแบบเงียบในฐานะเจ้าของอุปกรณ์ผ่าน Dhizuku (ต้องตั้งค่า Dhizuku และอนุญาตการเข้าถึงแล้ว) หากไม่พร้อมใช้งานจะกลับไปใช้ตัวติดตั้งมาตรฐาน
+Dhizuku พร้อมใช้งาน
+ไม่ได้ติดตั้ง Dhizuku หรือไม่ได้เปิดใช้งาน กำลังใช้ตัวติดตั้งมาตรฐาน
+การเข้าถึง Dhizuku ถูกปฏิเสธ กำลังใช้ตัวติดตั้งมาตรฐาน
+ติดตั้งผ่านตัวติดตั้งของ microG Companion ต้องมี microG Companion และ microG อาจยังแสดงกล่องโต้ตอบอยู่ หากไม่พร้อมใช้งานจะกลับไปใช้ตัวติดตั้งมาตรฐาน
+พบ microG Companion
+ไม่พบ microG Companion ที่รองรับการติดตั้ง กำลังใช้ตัวติดตั้งมาตรฐาน
+แอปติดตั้งอื่น
+ส่งไฟล์ APK ให้แอปติดตั้งอื่นตามชื่อแพ็กเกจ (เช่น App Manager) หากไม่พร้อมใช้งานจะกลับไปใช้ตัวติดตั้งมาตรฐาน
+พบแอปติดตั้ง
+ยังไม่ได้ป้อนชื่อแพ็กเกจ จะใช้ตัวติดตั้งมาตรฐานจนกว่าคุณจะตั้งค่า
+ไม่ได้ติดตั้งแอปนี้ จะใช้ตัวติดตั้งมาตรฐานจนกว่าคุณจะแก้ไขชื่อแพ็กเกจ
+แอปนี้ไม่สามารถติดตั้งไฟล์ APK ได้ จะใช้ตัวติดตั้งมาตรฐานจนกว่าคุณจะเลือกแอปอื่น
+ชื่อแพ็กเกจของแอปติดตั้ง
+ยังไม่ได้ตั้งค่า
+ตัวอย่าง: io.github.muntashirakon.AppManager
+นี่ไม่ใช่ชื่อแพ็กเกจที่ถูกต้อง
+=== lt
+Diegimo būdas
+Standartinis (sistemos)
+Integruota Android diegimo programa. Prašo patvirtinimo.
+Tylus diegimas per Privileged Extension (sistemos programa arba Magisk modulis). Jei nepasiekiama, naudojama standartinė diegimo programa.
+Tylus diegimas su root teisėmis (Magisk, KernelSU). Jei root atmetamas, naudojama standartinė diegimo programa.
+Root prieiga suteikta
+Root prieiga atmesta arba nepasiekiama. Naudojama standartinė diegimo programa.
+Privileged Extension rastas ir paruoštas
+Privileged Extension neįdiegtas. Naudojama standartinė diegimo programa.
+Privileged Extension įdiegtas, bet neturi sistemos privilegijų arba nepasitiki šios programos parašu. Naudojama standartinė diegimo programa.
+Tylus diegimas per Shizuku (Shizuku turi veikti, o prieiga turi būti suteikta). Jei nepasiekiama, naudojama standartinė diegimo programa.
+Shizuku paruoštas
+Shizuku neįdiegtas arba neveikia. Naudojama standartinė diegimo programa.
+Prieiga prie Shizuku atmesta. Leiskite F-Droid Shizuku programoje. Naudojama standartinė diegimo programa.
+Įdiegta Shizuku versija per sena. Naudojama standartinė diegimo programa.
+Tylus diegimas kaip įrenginio savininkas per Dhizuku (Dhizuku turi būti nustatytas, o prieiga suteikta). Jei nepasiekiama, naudojama standartinė diegimo programa.
+Dhizuku paruoštas
+Dhizuku neįdiegtas arba neaktyvus. Naudojama standartinė diegimo programa.
+Prieiga prie Dhizuku atmesta. Naudojama standartinė diegimo programa.
+Diegia per microG Companion diegimo programą. Reikia microG Companion, o microG vis tiek gali parodyti dialogo langą. Jei nepasiekiama, naudojama standartinė diegimo programa.
+microG Companion rastas
+microG Companion su diegimo palaikymu nerastas. Naudojama standartinė diegimo programa.
+Kita diegimo programa
+Perduoda APK kitai diegimo programai pagal paketo pavadinimą (pvz., App Manager). Jei nepasiekiama, naudojama standartinė diegimo programa.
+Diegimo programa rasta
+Paketo pavadinimas neįvestas. Naudojama standartinė diegimo programa, kol jį nustatysite.
+Ši programa neįdiegta. Naudojama standartinė diegimo programa, kol pataisysite paketo pavadinimą.
+Ši programa negali įdiegti APK failų. Naudojama standartinė diegimo programa, kol pasirinksite kitą.
+Diegimo programos paketo pavadinimas
+Nenustatyta
+Pavyzdžiui, io.github.muntashirakon.AppManager
+Tai nėra tinkamas paketo pavadinimas
+=== lv
+Instalēšanas metode
+Standarta (sistēma)
+Android iebūvētais instalētājs. Prasa apstiprinājumu.
+Kluss instalējums, izmantojot Privileged Extension (sistēmas lietotne vai Magisk modulis). Ja nav pieejams, tiek izmantots standarta instalētājs.
+Kluss instalējums ar root tiesībām (Magisk, KernelSU). Ja root tiek noraidīts, tiek izmantots standarta instalētājs.
+Root piekļuve piešķirta
+Root piekļuve tika noraidīta vai nav pieejama. Tiek izmantots standarta instalētājs.
+Privileged Extension atrasts un gatavs
+Privileged Extension nav instalēts. Tiek izmantots standarta instalētājs.
+Privileged Extension ir instalēts, bet tam nav sistēmas privilēģiju vai tas neuzticas šīs lietotnes parakstam. Tiek izmantots standarta instalētājs.
+Kluss instalējums, izmantojot Shizuku (Shizuku jādarbojas un piekļuvei jābūt piešķirtai). Ja nav pieejams, tiek izmantots standarta instalētājs.
+Shizuku ir gatavs
+Shizuku nav instalēts vai nedarbojas. Tiek izmantots standarta instalētājs.
+Piekļuve Shizuku tika noraidīta. Atļaujiet F-Droid lietotnē Shizuku. Tiek izmantots standarta instalētājs.
+Instalētā Shizuku versija ir pārāk veca. Tiek izmantots standarta instalētājs.
+Kluss instalējums kā ierīces īpašniekam, izmantojot Dhizuku (Dhizuku jābūt iestatītam un piekļuvei piešķirtai). Ja nav pieejams, tiek izmantots standarta instalētājs.
+Dhizuku ir gatavs
+Dhizuku nav instalēts vai nav aktīvs. Tiek izmantots standarta instalētājs.
+Piekļuve Dhizuku tika noraidīta. Tiek izmantots standarta instalētājs.
+Instalē, izmantojot microG Companion instalētāju. Nepieciešams microG Companion, un microG tik un tā var parādīt dialoglodziņu. Ja nav pieejams, tiek izmantots standarta instalētājs.
+microG Companion atrasts
+microG Companion ar instalēšanas atbalstu netika atrasts. Tiek izmantots standarta instalētājs.
+Cita instalēšanas lietotne
+Nodod APK citai instalēšanas lietotnei pēc pakotnes nosaukuma (piemēram, App Manager). Ja nav pieejama, tiek izmantots standarta instalētājs.
+Instalēšanas lietotne atrasta
+Pakotnes nosaukums nav ievadīts. Tiek izmantots standarta instalētājs, kamēr to neiestatāt.
+Šī lietotne nav instalēta. Tiek izmantots standarta instalētājs, kamēr neizlabojat pakotnes nosaukumu.
+Šī lietotne nevar instalēt APK failus. Tiek izmantots standarta instalētājs, kamēr neizvēlaties citu.
+Instalēšanas lietotnes pakotnes nosaukums
+Nav iestatīts
+Piemēram, io.github.muntashirakon.AppManager
+Tas nav derīgs pakotnes nosaukums
+=== et
+Paigaldusmeetod
+Standardne (süsteem)
+Androidi sisseehitatud paigaldaja. Küsib kinnitust.
+Vaikne paigaldus Privileged Extensioni kaudu (süsteemirakendus või Magiski moodul). Kui see pole saadaval, kasutatakse standardset paigaldajat.
+Vaikne paigaldus root-õigustega (Magisk, KernelSU). Kui root keelatakse, kasutatakse standardset paigaldajat.
+Root-juurdepääs antud
+Root-juurdepääs keelati või see pole saadaval. Kasutatakse standardset paigaldajat.
+Privileged Extension leiti ja on valmis
+Privileged Extension pole paigaldatud. Kasutatakse standardset paigaldajat.
+Privileged Extension on paigaldatud, kuid sellel pole süsteemiõigusi või see ei usalda selle rakenduse allkirja. Kasutatakse standardset paigaldajat.
+Vaikne paigaldus Shizuku kaudu (Shizuku peab töötama ja juurdepääs peab olema antud). Kui see pole saadaval, kasutatakse standardset paigaldajat.
+Shizuku on valmis
+Shizuku pole paigaldatud või ei tööta. Kasutatakse standardset paigaldajat.
+Juurdepääs Shizukule keelati. Luba F-Droid Shizuku rakenduses. Kasutatakse standardset paigaldajat.
+Paigaldatud Shizuku versioon on liiga vana. Kasutatakse standardset paigaldajat.
+Vaikne paigaldus seadme omanikuna Dhizuku kaudu (Dhizuku peab olema seadistatud ja juurdepääs antud). Kui see pole saadaval, kasutatakse standardset paigaldajat.
+Dhizuku on valmis
+Dhizuku pole paigaldatud või pole aktiivne. Kasutatakse standardset paigaldajat.
+Juurdepääs Dhizukule keelati. Kasutatakse standardset paigaldajat.
+Paigaldab microG Companioni paigaldaja kaudu. Vajab microG Companionit ning microG võib siiski kuvada dialoogi. Kui see pole saadaval, kasutatakse standardset paigaldajat.
+microG Companion leiti
+Paigaldustoega microG Companionit ei leitud. Kasutatakse standardset paigaldajat.
+Muu paigaldusrakendus
+Annab APK muule paigaldusrakendusele edasi paketi nime järgi (nt App Manager). Kui see pole saadaval, kasutatakse standardset paigaldajat.
+Paigaldusrakendus leiti
+Paketi nime pole sisestatud. Kasutatakse standardset paigaldajat, kuni selle määrad.
+See rakendus pole paigaldatud. Kasutatakse standardset paigaldajat, kuni paketi nime parandad.
+See rakendus ei saa APK-faile paigaldada. Kasutatakse standardset paigaldajat, kuni valid teise.
+Paigaldusrakenduse paketi nimi
+Pole määratud
+Näiteks io.github.muntashirakon.AppManager
+See pole kehtiv paketi nimi
+=== is
+Uppsetningaraðferð
+Staðlað (kerfi)
+Innbyggt uppsetningarforrit Android. Biður um staðfestingu.
+Hljóðlát uppsetning með Privileged Extension (kerfisforrit eða Magisk-eining). Ef það er ekki tiltækt er staðlaða uppsetningarforritið notað.
+Hljóðlát uppsetning með root-heimildum (Magisk, KernelSU). Ef root er hafnað er staðlaða uppsetningarforritið notað.
+Root-aðgangur veittur
+Root-aðgangi var hafnað eða hann er ekki tiltækur. Staðlaða uppsetningarforritið er notað.
+Privileged Extension fannst og er tilbúið
+Privileged Extension er ekki uppsett. Staðlaða uppsetningarforritið er notað.
+Privileged Extension er uppsett en hefur ekki kerfisréttindi eða treystir ekki undirskrift þessa forrits. Staðlaða uppsetningarforritið er notað.
+Hljóðlát uppsetning með Shizuku (Shizuku þarf að vera í gangi og aðgangur veittur). Ef það er ekki tiltækt er staðlaða uppsetningarforritið notað.
+Shizuku er tilbúið
+Shizuku er ekki uppsett eða ekki í gangi. Staðlaða uppsetningarforritið er notað.
+Aðgangi að Shizuku var hafnað. Leyfðu F-Droid í Shizuku-forritinu. Staðlaða uppsetningarforritið er notað.
+Uppsetta útgáfan af Shizuku er of gömul. Staðlaða uppsetningarforritið er notað.
+Hljóðlát uppsetning sem eigandi tækisins með Dhizuku (Dhizuku þarf að vera sett upp og aðgangur veittur). Ef það er ekki tiltækt er staðlaða uppsetningarforritið notað.
+Dhizuku er tilbúið
+Dhizuku er ekki uppsett eða ekki virkt. Staðlaða uppsetningarforritið er notað.
+Aðgangi að Dhizuku var hafnað. Staðlaða uppsetningarforritið er notað.
+Setur upp með uppsetningarforriti microG Companion. Krefst microG Companion og microG getur samt sýnt glugga. Ef það er ekki tiltækt er staðlaða uppsetningarforritið notað.
+microG Companion fannst
+microG Companion með stuðningi við uppsetningu fannst ekki. Staðlaða uppsetningarforritið er notað.
+Annað uppsetningarforrit
+Afhendir APK öðru uppsetningarforriti eftir pakkaheiti (t.d. App Manager). Ef það er ekki tiltækt er staðlaða uppsetningarforritið notað.
+Uppsetningarforrit fannst
+Ekkert pakkaheiti slegið inn. Staðlaða uppsetningarforritið er notað þar til þú stillir eitt.
+Þetta forrit er ekki uppsett. Staðlaða uppsetningarforritið er notað þar til þú lagar pakkaheitið.
+Þetta forrit getur ekki sett upp APK-skrár. Staðlaða uppsetningarforritið er notað þar til þú velur annað.
+Pakkaheiti uppsetningarforritsins
+Ekki stillt
+Til dæmis io.github.muntashirakon.AppManager
+Þetta er ekki gilt pakkaheiti
+=== af
+Installeermetode
+Standaard (stelsel)
+Android se ingeboude installeerder. Vra om bevestiging.
+Stil installering deur Privileged Extension (stelselprogram of Magisk-module). Val terug op die standaardinstalleerder as dit nie beskikbaar is nie.
+Stil installering met root-regte (Magisk, KernelSU). Val terug op die standaardinstalleerder as root geweier word.
+Root-toegang verleen
+Root-toegang is geweier of nie beskikbaar nie. Die standaardinstalleerder word gebruik.
+Privileged Extension gevind en gereed
+Privileged Extension is nie geïnstalleer nie. Die standaardinstalleerder word gebruik.
+Privileged Extension is geïnstalleer, maar het nie stelselregte nie of vertrou nie die handtekening van hierdie program nie. Die standaardinstalleerder word gebruik.
+Stil installering deur Shizuku (Shizuku moet loop en toegang moet verleen wees). Val terug op die standaardinstalleerder as dit nie beskikbaar is nie.
+Shizuku is gereed
+Shizuku is nie geïnstalleer nie of loop nie. Die standaardinstalleerder word gebruik.
+Toegang tot Shizuku is geweier. Laat F-Droid toe in die Shizuku-program. Die standaardinstalleerder word gebruik.
+Die geïnstalleerde Shizuku-weergawe is te oud. Die standaardinstalleerder word gebruik.
+Stil installering as toestelbesitter deur Dhizuku (Dhizuku moet opgestel wees en toegang verleen wees). Val terug op die standaardinstalleerder as dit nie beskikbaar is nie.
+Dhizuku is gereed
+Dhizuku is nie geïnstalleer of aktief nie. Die standaardinstalleerder word gebruik.
+Toegang tot Dhizuku is geweier. Die standaardinstalleerder word gebruik.
+Installeer deur die installeerder van microG Companion. Vereis microG Companion en microG kan steeds 'n dialoog wys. Val terug op die standaardinstalleerder as dit nie beskikbaar is nie.
+microG Companion gevind
+microG Companion met installeerondersteuning is nie gevind nie. Die standaardinstalleerder word gebruik.
+Ander installeerprogram
+Gee die APK aan 'n ander installeerprogram deur die pakketnaam (bv. App Manager). Val terug op die standaardinstalleerder as dit nie beskikbaar is nie.
+Installeerprogram gevind
+Geen pakketnaam ingevoer nie. Die standaardinstalleerder word gebruik totdat jy een instel.
+Hierdie program is nie geïnstalleer nie. Die standaardinstalleerder word gebruik totdat jy die pakketnaam regstel.
+Hierdie program kan nie APK-lêers installeer nie. Die standaardinstalleerder word gebruik totdat jy 'n ander kies.
+Pakketnaam van die installeerprogram
+Nie ingestel nie
+Byvoorbeeld io.github.muntashirakon.AppManager
+Dit is nie 'n geldige pakketnaam nie
+=== sq
+Metoda e instalimit
+Standarde (sistemi)
+Instaluesi i integruar i Android. Kërkon konfirmim.
+Instalim i heshtur përmes Privileged Extension (aplikacion sistemi ose modul Magisk). Nëse nuk është i disponueshëm, përdoret instaluesi standard.
+Instalim i heshtur me të drejta root (Magisk, KernelSU). Nëse root refuzohet, përdoret instaluesi standard.
+Qasja root u dha
+Qasja root u refuzua ose nuk është e disponueshme. Po përdoret instaluesi standard.
+Privileged Extension u gjet dhe është gati
+Privileged Extension nuk është i instaluar. Po përdoret instaluesi standard.
+Privileged Extension është i instaluar, por nuk ka privilegje sistemi ose nuk i beson nënshkrimit të këtij aplikacioni. Po përdoret instaluesi standard.
+Instalim i heshtur përmes Shizuku (Shizuku duhet të jetë në punë dhe qasja të jetë dhënë). Nëse nuk është i disponueshëm, përdoret instaluesi standard.
+Shizuku është gati
+Shizuku nuk është i instaluar ose nuk është në punë. Po përdoret instaluesi standard.
+Qasja te Shizuku u refuzua. Lejoni F-Droid në aplikacionin Shizuku. Po përdoret instaluesi standard.
+Versioni i instaluar i Shizuku është shumë i vjetër. Po përdoret instaluesi standard.
+Instalim i heshtur si pronar i pajisjes përmes Dhizuku (Dhizuku duhet të jetë konfiguruar dhe qasja të jetë dhënë). Nëse nuk është i disponueshëm, përdoret instaluesi standard.
+Dhizuku është gati
+Dhizuku nuk është i instaluar ose nuk është aktiv. Po përdoret instaluesi standard.
+Qasja te Dhizuku u refuzua. Po përdoret instaluesi standard.
+Instalon përmes instaluesit të microG Companion. Kërkon microG Companion dhe microG mund të shfaqë prapë një dritare dialogu. Nëse nuk është i disponueshëm, përdoret instaluesi standard.
+microG Companion u gjet
+microG Companion me mbështetje instalimi nuk u gjet. Po përdoret instaluesi standard.
+Aplikacion tjetër instalimi
+Ia kalon APK-në një aplikacioni tjetër instalimi sipas emrit të paketës (p.sh. App Manager). Nëse nuk është i disponueshëm, përdoret instaluesi standard.
+Aplikacioni i instalimit u gjet
+Nuk është futur emër pakete. Përdoret instaluesi standard derisa ta vendosni një.
+Ky aplikacion nuk është i instaluar. Përdoret instaluesi standard derisa ta korrigjoni emrin e paketës.
+Ky aplikacion nuk mund të instalojë skedarë APK. Përdoret instaluesi standard derisa të zgjidhni një tjetër.
+Emri i paketës së aplikacionit të instalimit
+Nuk është vendosur
+Për shembull io.github.muntashirakon.AppManager
+Ky nuk është emër i vlefshëm pakete
+=== be
+Спосаб усталёўкі
+Стандартны (сістэмны)
+Убудаваны ўсталёўшчык Android. Просіць пацвярджэння.
+Ціхая ўсталёўка праз Privileged Extension (сістэмная праграма або модуль Magisk). Калі недаступна, выкарыстоўваецца стандартны ўсталёўшчык.
+Ціхая ўсталёўка з правамі root (Magisk, KernelSU). Калі root-доступ адхілены, выкарыстоўваецца стандартны ўсталёўшчык.
+Root-доступ прадастаўлены
+Root-доступ адхілены або недаступны. Выкарыстоўваецца стандартны ўсталёўшчык.
+Privileged Extension знойдзена і гатова
+Privileged Extension не ўсталявана. Выкарыстоўваецца стандартны ўсталёўшчык.
+Privileged Extension усталявана, але не мае сістэмных прывілеяў або не давярае подпісу гэтай праграмы. Выкарыстоўваецца стандартны ўсталёўшчык.
+Ціхая ўсталёўка праз Shizuku (Shizuku павінен працаваць, а доступ — быць прадастаўлены). Калі недаступна, выкарыстоўваецца стандартны ўсталёўшчык.
+Shizuku гатовы
+Shizuku не ўсталяваны або не працуе. Выкарыстоўваецца стандартны ўсталёўшчык.
+Доступ да Shizuku адхілены. Дазвольце F-Droid у праграме Shizuku. Выкарыстоўваецца стандартны ўсталёўшчык.
+Усталяваная версія Shizuku занадта старая. Выкарыстоўваецца стандартны ўсталёўшчык.
+Ціхая ўсталёўка ад імя ўладальніка прылады праз Dhizuku (Dhizuku павінен быць настроены, а доступ — прадастаўлены). Калі недаступна, выкарыстоўваецца стандартны ўсталёўшчык.
+Dhizuku гатовы
+Dhizuku не ўсталяваны або не актыўны. Выкарыстоўваецца стандартны ўсталёўшчык.
+Доступ да Dhizuku адхілены. Выкарыстоўваецца стандартны ўсталёўшчык.
+Усталёўвае праз усталёўшчык microG Companion. Патрэбны microG Companion, і microG усё роўна можа паказаць дыялогавае акно. Калі недаступна, выкарыстоўваецца стандартны ўсталёўшчык.
+microG Companion знойдзены
+microG Companion з падтрымкай усталёўкі не знойдзены. Выкарыстоўваецца стандартны ўсталёўшчык.
+Іншая праграма-ўсталёўшчык
+Перадае APK іншай праграме-ўсталёўшчыку па назве пакета (напрыклад, App Manager). Калі недаступна, выкарыстоўваецца стандартны ўсталёўшчык.
+Праграма-ўсталёўшчык знойдзена
+Назва пакета не ўведзена. Пакуль вы яе не задасце, выкарыстоўваецца стандартны ўсталёўшчык.
+Гэтая праграма не ўсталяваная. Пакуль вы не выправіце назву пакета, выкарыстоўваецца стандартны ўсталёўшчык.
+Гэтая праграма не можа ўсталёўваць APK-файлы. Пакуль вы не абярэце іншую, выкарыстоўваецца стандартны ўсталёўшчык.
+Назва пакета праграмы-ўсталёўшчыка
+Не задана
+Напрыклад, io.github.muntashirakon.AppManager
+Гэта няправільная назва пакета
+=== mk
+Начин на инсталирање
+Стандарден (систем)
+Вградениот инсталатор на Android. Бара потврда.
+Тивко инсталирање преку Privileged Extension (системска апликација или модул на Magisk). Ако не е достапно, се користи стандардниот инсталатор.
+Тивко инсталирање со root-привилегии (Magisk, KernelSU). Ако root е одбиен, се користи стандардниот инсталатор.
+Root-пристапот е доделен
+Root-пристапот е одбиен или не е достапен. Се користи стандардниот инсталатор.
+Privileged Extension е пронајден и подготвен
+Privileged Extension не е инсталиран. Се користи стандардниот инсталатор.
+Privileged Extension е инсталиран, но нема системски привилегии или не му верува на потписот на оваа апликација. Се користи стандардниот инсталатор.
+Тивко инсталирање преку Shizuku (Shizuku мора да работи, а пристапот да е доделен). Ако не е достапно, се користи стандардниот инсталатор.
+Shizuku е подготвен
+Shizuku не е инсталиран или не работи. Се користи стандардниот инсталатор.
+Пристапот до Shizuku е одбиен. Дозволете го F-Droid во апликацијата Shizuku. Се користи стандардниот инсталатор.
+Инсталираната верзија на Shizuku е премногу стара. Се користи стандардниот инсталатор.
+Тивко инсталирање како сопственик на уредот преку Dhizuku (Dhizuku мора да е поставен, а пристапот доделен). Ако не е достапно, се користи стандардниот инсталатор.
+Dhizuku е подготвен
+Dhizuku не е инсталиран или не е активен. Се користи стандардниот инсталатор.
+Пристапот до Dhizuku е одбиен. Се користи стандардниот инсталатор.
+Инсталира преку инсталаторот на microG Companion. Бара microG Companion, а microG сепак може да прикаже дијалог. Ако не е достапно, се користи стандардниот инсталатор.
+microG Companion е пронајден
+microG Companion со поддршка за инсталирање не е пронајден. Се користи стандардниот инсталатор.
+Друга апликација за инсталирање
+Го предава APK на друга апликација за инсталирање според името на пакетот (на пр. App Manager). Ако не е достапна, се користи стандардниот инсталатор.
+Апликацијата за инсталирање е пронајдена
+Не е внесено име на пакет. Се користи стандардниот инсталатор додека не поставите.
+Оваа апликација не е инсталирана. Се користи стандардниот инсталатор додека не го поправите името на пакетот.
+Оваа апликација не може да инсталира APK-датотеки. Се користи стандардниот инсталатор додека не изберете друга.
+Име на пакетот на апликацијата за инсталирање
+Не е поставено
+На пример io.github.muntashirakon.AppManager
+Ова не е важечко име на пакет
+=== hy
+Տեղադրման եղանակ
+Ստանդարտ (համակարգ)
+Android-ի ներկառուցված տեղադրիչը։ Հարցնում է հաստատում։
+Լուռ տեղադրում Privileged Extension-ի միջոցով (համակարգային հավելված կամ Magisk մոդուլ)։ Եթե հասանելի չէ, օգտագործվում է ստանդարտ տեղադրիչը։
+Լուռ տեղադրում root իրավունքներով (Magisk, KernelSU)։ Եթե root-ը մերժվի, օգտագործվում է ստանդարտ տեղադրիչը։
+Root հասանելիությունը տրամադրվել է
+Root հասանելիությունը մերժվել է կամ հասանելի չէ։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Privileged Extension-ը գտնվել է և պատրաստ է
+Privileged Extension-ը տեղադրված չէ։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Privileged Extension-ը տեղադրված է, բայց համակարգային արտոնություններ չունի կամ չի վստահում այս հավելվածի ստորագրությանը։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Լուռ տեղադրում Shizuku-ի միջոցով (Shizuku-ն պետք է աշխատի, իսկ հասանելիությունը՝ տրամադրված լինի)։ Եթե հասանելի չէ, օգտագործվում է ստանդարտ տեղադրիչը։
+Shizuku-ն պատրաստ է
+Shizuku-ն տեղադրված չէ կամ չի աշխատում։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Shizuku-ի հասանելիությունը մերժվել է։ Թույլ տվեք F-Droid-ին Shizuku հավելվածում։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Տեղադրված Shizuku-ի տարբերակը չափազանց հին է։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Լուռ տեղադրում որպես սարքի սեփականատեր Dhizuku-ի միջոցով (Dhizuku-ն պետք է կարգավորված լինի, իսկ հասանելիությունը՝ տրամադրված)։ Եթե հասանելի չէ, օգտագործվում է ստանդարտ տեղադրիչը։
+Dhizuku-ն պատրաստ է
+Dhizuku-ն տեղադրված չէ կամ ակտիվ չէ։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Dhizuku-ի հասանելիությունը մերժվել է։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Տեղադրում է microG Companion-ի տեղադրիչի միջոցով։ Պահանջում է microG Companion, և microG-ը դեռ կարող է երկխոսության պատուհան ցուցադրել։ Եթե հասանելի չէ, օգտագործվում է ստանդարտ տեղադրիչը։
+microG Companion-ը գտնվել է
+Տեղադրման աջակցությամբ microG Companion-ը չի գտնվել։ Օգտագործվում է ստանդարտ տեղադրիչը։
+Այլ տեղադրող հավելված
+APK-ն փոխանցում է մեկ այլ տեղադրող հավելվածի՝ փաթեթի անվանմամբ (օրինակ՝ App Manager)։ Եթե հասանելի չէ, օգտագործվում է ստանդարտ տեղադրիչը։
+Տեղադրող հավելվածը գտնվել է
+Փաթեթի անունը մուտքագրված չէ։ Մինչև դուք այն չնշեք, օգտագործվում է ստանդարտ տեղադրիչը։
+Այս հավելվածը տեղադրված չէ։ Մինչև դուք չուղղեք փաթեթի անունը, օգտագործվում է ստանդարտ տեղադրիչը։
+Այս հավելվածը չի կարող տեղադրել APK ֆայլեր։ Մինչև դուք մեկ այլ հավելված ընտրեք, օգտագործվում է ստանդարտ տեղադրիչը։
+Տեղադրող հավելվածի փաթեթի անունը
+Սահմանված չէ
+Օրինակ՝ io.github.muntashirakon.AppManager
+Սա վավեր փաթեթի անուն չէ
+=== ka
+ინსტალაციის მეთოდი
+სტანდარტული (სისტემა)
+Android-ის ჩაშენებული ინსტალერი. ითხოვს დადასტურებას.
+ჩუმი ინსტალაცია Privileged Extension-ის მეშვეობით (სისტემური აპი ან Magisk-ის მოდული). თუ მიუწვდომელია, გამოიყენება სტანდარტული ინსტალერი.
+ჩუმი ინსტალაცია root უფლებებით (Magisk, KernelSU). თუ root უარყოფილია, გამოიყენება სტანდარტული ინსტალერი.
+root წვდომა მიცემულია
+root წვდომა უარყოფილია ან მიუწვდომელია. გამოიყენება სტანდარტული ინსტალერი.
+Privileged Extension ნაპოვნია და მზადაა
+Privileged Extension დაინსტალირებული არ არის. გამოიყენება სტანდარტული ინსტალერი.
+Privileged Extension დაინსტალირებულია, მაგრამ არ აქვს სისტემური პრივილეგიები ან არ ენდობა ამ აპის ხელმოწერას. გამოიყენება სტანდარტული ინსტალერი.
+ჩუმი ინსტალაცია Shizuku-ს მეშვეობით (Shizuku უნდა მუშაობდეს და წვდომა უნდა იყოს მიცემული). თუ მიუწვდომელია, გამოიყენება სტანდარტული ინსტალერი.
+Shizuku მზადაა
+Shizuku დაინსტალირებული არ არის ან არ მუშაობს. გამოიყენება სტანდარტული ინსტალერი.
+Shizuku-ზე წვდომა უარყოფილია. ნება დართეთ F-Droid-ს Shizuku-ს აპში. გამოიყენება სტანდარტული ინსტალერი.
+დაინსტალირებული Shizuku-ს ვერსია ძალიან ძველია. გამოიყენება სტანდარტული ინსტალერი.
+ჩუმი ინსტალაცია მოწყობილობის მფლობელის სახით Dhizuku-ს მეშვეობით (Dhizuku უნდა იყოს მორგებული და წვდომა მიცემული). თუ მიუწვდომელია, გამოიყენება სტანდარტული ინსტალერი.
+Dhizuku მზადაა
+Dhizuku დაინსტალირებული არ არის ან აქტიური არ არის. გამოიყენება სტანდარტული ინსტალერი.
+Dhizuku-ზე წვდომა უარყოფილია. გამოიყენება სტანდარტული ინსტალერი.
+ინსტალაცია microG Companion-ის ინსტალერის მეშვეობით. საჭიროა microG Companion და microG მაინც შეიძლება აჩვენებდეს დიალოგს. თუ მიუწვდომელია, გამოიყენება სტანდარტული ინსტალერი.
+microG Companion ნაპოვნია
+microG Companion ინსტალაციის მხარდაჭერით ვერ მოიძებნა. გამოიყენება სტანდარტული ინსტალერი.
+სხვა ინსტალერის აპი
+გადასცემს APK-ს სხვა ინსტალერის აპს პაკეტის სახელით (მაგ. App Manager). თუ მიუწვდომელია, გამოიყენება სტანდარტული ინსტალერი.
+ინსტალერის აპი ნაპოვნია
+პაკეტის სახელი შეყვანილი არ არის. სანამ არ მიუთითებთ, გამოიყენება სტანდარტული ინსტალერი.
+ეს აპი დაინსტალირებული არ არის. სანამ პაკეტის სახელს არ გაასწორებთ, გამოიყენება სტანდარტული ინსტალერი.
+ეს აპი ვერ აინსტალირებს APK ფაილებს. სანამ სხვას არ აირჩევთ, გამოიყენება სტანდარტული ინსტალერი.
+ინსტალერის აპის პაკეტის სახელი
+არ არის მითითებული
+მაგალითად, io.github.muntashirakon.AppManager
+ეს პაკეტის ვალიდური სახელი არ არის
+=== az
+Quraşdırma üsulu
+Standart (sistem)
+Android-in daxili quraşdırıcısı. Təsdiq istəyir.
+Privileged Extension vasitəsilə səssiz quraşdırma (sistem tətbiqi və ya Magisk modulu). Əlçatan deyilsə, standart quraşdırıcı istifadə olunur.
+Root səlahiyyətləri ilə səssiz quraşdırma (Magisk, KernelSU). Root rədd edilərsə, standart quraşdırıcı istifadə olunur.
+Root girişi verildi
+Root girişi rədd edildi və ya əlçatan deyil. Standart quraşdırıcı istifadə olunur.
+Privileged Extension tapıldı və hazırdır
+Privileged Extension quraşdırılmayıb. Standart quraşdırıcı istifadə olunur.
+Privileged Extension quraşdırılıb, lakin sistem imtiyazları yoxdur və ya bu tətbiqin imzasına etibar etmir. Standart quraşdırıcı istifadə olunur.
+Shizuku vasitəsilə səssiz quraşdırma (Shizuku işləməli və giriş verilməlidir). Əlçatan deyilsə, standart quraşdırıcı istifadə olunur.
+Shizuku hazırdır
+Shizuku quraşdırılmayıb və ya işləmir. Standart quraşdırıcı istifadə olunur.
+Shizuku girişi rədd edildi. Shizuku tətbiqində F-Droid-ə icazə verin. Standart quraşdırıcı istifadə olunur.
+Quraşdırılmış Shizuku versiyası çox köhnədir. Standart quraşdırıcı istifadə olunur.
+Dhizuku vasitəsilə cihaz sahibi kimi səssiz quraşdırma (Dhizuku qurulmalı və giriş verilməlidir). Əlçatan deyilsə, standart quraşdırıcı istifadə olunur.
+Dhizuku hazırdır
+Dhizuku quraşdırılmayıb və ya aktiv deyil. Standart quraşdırıcı istifadə olunur.
+Dhizuku girişi rədd edildi. Standart quraşdırıcı istifadə olunur.
+microG Companion quraşdırıcısı vasitəsilə quraşdırır. microG Companion tələb olunur və microG yenə də dialoq göstərə bilər. Əlçatan deyilsə, standart quraşdırıcı istifadə olunur.
+microG Companion tapıldı
+Quraşdırma dəstəyi olan microG Companion tapılmadı. Standart quraşdırıcı istifadə olunur.
+Digər quraşdırıcı tətbiq
+APK-nı paket adına görə başqa quraşdırıcı tətbiqə ötürür (məs. App Manager). Əlçatan deyilsə, standart quraşdırıcı istifadə olunur.
+Quraşdırıcı tətbiq tapıldı
+Paket adı daxil edilməyib. Siz təyin edənə qədər standart quraşdırıcı istifadə olunur.
+Bu tətbiq quraşdırılmayıb. Paket adını düzəldənə qədər standart quraşdırıcı istifadə olunur.
+Bu tətbiq APK fayllarını quraşdıra bilmir. Başqasını seçənə qədər standart quraşdırıcı istifadə olunur.
+Quraşdırıcı tətbiqin paket adı
+Təyin edilməyib
+Məsələn, io.github.muntashirakon.AppManager
+Bu etibarlı paket adı deyil
+=== kk
+Орнату әдісі
+Стандартты (жүйелік)
+Android-тың кірістірілген орнатушысы. Растауды сұрайды.
+Privileged Extension арқылы үнсіз орнату (жүйелік қолданба немесе Magisk модулі). Қолжетімсіз болса, стандартты орнатушы қолданылады.
+Root құқықтарымен үнсіз орнату (Magisk, KernelSU). Root қабылданбаса, стандартты орнатушы қолданылады.
+Root рұқсаты берілді
+Root рұқсаты қабылданбады немесе қолжетімсіз. Стандартты орнатушы қолданылады.
+Privileged Extension табылды және дайын
+Privileged Extension орнатылмаған. Стандартты орнатушы қолданылады.
+Privileged Extension орнатылған, бірақ оның жүйелік артықшылықтары жоқ немесе бұл қолданбаның қолтаңбасына сенбейді. Стандартты орнатушы қолданылады.
+Shizuku арқылы үнсіз орнату (Shizuku жұмыс істеп тұруы және рұқсат берілуі керек). Қолжетімсіз болса, стандартты орнатушы қолданылады.
+Shizuku дайын
+Shizuku орнатылмаған немесе жұмыс істемейді. Стандартты орнатушы қолданылады.
+Shizuku рұқсаты қабылданбады. Shizuku қолданбасында F-Droid-қа рұқсат беріңіз. Стандартты орнатушы қолданылады.
+Орнатылған Shizuku нұсқасы тым ескі. Стандартты орнатушы қолданылады.
+Dhizuku арқылы құрылғы иесі ретінде үнсіз орнату (Dhizuku бапталып, рұқсат берілуі керек). Қолжетімсіз болса, стандартты орнатушы қолданылады.
+Dhizuku дайын
+Dhizuku орнатылмаған немесе белсенді емес. Стандартты орнатушы қолданылады.
+Dhizuku рұқсаты қабылданбады. Стандартты орнатушы қолданылады.
+microG Companion орнатушысы арқылы орнатады. microG Companion қажет, ал microG бәрібір диалог көрсетуі мүмкін. Қолжетімсіз болса, стандартты орнатушы қолданылады.
+microG Companion табылды
+Орнатуды қолдайтын microG Companion табылмады. Стандартты орнатушы қолданылады.
+Басқа орнатушы қолданба
+APK файлын пакет атауы бойынша басқа орнатушы қолданбаға береді (мысалы, App Manager). Қолжетімсіз болса, стандартты орнатушы қолданылады.
+Орнатушы қолданба табылды
+Пакет атауы енгізілмеген. Сіз оны көрсеткенше стандартты орнатушы қолданылады.
+Бұл қолданба орнатылмаған. Пакет атауын түзеткенше стандартты орнатушы қолданылады.
+Бұл қолданба APK файлдарын орната алмайды. Басқасын таңдағанша стандартты орнатушы қолданылады.
+Орнатушы қолданбаның пакет атауы
+Көрсетілмеген
+Мысалы, io.github.muntashirakon.AppManager
+Бұл жарамды пакет атауы емес
+=== eu
+Instalatzeko modua
+Estandarra (sistema)
+Android-en instalatzaile integratua. Berrespena eskatzen du.
+Instalazio isila Privileged Extension bidez (sistemako aplikazioa edo Magisk modulua). Erabilgarri ez badago, instalatzaile estandarra erabiliko da.
+Instalazio isila root baimenekin (Magisk, KernelSU). Root ukatzen bada, instalatzaile estandarra erabiliko da.
+Root sarbidea eman da
+Root sarbidea ukatu da edo ez dago erabilgarri. Instalatzaile estandarra erabiltzen da.
+Privileged Extension aurkitu da eta prest dago
+Privileged Extension ez dago instalatuta. Instalatzaile estandarra erabiltzen da.
+Privileged Extension instalatuta dago, baina ez du sistemako pribilegiorik edo ez dio konfiantzarik aplikazio honen sinadurari. Instalatzaile estandarra erabiltzen da.
+Instalazio isila Shizuku bidez (Shizuku martxan egon behar da eta sarbidea eman behar da). Erabilgarri ez badago, instalatzaile estandarra erabiliko da.
+Shizuku prest dago
+Shizuku ez dago instalatuta edo ez dabil martxan. Instalatzaile estandarra erabiltzen da.
+Shizukurako sarbidea ukatu da. Baimendu F-Droid Shizuku aplikazioan. Instalatzaile estandarra erabiltzen da.
+Instalatutako Shizuku bertsioa zaharregia da. Instalatzaile estandarra erabiltzen da.
+Instalazio isila gailuaren jabe gisa Dhizuku bidez (Dhizuku konfiguratuta egon behar da eta sarbidea eman behar da). Erabilgarri ez badago, instalatzaile estandarra erabiliko da.
+Dhizuku prest dago
+Dhizuku ez dago instalatuta edo ez dago aktibo. Instalatzaile estandarra erabiltzen da.
+Dhizukurako sarbidea ukatu da. Instalatzaile estandarra erabiltzen da.
+microG Companion-en instalatzailearen bidez instalatzen du. microG Companion behar da, eta microG-k elkarrizketa-koadro bat erakutsi dezake hala ere. Erabilgarri ez badago, instalatzaile estandarra erabiliko da.
+microG Companion aurkitu da
+Instalazio-euskarria duen microG Companion ez da aurkitu. Instalatzaile estandarra erabiltzen da.
+Beste instalatzaile-aplikazio bat
+APK fitxategia beste instalatzaile-aplikazio bati ematen dio paketearen izenaren bidez (adib. App Manager). Erabilgarri ez badago, instalatzaile estandarra erabiliko da.
+Instalatzaile-aplikazioa aurkitu da
+Ez da paketearen izenik sartu. Instalatzaile estandarra erabiltzen da izen bat ezarri arte.
+Aplikazio hau ez dago instalatuta. Instalatzaile estandarra erabiltzen da paketearen izena zuzendu arte.
+Aplikazio honek ezin ditu APK fitxategiak instalatu. Instalatzaile estandarra erabiltzen da beste bat aukeratu arte.
+Instalatzaile-aplikazioaren paketearen izena
+Ezarri gabe
+Adibidez, io.github.muntashirakon.AppManager
+Hau ez da paketearen izen baliodun bat
+=== gl
+Método de instalación
+Estándar (sistema)
+O instalador integrado de Android. Pide confirmación.
+Instalación silenciosa mediante Privileged Extension (aplicación do sistema ou módulo de Magisk). Se non está dispoñible, utilízase o instalador estándar.
+Instalación silenciosa con permisos de root (Magisk, KernelSU). Se se denega o root, utilízase o instalador estándar.
+Concedeuse o acceso root
+Denegouse o acceso root ou non está dispoñible. Utilízase o instalador estándar.
+Privileged Extension atopada e lista
+Privileged Extension non está instalada. Utilízase o instalador estándar.
+Privileged Extension está instalada, pero non ten privilexios de sistema ou non confía na sinatura desta aplicación. Utilízase o instalador estándar.
+Instalación silenciosa mediante Shizuku (Shizuku debe estar en execución e o acceso concedido). Se non está dispoñible, utilízase o instalador estándar.
+Shizuku está listo
+Shizuku non está instalado ou non se está executando. Utilízase o instalador estándar.
+Denegouse o acceso a Shizuku. Permite F-Droid na aplicación Shizuku. Utilízase o instalador estándar.
+A versión instalada de Shizuku é demasiado antiga. Utilízase o instalador estándar.
+Instalación silenciosa como propietario do dispositivo mediante Dhizuku (Dhizuku debe estar configurado e o acceso concedido). Se non está dispoñible, utilízase o instalador estándar.
+Dhizuku está listo
+Dhizuku non está instalado ou non está activo. Utilízase o instalador estándar.
+Denegouse o acceso a Dhizuku. Utilízase o instalador estándar.
+Instala mediante o instalador de microG Companion. Require microG Companion e microG aínda pode mostrar un diálogo. Se non está dispoñible, utilízase o instalador estándar.
+microG Companion atopado
+Non se atopou microG Companion con compatibilidade de instalación. Utilízase o instalador estándar.
+Outra aplicación instaladora
+Entrega o APK a outra aplicación instaladora segundo o nome do paquete (p. ex., App Manager). Se non está dispoñible, utilízase o instalador estándar.
+Aplicación instaladora atopada
+Non se introduciu ningún nome de paquete. Utilízase o instalador estándar ata que indiques un.
+Esta aplicación non está instalada. Utilízase o instalador estándar ata que corrixas o nome do paquete.
+Esta aplicación non pode instalar ficheiros APK. Utilízase o instalador estándar ata que escollas outra.
+Nome do paquete da aplicación instaladora
+Sen definir
+Por exemplo, io.github.muntashirakon.AppManager
+Este non é un nome de paquete válido
+=== eo
+Instalmetodo
+Norma (sistemo)
+La enkonstruita instalilo de Android. Petas konfirmon.
+Silenta instalado per Privileged Extension (sistema aplikaĵo aŭ Magisk-modulo). Se ĝi ne disponeblas, la norma instalilo estas uzata.
+Silenta instalado kun root-rajtoj (Magisk, KernelSU). Se root estas rifuzita, la norma instalilo estas uzata.
+Root-aliro donita
+Root-aliro estis rifuzita aŭ ne disponeblas. La norma instalilo estas uzata.
+Privileged Extension trovita kaj preta
+Privileged Extension ne estas instalita. La norma instalilo estas uzata.
+Privileged Extension estas instalita, sed ne havas sistemajn privilegiojn aŭ ne fidas la subskribon de ĉi tiu aplikaĵo. La norma instalilo estas uzata.
+Silenta instalado per Shizuku (Shizuku devas funkcii kaj aliro devas esti donita). Se ĝi ne disponeblas, la norma instalilo estas uzata.
+Shizuku estas preta
+Shizuku ne estas instalita aŭ ne funkcias. La norma instalilo estas uzata.
+Aliro al Shizuku estis rifuzita. Permesu F-Droid en la aplikaĵo Shizuku. La norma instalilo estas uzata.
+La instalita versio de Shizuku estas tro malnova. La norma instalilo estas uzata.
+Silenta instalado kiel posedanto de la aparato per Dhizuku (Dhizuku devas esti agordita kaj aliro donita). Se ĝi ne disponeblas, la norma instalilo estas uzata.
+Dhizuku estas preta
+Dhizuku ne estas instalita aŭ ne estas aktiva. La norma instalilo estas uzata.
+Aliro al Dhizuku estis rifuzita. La norma instalilo estas uzata.
+Instalas per la instalilo de microG Companion. Postulas microG Companion, kaj microG ankoraŭ povas montri dialogon. Se ĝi ne disponeblas, la norma instalilo estas uzata.
+microG Companion trovita
+microG Companion kun instalsubteno ne estis trovita. La norma instalilo estas uzata.
+Alia instala aplikaĵo
+Transdonas la APK al alia instala aplikaĵo laŭ la pakaĵnomo (ekz. App Manager). Se ĝi ne disponeblas, la norma instalilo estas uzata.
+Instala aplikaĵo trovita
+Neniu pakaĵnomo estas enigita. La norma instalilo estas uzata ĝis vi difinos unu.
+Ĉi tiu aplikaĵo ne estas instalita. La norma instalilo estas uzata ĝis vi korektos la pakaĵnomon.
+Ĉi tiu aplikaĵo ne povas instali APK-dosierojn. La norma instalilo estas uzata ĝis vi elektos alian.
+Pakaĵnomo de la instala aplikaĵo
+Ne difinita
+Ekzemple io.github.muntashirakon.AppManager
+Ĉi tio ne estas valida pakaĵnomo
+=== fil
+Paraan ng pag-install
+Karaniwan (system)
+Ang built-in na installer ng Android. Humihingi ng kumpirmasyon.
+Tahimik na pag-install sa pamamagitan ng Privileged Extension (system app o Magisk module). Kung hindi available, gagamitin ang karaniwang installer.
+Tahimik na pag-install gamit ang root rights (Magisk, KernelSU). Kung tinanggihan ang root, gagamitin ang karaniwang installer.
+Naibigay ang root access
+Tinanggihan ang root access o hindi ito available. Ginagamit ang karaniwang installer.
+Nakita ang Privileged Extension at handa na
+Hindi naka-install ang Privileged Extension. Ginagamit ang karaniwang installer.
+Naka-install ang Privileged Extension, ngunit wala itong system privileges o hindi nito pinagkakatiwalaan ang signature ng app na ito. Ginagamit ang karaniwang installer.
+Tahimik na pag-install sa pamamagitan ng Shizuku (dapat tumatakbo ang Shizuku at naibigay ang access). Kung hindi available, gagamitin ang karaniwang installer.
+Handa na ang Shizuku
+Hindi naka-install o hindi tumatakbo ang Shizuku. Ginagamit ang karaniwang installer.
+Tinanggihan ang access sa Shizuku. Payagan ang F-Droid sa Shizuku app. Ginagamit ang karaniwang installer.
+Masyadong luma ang naka-install na bersyon ng Shizuku. Ginagamit ang karaniwang installer.
+Tahimik na pag-install bilang may-ari ng device sa pamamagitan ng Dhizuku (dapat naka-set up ang Dhizuku at naibigay ang access). Kung hindi available, gagamitin ang karaniwang installer.
+Handa na ang Dhizuku
+Hindi naka-install o hindi aktibo ang Dhizuku. Ginagamit ang karaniwang installer.
+Tinanggihan ang access sa Dhizuku. Ginagamit ang karaniwang installer.
+Nag-i-install sa pamamagitan ng installer ng microG Companion. Kailangan ang microG Companion at maaari pa ring magpakita ng dialog ang microG. Kung hindi available, gagamitin ang karaniwang installer.
+Nakita ang microG Companion
+Hindi nakita ang microG Companion na may suporta sa pag-install. Ginagamit ang karaniwang installer.
+Ibang installer app
+Ibinibigay ang APK sa ibang installer app ayon sa pangalan ng package (hal. App Manager). Kung hindi available, gagamitin ang karaniwang installer.
+Nakita ang installer app
+Walang inilagay na pangalan ng package. Gagamitin ang karaniwang installer hangga't hindi ka nagtatakda.
+Hindi naka-install ang app na ito. Gagamitin ang karaniwang installer hangga't hindi mo naitatama ang pangalan ng package.
+Hindi makapag-install ng mga APK file ang app na ito. Gagamitin ang karaniwang installer hangga't hindi ka pumipili ng iba.
+Pangalan ng package ng installer app
+Hindi nakatakda
+Halimbawa, io.github.muntashirakon.AppManager
+Hindi ito wastong pangalan ng package
+=== sw
+Njia ya usakinishaji
+Ya kawaida (mfumo)
+Kisakinishi kilichojengewa ndani cha Android. Huomba uthibitisho.
+Usakinishaji wa kimya kupitia Privileged Extension (programu ya mfumo au moduli ya Magisk). Ikiwa haipatikani, kisakinishi cha kawaida hutumiwa.
+Usakinishaji wa kimya kwa ruhusa za root (Magisk, KernelSU). Root ikikataliwa, kisakinishi cha kawaida hutumiwa.
+Ufikiaji wa root umetolewa
+Ufikiaji wa root umekataliwa au haupatikani. Kisakinishi cha kawaida kinatumika.
+Privileged Extension imepatikana na iko tayari
+Privileged Extension haijasakinishwa. Kisakinishi cha kawaida kinatumika.
+Privileged Extension imesakinishwa, lakini haina haki za mfumo au haiamini sahihi ya programu hii. Kisakinishi cha kawaida kinatumika.
+Usakinishaji wa kimya kupitia Shizuku (Shizuku lazima iwe inafanya kazi na ufikiaji umetolewa). Ikiwa haipatikani, kisakinishi cha kawaida hutumiwa.
+Shizuku iko tayari
+Shizuku haijasakinishwa au haifanyi kazi. Kisakinishi cha kawaida kinatumika.
+Ufikiaji wa Shizuku umekataliwa. Ruhusu F-Droid katika programu ya Shizuku. Kisakinishi cha kawaida kinatumika.
+Toleo la Shizuku lililosakinishwa ni la zamani mno. Kisakinishi cha kawaida kinatumika.
+Usakinishaji wa kimya kama mmiliki wa kifaa kupitia Dhizuku (Dhizuku lazima iwe imesanidiwa na ufikiaji umetolewa). Ikiwa haipatikani, kisakinishi cha kawaida hutumiwa.
+Dhizuku iko tayari
+Dhizuku haijasakinishwa au haijawashwa. Kisakinishi cha kawaida kinatumika.
+Ufikiaji wa Dhizuku umekataliwa. Kisakinishi cha kawaida kinatumika.
+Husakinisha kupitia kisakinishi cha microG Companion. Inahitaji microG Companion na microG bado inaweza kuonyesha kisanduku cha mazungumzo. Ikiwa haipatikani, kisakinishi cha kawaida hutumiwa.
+microG Companion imepatikana
+microG Companion yenye usaidizi wa usakinishaji haikupatikana. Kisakinishi cha kawaida kinatumika.
+Programu nyingine ya kusakinisha
+Hukabidhi APK kwa programu nyingine ya kusakinisha kwa jina la kifurushi (mfano App Manager). Ikiwa haipatikani, kisakinishi cha kawaida hutumiwa.
+Programu ya kusakinisha imepatikana
+Hakuna jina la kifurushi lililoingizwa. Kisakinishi cha kawaida kinatumika hadi uweke jina.
+Programu hii haijasakinishwa. Kisakinishi cha kawaida kinatumika hadi urekebishe jina la kifurushi.
+Programu hii haiwezi kusakinisha faili za APK. Kisakinishi cha kawaida kinatumika hadi uchague nyingine.
+Jina la kifurushi cha programu ya kusakinisha
+Haijawekwa
+Mfano, io.github.muntashirakon.AppManager
+Hili si jina halali la kifurushi
+=== uz
+O'rnatish usuli
+Standart (tizim)
+Android'ning o'rnatilgan o'rnatuvchisi. Tasdiqlashni so'raydi.
+Privileged Extension orqali ovozsiz o'rnatish (tizim ilovasi yoki Magisk moduli). Mavjud bo'lmasa, standart o'rnatuvchi ishlatiladi.
+Root huquqlari bilan ovozsiz o'rnatish (Magisk, KernelSU). Root rad etilsa, standart o'rnatuvchi ishlatiladi.
+Root ruxsati berildi
+Root ruxsati rad etildi yoki mavjud emas. Standart o'rnatuvchi ishlatilmoqda.
+Privileged Extension topildi va tayyor
+Privileged Extension o'rnatilmagan. Standart o'rnatuvchi ishlatilmoqda.
+Privileged Extension o'rnatilgan, lekin tizim imtiyozlariga ega emas yoki bu ilovaning imzosiga ishonmaydi. Standart o'rnatuvchi ishlatilmoqda.
+Shizuku orqali ovozsiz o'rnatish (Shizuku ishlab turishi va ruxsat berilgan bo'lishi kerak). Mavjud bo'lmasa, standart o'rnatuvchi ishlatiladi.
+Shizuku tayyor
+Shizuku o'rnatilmagan yoki ishlamayapti. Standart o'rnatuvchi ishlatilmoqda.
+Shizuku ruxsati rad etildi. Shizuku ilovasida F-Droid'ga ruxsat bering. Standart o'rnatuvchi ishlatilmoqda.
+O'rnatilgan Shizuku versiyasi juda eski. Standart o'rnatuvchi ishlatilmoqda.
+Dhizuku orqali qurilma egasi sifatida ovozsiz o'rnatish (Dhizuku sozlangan va ruxsat berilgan bo'lishi kerak). Mavjud bo'lmasa, standart o'rnatuvchi ishlatiladi.
+Dhizuku tayyor
+Dhizuku o'rnatilmagan yoki faol emas. Standart o'rnatuvchi ishlatilmoqda.
+Dhizuku ruxsati rad etildi. Standart o'rnatuvchi ishlatilmoqda.
+microG Companion o'rnatuvchisi orqali o'rnatadi. microG Companion kerak va microG baribir dialog oynasini ko'rsatishi mumkin. Mavjud bo'lmasa, standart o'rnatuvchi ishlatiladi.
+microG Companion topildi
+O'rnatishni qo'llab-quvvatlaydigan microG Companion topilmadi. Standart o'rnatuvchi ishlatilmoqda.
+Boshqa o'rnatuvchi ilova
+APK'ni paket nomi bo'yicha boshqa o'rnatuvchi ilovaga uzatadi (masalan, App Manager). Mavjud bo'lmasa, standart o'rnatuvchi ishlatiladi.
+O'rnatuvchi ilova topildi
+Paket nomi kiritilmagan. Siz belgilamaguningizcha standart o'rnatuvchi ishlatiladi.
+Bu ilova o'rnatilmagan. Paket nomini tuzatmaguningizcha standart o'rnatuvchi ishlatiladi.
+Bu ilova APK fayllarni o'rnata olmaydi. Boshqasini tanlamaguningizcha standart o'rnatuvchi ishlatiladi.
+O'rnatuvchi ilovaning paket nomi
+Belgilanmagan
+Masalan, io.github.muntashirakon.AppManager
+Bu yaroqli paket nomi emas
+=== bn
+ইনস্টল করার পদ্ধতি
+স্ট্যান্ডার্ড (সিস্টেম)
+Android-এর অন্তর্নির্মিত ইনস্টলার। নিশ্চিতকরণ চায়।
+Privileged Extension (সিস্টেম অ্যাপ বা Magisk মডিউল) এর মাধ্যমে নিঃশব্দ ইনস্টল। উপলব্ধ না থাকলে স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হয়।
+root অধিকার দিয়ে নিঃশব্দ ইনস্টল (Magisk, KernelSU)। root প্রত্যাখ্যাত হলে স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হয়।
+root অ্যাক্সেস দেওয়া হয়েছে
+root অ্যাক্সেস প্রত্যাখ্যাত হয়েছে বা উপলব্ধ নেই। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+Privileged Extension পাওয়া গেছে এবং প্রস্তুত
+Privileged Extension ইনস্টল করা নেই। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+Privileged Extension ইনস্টল করা আছে, কিন্তু এর সিস্টেম সুবিধা নেই বা এটি এই অ্যাপের স্বাক্ষরকে বিশ্বাস করে না। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+Shizuku-এর মাধ্যমে নিঃশব্দ ইনস্টল (Shizuku চালু থাকতে হবে এবং অ্যাক্সেস দেওয়া থাকতে হবে)। উপলব্ধ না থাকলে স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হয়।
+Shizuku প্রস্তুত
+Shizuku ইনস্টল করা নেই বা চালু নেই। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+Shizuku-এর অ্যাক্সেস প্রত্যাখ্যাত হয়েছে। Shizuku অ্যাপে F-Droid-কে অনুমতি দিন। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+ইনস্টল করা Shizuku সংস্করণটি খুব পুরনো। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+Dhizuku-এর মাধ্যমে ডিভাইসের মালিক হিসেবে নিঃশব্দ ইনস্টল (Dhizuku সেট আপ করা থাকতে হবে এবং অ্যাক্সেস দেওয়া থাকতে হবে)। উপলব্ধ না থাকলে স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হয়।
+Dhizuku প্রস্তুত
+Dhizuku ইনস্টল করা নেই বা সক্রিয় নেই। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+Dhizuku-এর অ্যাক্সেস প্রত্যাখ্যাত হয়েছে। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+microG Companion-এর ইনস্টলারের মাধ্যমে ইনস্টল করে। microG Companion প্রয়োজন, এবং microG তবুও একটি ডায়ালগ দেখাতে পারে। উপলব্ধ না থাকলে স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হয়।
+microG Companion পাওয়া গেছে
+ইনস্টল সমর্থনসহ microG Companion পাওয়া যায়নি। স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হচ্ছে।
+অন্য ইনস্টলার অ্যাপ
+প্যাকেজের নাম অনুযায়ী APK অন্য একটি ইনস্টলার অ্যাপকে দেয় (যেমন App Manager)। উপলব্ধ না থাকলে স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হয়।
+ইনস্টলার অ্যাপ পাওয়া গেছে
+কোনো প্যাকেজের নাম দেওয়া হয়নি। আপনি একটি না দেওয়া পর্যন্ত স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হবে।
+এই অ্যাপ ইনস্টল করা নেই। আপনি প্যাকেজের নাম ঠিক না করা পর্যন্ত স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হবে।
+এই অ্যাপ APK ফাইল ইনস্টল করতে পারে না। আপনি অন্যটি না বাছা পর্যন্ত স্ট্যান্ডার্ড ইনস্টলার ব্যবহার করা হবে।
+ইনস্টলার অ্যাপের প্যাকেজের নাম
+সেট করা নেই
+উদাহরণ: io.github.muntashirakon.AppManager
+এটি একটি বৈধ প্যাকেজের নাম নয়
+=== ta
+நிறுவும் முறை
+நிலையானது (கணினி)
+Android-இன் உள்ளமைந்த நிறுவி. உறுதிப்படுத்தல் கேட்கும்.
+Privileged Extension (கணினி பயன்பாடு அல்லது Magisk தொகுதி) வழியாக அமைதியான நிறுவல். கிடைக்கவில்லை என்றால் நிலையான நிறுவி பயன்படுத்தப்படும்.
+root உரிமைகளுடன் அமைதியான நிறுவல் (Magisk, KernelSU). root மறுக்கப்பட்டால் நிலையான நிறுவி பயன்படுத்தப்படும்.
+root அணுகல் வழங்கப்பட்டது
+root அணுகல் மறுக்கப்பட்டது அல்லது கிடைக்கவில்லை. நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+Privileged Extension கண்டறியப்பட்டது, தயாராக உள்ளது
+Privileged Extension நிறுவப்படவில்லை. நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+Privileged Extension நிறுவப்பட்டுள்ளது, ஆனால் அதற்கு கணினி சிறப்புரிமைகள் இல்லை அல்லது இந்தப் பயன்பாட்டின் கையொப்பத்தை அது நம்பவில்லை. நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+Shizuku வழியாக அமைதியான நிறுவல் (Shizuku இயங்கிக் கொண்டிருக்க வேண்டும், அணுகல் வழங்கப்பட்டிருக்க வேண்டும்). கிடைக்கவில்லை என்றால் நிலையான நிறுவி பயன்படுத்தப்படும்.
+Shizuku தயாராக உள்ளது
+Shizuku நிறுவப்படவில்லை அல்லது இயங்கவில்லை. நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+Shizuku அணுகல் மறுக்கப்பட்டது. Shizuku பயன்பாட்டில் F-Droid-ஐ அனுமதியுங்கள். நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+நிறுவப்பட்ட Shizuku பதிப்பு மிகவும் பழையது. நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+Dhizuku வழியாக சாதன உரிமையாளராக அமைதியான நிறுவல் (Dhizuku அமைக்கப்பட்டு அணுகல் வழங்கப்பட்டிருக்க வேண்டும்). கிடைக்கவில்லை என்றால் நிலையான நிறுவி பயன்படுத்தப்படும்.
+Dhizuku தயாராக உள்ளது
+Dhizuku நிறுவப்படவில்லை அல்லது செயலில் இல்லை. நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+Dhizuku அணுகல் மறுக்கப்பட்டது. நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+microG Companion-இன் நிறுவி வழியாக நிறுவுகிறது. microG Companion தேவை, மேலும் microG இன்னும் ஒரு உரையாடலைக் காட்டலாம். கிடைக்கவில்லை என்றால் நிலையான நிறுவி பயன்படுத்தப்படும்.
+microG Companion கண்டறியப்பட்டது
+நிறுவல் ஆதரவுடன் கூடிய microG Companion கண்டறியப்படவில்லை. நிலையான நிறுவி பயன்படுத்தப்படுகிறது.
+மற்றொரு நிறுவி பயன்பாடு
+தொகுப்புப் பெயரின் அடிப்படையில் APK-ஐ மற்றொரு நிறுவி பயன்பாட்டிடம் ஒப்படைக்கிறது (எ.கா. App Manager). கிடைக்கவில்லை என்றால் நிலையான நிறுவி பயன்படுத்தப்படும்.
+நிறுவி பயன்பாடு கண்டறியப்பட்டது
+தொகுப்புப் பெயர் உள்ளிடப்படவில்லை. நீங்கள் ஒன்றை அமைக்கும் வரை நிலையான நிறுவி பயன்படுத்தப்படும்.
+இந்தப் பயன்பாடு நிறுவப்படவில்லை. தொகுப்புப் பெயரைச் சரிசெய்யும் வரை நிலையான நிறுவி பயன்படுத்தப்படும்.
+இந்தப் பயன்பாட்டால் APK கோப்புகளை நிறுவ முடியாது. வேறொன்றைத் தேர்ந்தெடுக்கும் வரை நிலையான நிறுவி பயன்படுத்தப்படும்.
+நிறுவி பயன்பாட்டின் தொகுப்புப் பெயர்
+அமைக்கப்படவில்லை
+எடுத்துக்காட்டு: io.github.muntashirakon.AppManager
+இது சரியான தொகுப்புப் பெயர் அல்ல
+=== te
+ఇన్‌స్టాల్ చేసే విధానం
+ప్రామాణికం (సిస్టమ్)
+Android అంతర్నిర్మిత ఇన్‌స్టాలర్. నిర్ధారణ అడుగుతుంది.
+Privileged Extension (సిస్టమ్ యాప్ లేదా Magisk మాడ్యూల్) ద్వారా నిశ్శబ్ద ఇన్‌స్టాల్. అందుబాటులో లేకపోతే ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+root హక్కులతో నిశ్శబ్ద ఇన్‌స్టాల్ (Magisk, KernelSU). root తిరస్కరించబడితే ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+root యాక్సెస్ మంజూరు చేయబడింది
+root యాక్సెస్ తిరస్కరించబడింది లేదా అందుబాటులో లేదు. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+Privileged Extension కనుగొనబడింది మరియు సిద్ధంగా ఉంది
+Privileged Extension ఇన్‌స్టాల్ చేయబడలేదు. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+Privileged Extension ఇన్‌స్టాల్ చేయబడింది, కానీ దానికి సిస్టమ్ అధికారాలు లేవు లేదా ఈ యాప్ సంతకాన్ని అది నమ్మదు. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+Shizuku ద్వారా నిశ్శబ్ద ఇన్‌స్టాల్ (Shizuku నడుస్తూ ఉండాలి మరియు యాక్సెస్ మంజూరు చేయబడి ఉండాలి). అందుబాటులో లేకపోతే ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+Shizuku సిద్ధంగా ఉంది
+Shizuku ఇన్‌స్టాల్ చేయబడలేదు లేదా నడవడం లేదు. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+Shizuku యాక్సెస్ తిరస్కరించబడింది. Shizuku యాప్‌లో F-Droidను అనుమతించండి. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+ఇన్‌స్టాల్ చేసిన Shizuku వెర్షన్ చాలా పాతది. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+Dhizuku ద్వారా పరికర యజమానిగా నిశ్శబ్ద ఇన్‌స్టాల్ (Dhizuku సెటప్ చేయబడి యాక్సెస్ మంజూరు చేయబడి ఉండాలి). అందుబాటులో లేకపోతే ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+Dhizuku సిద్ధంగా ఉంది
+Dhizuku ఇన్‌స్టాల్ చేయబడలేదు లేదా సక్రియంగా లేదు. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+Dhizuku యాక్సెస్ తిరస్కరించబడింది. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+microG Companion ఇన్‌స్టాలర్ ద్వారా ఇన్‌స్టాల్ చేస్తుంది. microG Companion అవసరం, మరియు microG ఇంకా డైలాగ్ చూపించవచ్చు. అందుబాటులో లేకపోతే ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+microG Companion కనుగొనబడింది
+ఇన్‌స్టాల్ మద్దతు ఉన్న microG Companion కనుగొనబడలేదు. ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతోంది.
+మరొక ఇన్‌స్టాలర్ యాప్
+ప్యాకేజీ పేరు ఆధారంగా APKని మరొక ఇన్‌స్టాలర్ యాప్‌కు అప్పగిస్తుంది (ఉదా. App Manager). అందుబాటులో లేకపోతే ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+ఇన్‌స్టాలర్ యాప్ కనుగొనబడింది
+ప్యాకేజీ పేరు నమోదు చేయలేదు. మీరు ఒకటి సెట్ చేసే వరకు ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+ఈ యాప్ ఇన్‌స్టాల్ చేయబడలేదు. మీరు ప్యాకేజీ పేరును సరిచేసే వరకు ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+ఈ యాప్‌తో APK ఫైళ్లను ఇన్‌స్టాల్ చేయడం సాధ్యం కాదు. మీరు మరొకటి ఎంచుకునే వరకు ప్రామాణిక ఇన్‌స్టాలర్ ఉపయోగించబడుతుంది.
+ఇన్‌స్టాలర్ యాప్ ప్యాకేజీ పేరు
+సెట్ చేయలేదు
+ఉదాహరణకు io.github.muntashirakon.AppManager
+ఇది చెల్లుబాటు అయ్యే ప్యాకేజీ పేరు కాదు
+=== ml
+ഇൻസ്റ്റാൾ ചെയ്യുന്ന രീതി
+സ്റ്റാൻഡേർഡ് (സിസ്റ്റം)
+Android-ന്റെ ഇൻബിൽറ്റ് ഇൻസ്റ്റാളർ. സ്ഥിരീകരണം ചോദിക്കുന്നു.
+Privileged Extension (സിസ്റ്റം ആപ്പ് അല്ലെങ്കിൽ Magisk മോഡ്യൂൾ) വഴി നിശ്ശബ്ദ ഇൻസ്റ്റാൾ. ലഭ്യമല്ലെങ്കിൽ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+root അവകാശങ്ങളോടെ നിശ്ശബ്ദ ഇൻസ്റ്റാൾ (Magisk, KernelSU). root നിരസിച്ചാൽ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+root ആക്സസ് അനുവദിച്ചു
+root ആക്സസ് നിരസിച്ചു അല്ലെങ്കിൽ ലഭ്യമല്ല. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+Privileged Extension കണ്ടെത്തി, തയ്യാറാണ്
+Privileged Extension ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+Privileged Extension ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ട്, പക്ഷേ അതിന് സിസ്റ്റം പ്രത്യേകാവകാശങ്ങളില്ല അല്ലെങ്കിൽ ഈ ആപ്പിന്റെ ഒപ്പ് വിശ്വസിക്കുന്നില്ല. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+Shizuku വഴി നിശ്ശബ്ദ ഇൻസ്റ്റാൾ (Shizuku പ്രവർത്തിക്കുന്നുണ്ടായിരിക്കണം, ആക്സസ് അനുവദിച്ചിരിക്കണം). ലഭ്യമല്ലെങ്കിൽ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+Shizuku തയ്യാറാണ്
+Shizuku ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല അല്ലെങ്കിൽ പ്രവർത്തിക്കുന്നില്ല. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+Shizuku ആക്സസ് നിരസിച്ചു. Shizuku ആപ്പിൽ F-Droid അനുവദിക്കുക. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+ഇൻസ്റ്റാൾ ചെയ്ത Shizuku പതിപ്പ് വളരെ പഴയതാണ്. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+Dhizuku വഴി ഉപകരണ ഉടമയായി നിശ്ശബ്ദ ഇൻസ്റ്റാൾ (Dhizuku സജ്ജീകരിച്ചിരിക്കണം, ആക്സസ് അനുവദിച്ചിരിക്കണം). ലഭ്യമല്ലെങ്കിൽ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+Dhizuku തയ്യാറാണ്
+Dhizuku ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല അല്ലെങ്കിൽ സജീവമല്ല. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+Dhizuku ആക്സസ് നിരസിച്ചു. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+microG Companion-ന്റെ ഇൻസ്റ്റാളർ വഴി ഇൻസ്റ്റാൾ ചെയ്യുന്നു. microG Companion ആവശ്യമാണ്, microG ഇപ്പോഴും ഒരു ഡയലോഗ് കാണിച്ചേക്കാം. ലഭ്യമല്ലെങ്കിൽ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+microG Companion കണ്ടെത്തി
+ഇൻസ്റ്റാൾ പിന്തുണയുള്ള microG Companion കണ്ടെത്തിയില്ല. സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കുന്നു.
+മറ്റൊരു ഇൻസ്റ്റാളർ ആപ്പ്
+പാക്കേജ് പേര് അനുസരിച്ച് APK മറ്റൊരു ഇൻസ്റ്റാളർ ആപ്പിന് കൈമാറുന്നു (ഉദാ. App Manager). ലഭ്യമല്ലെങ്കിൽ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+ഇൻസ്റ്റാളർ ആപ്പ് കണ്ടെത്തി
+പാക്കേജ് പേര് നൽകിയിട്ടില്ല. നിങ്ങൾ ഒന്ന് സജ്ജമാക്കുന്നതുവരെ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+ഈ ആപ്പ് ഇൻസ്റ്റാൾ ചെയ്തിട്ടില്ല. പാക്കേജ് പേര് തിരുത്തുന്നതുവരെ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+ഈ ആപ്പിന് APK ഫയലുകൾ ഇൻസ്റ്റാൾ ചെയ്യാൻ കഴിയില്ല. മറ്റൊന്ന് തിരഞ്ഞെടുക്കുന്നതുവരെ സ്റ്റാൻഡേർഡ് ഇൻസ്റ്റാളർ ഉപയോഗിക്കും.
+ഇൻസ്റ്റാളർ ആപ്പിന്റെ പാക്കേജ് പേര്
+സജ്ജമാക്കിയിട്ടില്ല
+ഉദാഹരണം: io.github.muntashirakon.AppManager
+ഇത് സാധുവായ പാക്കേജ് പേര് അല്ല
+=== kn
+ಸ್ಥಾಪನೆ ವಿಧಾನ
+ಪ್ರಮಾಣಿತ (ಸಿಸ್ಟಂ)
+Android ನ ಅಂತರ್ನಿರ್ಮಿತ ಸ್ಥಾಪಕ. ದೃಢೀಕರಣ ಕೇಳುತ್ತದೆ.
+Privileged Extension (ಸಿಸ್ಟಂ ಅಪ್ಲಿಕೇಶನ್ ಅಥವಾ Magisk ಮಾಡ್ಯೂಲ್) ಮೂಲಕ ಮೌನ ಸ್ಥಾಪನೆ. ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+root ಹಕ್ಕುಗಳೊಂದಿಗೆ ಮೌನ ಸ್ಥಾಪನೆ (Magisk, KernelSU). root ನಿರಾಕರಿಸಿದರೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+root ಪ್ರವೇಶ ನೀಡಲಾಗಿದೆ
+root ಪ್ರವೇಶ ನಿರಾಕರಿಸಲಾಗಿದೆ ಅಥವಾ ಲಭ್ಯವಿಲ್ಲ. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+Privileged Extension ಕಂಡುಬಂದಿದೆ ಮತ್ತು ಸಿದ್ಧವಾಗಿದೆ
+Privileged Extension ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+Privileged Extension ಸ್ಥಾಪಿಸಲಾಗಿದೆ, ಆದರೆ ಅದಕ್ಕೆ ಸಿಸ್ಟಂ ಸವಲತ್ತುಗಳಿಲ್ಲ ಅಥವಾ ಈ ಅಪ್ಲಿಕೇಶನ್‌ನ ಸಹಿಯನ್ನು ಅದು ನಂಬುವುದಿಲ್ಲ. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+Shizuku ಮೂಲಕ ಮೌನ ಸ್ಥಾಪನೆ (Shizuku ಚಾಲನೆಯಲ್ಲಿರಬೇಕು ಮತ್ತು ಪ್ರವೇಶ ನೀಡಿರಬೇಕು). ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+Shizuku ಸಿದ್ಧವಾಗಿದೆ
+Shizuku ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ ಅಥವಾ ಚಾಲನೆಯಲ್ಲಿಲ್ಲ. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+Shizuku ಪ್ರವೇಶ ನಿರಾಕರಿಸಲಾಗಿದೆ. Shizuku ಅಪ್ಲಿಕೇಶನ್‌ನಲ್ಲಿ F-Droid ಅನ್ನು ಅನುಮತಿಸಿ. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+ಸ್ಥಾಪಿಸಲಾದ Shizuku ಆವೃತ್ತಿ ತುಂಬಾ ಹಳೆಯದು. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+Dhizuku ಮೂಲಕ ಸಾಧನದ ಮಾಲೀಕರಾಗಿ ಮೌನ ಸ್ಥಾಪನೆ (Dhizuku ಹೊಂದಿಸಿರಬೇಕು ಮತ್ತು ಪ್ರವೇಶ ನೀಡಿರಬೇಕು). ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+Dhizuku ಸಿದ್ಧವಾಗಿದೆ
+Dhizuku ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ ಅಥವಾ ಸಕ್ರಿಯವಾಗಿಲ್ಲ. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+Dhizuku ಪ್ರವೇಶ ನಿರಾಕರಿಸಲಾಗಿದೆ. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+microG Companion ನ ಸ್ಥಾಪಕದ ಮೂಲಕ ಸ್ಥಾಪಿಸುತ್ತದೆ. microG Companion ಅಗತ್ಯವಿದೆ, ಮತ್ತು microG ಇನ್ನೂ ಸಂವಾದ ತೋರಿಸಬಹುದು. ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+microG Companion ಕಂಡುಬಂದಿದೆ
+ಸ್ಥಾಪನೆ ಬೆಂಬಲವಿರುವ microG Companion ಕಂಡುಬಂದಿಲ್ಲ. ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತಿದೆ.
+ಬೇರೆ ಸ್ಥಾಪಕ ಅಪ್ಲಿಕೇಶನ್
+ಪ್ಯಾಕೇಜ್ ಹೆಸರಿನ ಮೂಲಕ APK ಅನ್ನು ಬೇರೊಂದು ಸ್ಥಾಪಕ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ನೀಡುತ್ತದೆ (ಉದಾ. App Manager). ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+ಸ್ಥಾಪಕ ಅಪ್ಲಿಕೇಶನ್ ಕಂಡುಬಂದಿದೆ
+ಪ್ಯಾಕೇಜ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿಲ್ಲ. ನೀವು ಒಂದನ್ನು ಹೊಂದಿಸುವವರೆಗೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+ಈ ಅಪ್ಲಿಕೇಶನ್ ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ. ನೀವು ಪ್ಯಾಕೇಜ್ ಹೆಸರನ್ನು ಸರಿಪಡಿಸುವವರೆಗೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+ಈ ಅಪ್ಲಿಕೇಶನ್ APK ಫೈಲ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ನೀವು ಬೇರೆಯದನ್ನು ಆರಿಸುವವರೆಗೆ ಪ್ರಮಾಣಿತ ಸ್ಥಾಪಕವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ.
+ಸ್ಥಾಪಕ ಅಪ್ಲಿಕೇಶನ್‌ನ ಪ್ಯಾಕೇಜ್ ಹೆಸರು
+ಹೊಂದಿಸಿಲ್ಲ
+ಉದಾಹರಣೆಗೆ io.github.muntashirakon.AppManager
+ಇದು ಮಾನ್ಯವಾದ ಪ್ಯಾಕೇಜ್ ಹೆಸರಲ್ಲ
+=== mr
+इंस्टॉल करण्याची पद्धत
+मानक (सिस्टम)
+Android चे अंगभूत इंस्टॉलर. पुष्टी मागते.
+Privileged Extension (सिस्टम अॅप किंवा Magisk मॉड्यूल) द्वारे शांतपणे इंस्टॉल. उपलब्ध नसल्यास मानक इंस्टॉलर वापरले जाते.
+root अधिकारांसह शांतपणे इंस्टॉल (Magisk, KernelSU). root नाकारले गेल्यास मानक इंस्टॉलर वापरले जाते.
+root अॅक्सेस दिला आहे
+root अॅक्सेस नाकारला गेला किंवा उपलब्ध नाही. मानक इंस्टॉलर वापरले जात आहे.
+Privileged Extension सापडले आणि तयार आहे
+Privileged Extension इंस्टॉल केलेले नाही. मानक इंस्टॉलर वापरले जात आहे.
+Privileged Extension इंस्टॉल केलेले आहे, परंतु त्याला सिस्टम विशेषाधिकार नाहीत किंवा ते या अॅपच्या स्वाक्षरीवर विश्वास ठेवत नाही. मानक इंस्टॉलर वापरले जात आहे.
+Shizuku द्वारे शांतपणे इंस्टॉल (Shizuku चालू असले पाहिजे आणि अॅक्सेस दिलेला असला पाहिजे). उपलब्ध नसल्यास मानक इंस्टॉलर वापरले जाते.
+Shizuku तयार आहे
+Shizuku इंस्टॉल केलेले नाही किंवा चालू नाही. मानक इंस्टॉलर वापरले जात आहे.
+Shizuku चा अॅक्सेस नाकारला गेला. Shizuku अॅपमध्ये F-Droid ला परवानगी द्या. मानक इंस्टॉलर वापरले जात आहे.
+इंस्टॉल केलेली Shizuku आवृत्ती खूप जुनी आहे. मानक इंस्टॉलर वापरले जात आहे.
+Dhizuku द्वारे डिव्हाइस मालक म्हणून शांतपणे इंस्टॉल (Dhizuku सेट केलेले असले पाहिजे आणि अॅक्सेस दिलेला असला पाहिजे). उपलब्ध नसल्यास मानक इंस्टॉलर वापरले जाते.
+Dhizuku तयार आहे
+Dhizuku इंस्टॉल केलेले नाही किंवा सक्रिय नाही. मानक इंस्टॉलर वापरले जात आहे.
+Dhizuku चा अॅक्सेस नाकारला गेला. मानक इंस्टॉलर वापरले जात आहे.
+microG Companion च्या इंस्टॉलरद्वारे इंस्टॉल करते. microG Companion आवश्यक आहे, आणि microG तरीही डायलॉग दाखवू शकते. उपलब्ध नसल्यास मानक इंस्टॉलर वापरले जाते.
+microG Companion सापडले
+इंस्टॉल सपोर्ट असलेले microG Companion सापडले नाही. मानक इंस्टॉलर वापरले जात आहे.
+दुसरे इंस्टॉलर अॅप
+पॅकेजच्या नावानुसार APK दुसऱ्या इंस्टॉलर अॅपला देते (उदा. App Manager). उपलब्ध नसल्यास मानक इंस्टॉलर वापरले जाते.
+इंस्टॉलर अॅप सापडले
+पॅकेजचे नाव दिलेले नाही. तुम्ही एक सेट करेपर्यंत मानक इंस्टॉलर वापरले जाईल.
+हे अॅप इंस्टॉल केलेले नाही. तुम्ही पॅकेजचे नाव दुरुस्त करेपर्यंत मानक इंस्टॉलर वापरले जाईल.
+हे अॅप APK फाइल्स इंस्टॉल करू शकत नाही. तुम्ही दुसरे निवडेपर्यंत मानक इंस्टॉलर वापरले जाईल.
+इंस्टॉलर अॅपचे पॅकेज नाव
+सेट केलेले नाही
+उदाहरणार्थ io.github.muntashirakon.AppManager
+हे वैध पॅकेज नाव नाही
+=== gu
+ઇન્સ્ટોલ કરવાની રીત
+માનક (સિસ્ટમ)
+Android નું બિલ્ટ-ઇન ઇન્સ્ટોલર. પુષ્ટિ માંગે છે.
+Privileged Extension (સિસ્ટમ એપ અથવા Magisk મોડ્યુલ) દ્વારા શાંત ઇન્સ્ટોલ. ઉપલબ્ધ ન હોય તો માનક ઇન્સ્ટોલરનો ઉપયોગ થાય છે.
+root અધિકારો સાથે શાંત ઇન્સ્ટોલ (Magisk, KernelSU). root નકારવામાં આવે તો માનક ઇન્સ્ટોલરનો ઉપયોગ થાય છે.
+root ઍક્સેસ આપવામાં આવ્યો
+root ઍક્સેસ નકારવામાં આવ્યો અથવા ઉપલબ્ધ નથી. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+Privileged Extension મળી અને તૈયાર છે
+Privileged Extension ઇન્સ્ટોલ કરેલ નથી. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+Privileged Extension ઇન્સ્ટોલ કરેલ છે, પરંતુ તેની પાસે સિસ્ટમ વિશેષાધિકારો નથી અથવા તે આ એપની સહી પર વિશ્વાસ કરતી નથી. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+Shizuku દ્વારા શાંત ઇન્સ્ટોલ (Shizuku ચાલુ હોવું જોઈએ અને ઍક્સેસ આપેલ હોવો જોઈએ). ઉપલબ્ધ ન હોય તો માનક ઇન્સ્ટોલરનો ઉપયોગ થાય છે.
+Shizuku તૈયાર છે
+Shizuku ઇન્સ્ટોલ કરેલ નથી અથવા ચાલુ નથી. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+Shizuku નો ઍક્સેસ નકારવામાં આવ્યો. Shizuku એપમાં F-Droid ને મંજૂરી આપો. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+ઇન્સ્ટોલ કરેલ Shizuku આવૃત્તિ ખૂબ જૂની છે. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+Dhizuku દ્વારા ઉપકરણના માલિક તરીકે શાંત ઇન્સ્ટોલ (Dhizuku સેટ અપ કરેલ હોવું જોઈએ અને ઍક્સેસ આપેલ હોવો જોઈએ). ઉપલબ્ધ ન હોય તો માનક ઇન્સ્ટોલરનો ઉપયોગ થાય છે.
+Dhizuku તૈયાર છે
+Dhizuku ઇન્સ્ટોલ કરેલ નથી અથવા સક્રિય નથી. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+Dhizuku નો ઍક્સેસ નકારવામાં આવ્યો. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+microG Companion ના ઇન્સ્ટોલર દ્વારા ઇન્સ્ટોલ કરે છે. microG Companion જરૂરી છે, અને microG હજુ પણ સંવાદ બતાવી શકે છે. ઉપલબ્ધ ન હોય તો માનક ઇન્સ્ટોલરનો ઉપયોગ થાય છે.
+microG Companion મળ્યું
+ઇન્સ્ટોલ સપોર્ટ સાથે microG Companion મળ્યું નથી. માનક ઇન્સ્ટોલરનો ઉપયોગ થઈ રહ્યો છે.
+અન્ય ઇન્સ્ટોલર એપ
+પેકેજના નામ દ્વારા APK ને અન્ય ઇન્સ્ટોલર એપને સોંપે છે (દા.ત. App Manager). ઉપલબ્ધ ન હોય તો માનક ઇન્સ્ટોલરનો ઉપયોગ થાય છે.
+ઇન્સ્ટોલર એપ મળી
+કોઈ પેકેજ નામ દાખલ કરેલ નથી. તમે એક સેટ ન કરો ત્યાં સુધી માનક ઇન્સ્ટોલરનો ઉપયોગ થશે.
+આ એપ ઇન્સ્ટોલ કરેલ નથી. તમે પેકેજ નામ સુધારો ત્યાં સુધી માનક ઇન્સ્ટોલરનો ઉપયોગ થશે.
+આ એપ APK ફાઇલો ઇન્સ્ટોલ કરી શકતી નથી. તમે બીજી પસંદ ન કરો ત્યાં સુધી માનક ઇન્સ્ટોલરનો ઉપયોગ થશે.
+ઇન્સ્ટોલર એપનું પેકેજ નામ
+સેટ કરેલ નથી
+ઉદાહરણ તરીકે io.github.muntashirakon.AppManager
+આ માન્ય પેકેજ નામ નથી
+=== pa
+ਇੰਸਟਾਲ ਕਰਨ ਦਾ ਤਰੀਕਾ
+ਮਿਆਰੀ (ਸਿਸਟਮ)
+Android ਦਾ ਬਿਲਟ-ਇਨ ਇੰਸਟਾਲਰ। ਪੁਸ਼ਟੀ ਮੰਗਦਾ ਹੈ।
+Privileged Extension (ਸਿਸਟਮ ਐਪ ਜਾਂ Magisk ਮੋਡੀਊਲ) ਰਾਹੀਂ ਚੁੱਪ-ਚਾਪ ਇੰਸਟਾਲ। ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।
+root ਅਧਿਕਾਰਾਂ ਨਾਲ ਚੁੱਪ-ਚਾਪ ਇੰਸਟਾਲ (Magisk, KernelSU)। root ਤੋਂ ਇਨਕਾਰ ਹੋਵੇ ਤਾਂ ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।
+root ਪਹੁੰਚ ਦਿੱਤੀ ਗਈ
+root ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ ਗਿਆ ਜਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+Privileged Extension ਮਿਲ ਗਿਆ ਅਤੇ ਤਿਆਰ ਹੈ
+Privileged Extension ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+Privileged Extension ਇੰਸਟਾਲ ਹੈ, ਪਰ ਇਸ ਕੋਲ ਸਿਸਟਮ ਅਧਿਕਾਰ ਨਹੀਂ ਹਨ ਜਾਂ ਇਹ ਇਸ ਐਪ ਦੇ ਦਸਤਖਤ ਉੱਤੇ ਭਰੋਸਾ ਨਹੀਂ ਕਰਦਾ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+Shizuku ਰਾਹੀਂ ਚੁੱਪ-ਚਾਪ ਇੰਸਟਾਲ (Shizuku ਚੱਲ ਰਿਹਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਪਹੁੰਚ ਦਿੱਤੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ)। ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।
+Shizuku ਤਿਆਰ ਹੈ
+Shizuku ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ ਜਾਂ ਚੱਲ ਨਹੀਂ ਰਿਹਾ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+Shizuku ਦੀ ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ ਗਿਆ। Shizuku ਐਪ ਵਿੱਚ F-Droid ਨੂੰ ਇਜਾਜ਼ਤ ਦਿਓ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+ਇੰਸਟਾਲ ਕੀਤਾ Shizuku ਵਰਜਨ ਬਹੁਤ ਪੁਰਾਣਾ ਹੈ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+Dhizuku ਰਾਹੀਂ ਡਿਵਾਈਸ ਦੇ ਮਾਲਕ ਵਜੋਂ ਚੁੱਪ-ਚਾਪ ਇੰਸਟਾਲ (Dhizuku ਸੈੱਟ ਅੱਪ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਅਤੇ ਪਹੁੰਚ ਦਿੱਤੀ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ)। ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।
+Dhizuku ਤਿਆਰ ਹੈ
+Dhizuku ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ ਜਾਂ ਸਰਗਰਮ ਨਹੀਂ ਹੈ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+Dhizuku ਦੀ ਪਹੁੰਚ ਤੋਂ ਇਨਕਾਰ ਕੀਤਾ ਗਿਆ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+microG Companion ਦੇ ਇੰਸਟਾਲਰ ਰਾਹੀਂ ਇੰਸਟਾਲ ਕਰਦਾ ਹੈ। microG Companion ਦੀ ਲੋੜ ਹੈ, ਅਤੇ microG ਫਿਰ ਵੀ ਇੱਕ ਡਾਇਲਾਗ ਦਿਖਾ ਸਕਦਾ ਹੈ। ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।
+microG Companion ਮਿਲ ਗਿਆ
+ਇੰਸਟਾਲ ਸਹਿਯੋਗ ਵਾਲਾ microG Companion ਨਹੀਂ ਮਿਲਿਆ। ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾ ਰਿਹਾ ਹੈ।
+ਹੋਰ ਇੰਸਟਾਲਰ ਐਪ
+ਪੈਕੇਜ ਦੇ ਨਾਂ ਰਾਹੀਂ APK ਨੂੰ ਕਿਸੇ ਹੋਰ ਇੰਸਟਾਲਰ ਐਪ ਨੂੰ ਸੌਂਪਦਾ ਹੈ (ਜਿਵੇਂ App Manager)। ਉਪਲਬਧ ਨਾ ਹੋਵੇ ਤਾਂ ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।
+ਇੰਸਟਾਲਰ ਐਪ ਮਿਲ ਗਈ
+ਕੋਈ ਪੈਕੇਜ ਨਾਂ ਦਰਜ ਨਹੀਂ ਕੀਤਾ ਗਿਆ। ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਇੱਕ ਸੈੱਟ ਨਹੀਂ ਕਰਦੇ, ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਵੇਗਾ।
+ਇਹ ਐਪ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ। ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਪੈਕੇਜ ਨਾਂ ਠੀਕ ਨਹੀਂ ਕਰਦੇ, ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਵੇਗਾ।
+ਇਹ ਐਪ APK ਫਾਈਲਾਂ ਇੰਸਟਾਲ ਨਹੀਂ ਕਰ ਸਕਦੀ। ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਕੋਈ ਹੋਰ ਨਹੀਂ ਚੁਣਦੇ, ਮਿਆਰੀ ਇੰਸਟਾਲਰ ਵਰਤਿਆ ਜਾਵੇਗਾ।
+ਇੰਸਟਾਲਰ ਐਪ ਦਾ ਪੈਕੇਜ ਨਾਂ
+ਸੈੱਟ ਨਹੀਂ ਹੈ
+ਉਦਾਹਰਨ: io.github.muntashirakon.AppManager
+ਇਹ ਜਾਇਜ਼ ਪੈਕੇਜ ਨਾਂ ਨਹੀਂ ਹੈ
+=== ne
+स्थापना गर्ने तरिका
+मानक (प्रणाली)
+Android को बिल्ट-इन स्थापनाकर्ता। पुष्टि माग्छ।
+Privileged Extension (प्रणाली एप वा Magisk मोड्युल) मार्फत मौन स्थापना। उपलब्ध नभए मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+root अधिकारसहित मौन स्थापना (Magisk, KernelSU)। root अस्वीकार भए मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+root पहुँच दिइयो
+root पहुँच अस्वीकार गरियो वा उपलब्ध छैन। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+Privileged Extension फेला पर्‍यो र तयार छ
+Privileged Extension स्थापना गरिएको छैन। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+Privileged Extension स्थापना गरिएको छ, तर यसमा प्रणाली विशेषाधिकार छैन वा यसले यो एपको हस्ताक्षरमा विश्वास गर्दैन। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+Shizuku मार्फत मौन स्थापना (Shizuku चलिरहेको र पहुँच दिइएको हुनुपर्छ)। उपलब्ध नभए मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+Shizuku तयार छ
+Shizuku स्थापना गरिएको छैन वा चलिरहेको छैन। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+Shizuku को पहुँच अस्वीकार गरियो। Shizuku एपमा F-Droid लाई अनुमति दिनुहोस्। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+स्थापना गरिएको Shizuku संस्करण धेरै पुरानो छ। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+Dhizuku मार्फत उपकरणको मालिकका रूपमा मौन स्थापना (Dhizuku सेटअप गरिएको र पहुँच दिइएको हुनुपर्छ)। उपलब्ध नभए मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+Dhizuku तयार छ
+Dhizuku स्थापना गरिएको छैन वा सक्रिय छैन। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+Dhizuku को पहुँच अस्वीकार गरियो। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+microG Companion को स्थापनाकर्ता मार्फत स्थापना गर्छ। microG Companion आवश्यक छ, र microG ले अझै संवाद देखाउन सक्छ। उपलब्ध नभए मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+microG Companion फेला पर्‍यो
+स्थापना समर्थन भएको microG Companion फेला परेन। मानक स्थापनाकर्ता प्रयोग गरिँदै छ।
+अर्को स्थापनाकर्ता एप
+प्याकेजको नाम अनुसार APK अर्को स्थापनाकर्ता एपलाई दिन्छ (जस्तै App Manager)। उपलब्ध नभए मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+स्थापनाकर्ता एप फेला पर्‍यो
+कुनै प्याकेज नाम प्रविष्ट गरिएको छैन। तपाईंले एउटा तोक्नुअघिसम्म मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+यो एप स्थापना गरिएको छैन। तपाईंले प्याकेज नाम सच्याउनुअघिसम्म मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+यो एपले APK फाइलहरू स्थापना गर्न सक्दैन। तपाईंले अर्कै छान्नुअघिसम्म मानक स्थापनाकर्ता प्रयोग गरिन्छ।
+स्थापनाकर्ता एपको प्याकेज नाम
+तोकिएको छैन
+उदाहरण: io.github.muntashirakon.AppManager
+यो मान्य प्याकेज नाम होइन
+=== si
+ස්ථාපන ක්‍රමය
+සම්මත (පද්ධතිය)
+Android හි ඇතුළත් ස්ථාපකය. තහවුරු කිරීමක් ඉල්ලයි.
+Privileged Extension (පද්ධති යෙදුමක් හෝ Magisk මොඩියුලයක්) හරහා නිහඬ ස්ථාපනය. නොමැති නම් සම්මත ස්ථාපකය භාවිතා වේ.
+root අයිතිවාසිකම් සමඟ නිහඬ ස්ථාපනය (Magisk, KernelSU). root ප්‍රතික්ෂේප වුවහොත් සම්මත ස්ථාපකය භාවිතා වේ.
+root ප්‍රවේශය ලබා දෙන ලදී
+root ප්‍රවේශය ප්‍රතික්ෂේප කරන ලදී හෝ නොමැත. සම්මත ස්ථාපකය භාවිතා වේ.
+Privileged Extension හමු විය, සූදානම්
+Privileged Extension ස්ථාපනය කර නැත. සම්මත ස්ථාපකය භාවිතා වේ.
+Privileged Extension ස්ථාපනය කර ඇත, නමුත් එයට පද්ධති වරප්‍රසාද නැත හෝ මෙම යෙදුමේ අත්සන විශ්වාස නොකරයි. සම්මත ස්ථාපකය භාවිතා වේ.
+Shizuku හරහා නිහඬ ස්ථාපනය (Shizuku ක්‍රියාත්මක වී ප්‍රවේශය ලබා දී තිබිය යුතුය). නොමැති නම් සම්මත ස්ථාපකය භාවිතා වේ.
+Shizuku සූදානම්
+Shizuku ස්ථාපනය කර නැත හෝ ක්‍රියාත්මක නොවේ. සම්මත ස්ථාපකය භාවිතා වේ.
+Shizuku ප්‍රවේශය ප්‍රතික්ෂේප කරන ලදී. Shizuku යෙදුමේ F-Droid වෙත අවසර දෙන්න. සම්මත ස්ථාපකය භාවිතා වේ.
+ස්ථාපනය කළ Shizuku අනුවාදය ඉතා පැරණිය. සම්මත ස්ථාපකය භාවිතා වේ.
+Dhizuku හරහා උපාංග හිමිකරු ලෙස නිහඬ ස්ථාපනය (Dhizuku සකසා ප්‍රවේශය ලබා දී තිබිය යුතුය). නොමැති නම් සම්මත ස්ථාපකය භාවිතා වේ.
+Dhizuku සූදානම්
+Dhizuku ස්ථාපනය කර නැත හෝ සක්‍රිය නැත. සම්මත ස්ථාපකය භාවිතා වේ.
+Dhizuku ප්‍රවේශය ප්‍රතික්ෂේප කරන ලදී. සම්මත ස්ථාපකය භාවිතා වේ.
+microG Companion හි ස්ථාපකය හරහා ස්ථාපනය කරයි. microG Companion අවශ්‍යයි, microG තවමත් සංවාදයක් පෙන්විය හැක. නොමැති නම් සම්මත ස්ථාපකය භාවිතා වේ.
+microG Companion හමු විය
+ස්ථාපන සහාය සහිත microG Companion හමු නොවීය. සම්මත ස්ථාපකය භාවිතා වේ.
+වෙනත් ස්ථාපක යෙදුමක්
+පැකේජ නාමය අනුව APK වෙනත් ස්ථාපක යෙදුමකට භාර දෙයි (උදා. App Manager). නොමැති නම් සම්මත ස්ථාපකය භාවිතා වේ.
+ස්ථාපක යෙදුම හමු විය
+පැකේජ නාමයක් ඇතුළත් කර නැත. ඔබ එකක් සකසන තෙක් සම්මත ස්ථාපකය භාවිතා වේ.
+මෙම යෙදුම ස්ථාපනය කර නැත. ඔබ පැකේජ නාමය නිවැරදි කරන තෙක් සම්මත ස්ථාපකය භාවිතා වේ.
+මෙම යෙදුමට APK ගොනු ස්ථාපනය කළ නොහැක. ඔබ වෙනත් එකක් තෝරන තෙක් සම්මත ස්ථාපකය භාවිතා වේ.
+ස්ථාපක යෙදුමේ පැකේජ නාමය
+සකසා නැත
+උදාහරණයක් ලෙස io.github.muntashirakon.AppManager
+මෙය වලංගු පැකේජ නාමයක් නොවේ
+=== ur
+انسٹال کرنے کا طریقہ
+معیاری (سسٹم)
+اینڈرائیڈ کا بلٹ اِن انسٹالر۔ تصدیق طلب کرتا ہے۔
+Privileged Extension (سسٹم ایپ یا Magisk ماڈیول) کے ذریعے خاموش انسٹالیشن۔ دستیاب نہ ہو تو معیاری انسٹالر استعمال ہوتا ہے۔
+root اختیارات کے ساتھ خاموش انسٹالیشن (Magisk، KernelSU)۔ root مسترد ہو تو معیاری انسٹالر استعمال ہوتا ہے۔
+root رسائی دے دی گئی
+root رسائی مسترد کر دی گئی یا دستیاب نہیں۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+Privileged Extension مل گیا اور تیار ہے
+Privileged Extension انسٹال نہیں ہے۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+Privileged Extension انسٹال ہے، لیکن اس کے پاس سسٹم مراعات نہیں ہیں یا وہ اس ایپ کے دستخط پر بھروسا نہیں کرتا۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+Shizuku کے ذریعے خاموش انسٹالیشن (Shizuku چل رہا ہونا چاہیے اور رسائی دی گئی ہونی چاہیے)۔ دستیاب نہ ہو تو معیاری انسٹالر استعمال ہوتا ہے۔
+Shizuku تیار ہے
+Shizuku انسٹال نہیں ہے یا چل نہیں رہا۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+Shizuku کی رسائی مسترد کر دی گئی۔ Shizuku ایپ میں F-Droid کو اجازت دیں۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+انسٹال شدہ Shizuku ورژن بہت پرانا ہے۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+Dhizuku کے ذریعے ڈیوائس کے مالک کے طور پر خاموش انسٹالیشن (Dhizuku سیٹ اپ ہونا چاہیے اور رسائی دی گئی ہونی چاہیے)۔ دستیاب نہ ہو تو معیاری انسٹالر استعمال ہوتا ہے۔
+Dhizuku تیار ہے
+Dhizuku انسٹال نہیں ہے یا فعال نہیں ہے۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+Dhizuku کی رسائی مسترد کر دی گئی۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+microG Companion کے انسٹالر کے ذریعے انسٹال کرتا ہے۔ microG Companion درکار ہے، اور microG پھر بھی ڈائیلاگ دکھا سکتا ہے۔ دستیاب نہ ہو تو معیاری انسٹالر استعمال ہوتا ہے۔
+microG Companion مل گیا
+انسٹالیشن سپورٹ والا microG Companion نہیں ملا۔ معیاری انسٹالر استعمال ہو رہا ہے۔
+دوسری انسٹالر ایپ
+پیکیج کے نام کے ذریعے APK کو کسی اور انسٹالر ایپ کے حوالے کرتا ہے (مثلاً App Manager)۔ دستیاب نہ ہو تو معیاری انسٹالر استعمال ہوتا ہے۔
+انسٹالر ایپ مل گئی
+کوئی پیکیج نام درج نہیں کیا گیا۔ جب تک آپ ایک مقرر نہیں کرتے، معیاری انسٹالر استعمال ہوگا۔
+یہ ایپ انسٹال نہیں ہے۔ جب تک آپ پیکیج نام درست نہیں کرتے، معیاری انسٹالر استعمال ہوگا۔
+یہ ایپ APK فائلیں انسٹال نہیں کر سکتی۔ جب تک آپ کوئی اور منتخب نہیں کرتے، معیاری انسٹالر استعمال ہوگا۔
+انسٹالر ایپ کا پیکیج نام
+مقرر نہیں
+مثال کے طور پر io.github.muntashirakon.AppManager
+یہ درست پیکیج نام نہیں ہے
+=== mn
+Суулгах арга
+Стандарт (систем)
+Android-ын суулгагч. Баталгаажуулалт асууна.
+Privileged Extension-ээр (системийн апп эсвэл Magisk модуль) дуугүй суулгах. Боломжгүй бол стандарт суулгагчийг ашиглана.
+root эрхтэйгээр дуугүй суулгах (Magisk, KernelSU). root татгалзагдвал стандарт суулгагчийг ашиглана.
+root хандалт олгогдлоо
+root хандалт татгалзагдсан эсвэл боломжгүй. Стандарт суулгагчийг ашиглаж байна.
+Privileged Extension олдож, бэлэн боллоо
+Privileged Extension суулгаагүй байна. Стандарт суулгагчийг ашиглаж байна.
+Privileged Extension суулгасан боловч системийн эрхгүй эсвэл энэ аппын гарын үсэгт итгэдэггүй. Стандарт суулгагчийг ашиглаж байна.
+Shizuku-аар дуугүй суулгах (Shizuku ажиллаж байх ба хандалт олгогдсон байх ёстой). Боломжгүй бол стандарт суулгагчийг ашиглана.
+Shizuku бэлэн
+Shizuku суулгаагүй эсвэл ажиллахгүй байна. Стандарт суулгагчийг ашиглаж байна.
+Shizuku-д хандах эрхээс татгалзсан. Shizuku аппад F-Droid-д зөвшөөрөл өгнө үү. Стандарт суулгагчийг ашиглаж байна.
+Суулгасан Shizuku-гийн хувилбар хэт хуучин байна. Стандарт суулгагчийг ашиглаж байна.
+Dhizuku-гаар төхөөрөмжийн эзэмшигчээр дуугүй суулгах (Dhizuku тохируулагдсан, хандалт олгогдсон байх ёстой). Боломжгүй бол стандарт суулгагчийг ашиглана.
+Dhizuku бэлэн
+Dhizuku суулгаагүй эсвэл идэвхгүй байна. Стандарт суулгагчийг ашиглаж байна.
+Dhizuku-д хандах эрхээс татгалзсан. Стандарт суулгагчийг ашиглаж байна.
+microG Companion-ы суулгагчаар суулгана. microG Companion шаардлагатай бөгөөд microG хэдий ч харилцах цонх харуулж магадгүй. Боломжгүй бол стандарт суулгагчийг ашиглана.
+microG Companion олдлоо
+Суулгалт дэмждэг microG Companion олдсонгүй. Стандарт суулгагчийг ашиглаж байна.
+Өөр суулгагч апп
+APK-г багцын нэрээр өөр суулгагч аппад дамжуулна (жишээ нь App Manager). Боломжгүй бол стандарт суулгагчийг ашиглана.
+Суулгагч апп олдлоо
+Багцын нэр оруулаагүй байна. Та тохируулах хүртэл стандарт суулгагчийг ашиглана.
+Энэ апп суулгаагүй байна. Та багцын нэрийг засах хүртэл стандарт суулгагчийг ашиглана.
+Энэ апп APK файл суулгаж чадахгүй. Та өөрийг сонгох хүртэл стандарт суулгагчийг ашиглана.
+Суулгагч аппын багцын нэр
+Тохируулаагүй
+Жишээ нь io.github.muntashirakon.AppManager
+Энэ нь хүчинтэй багцын нэр биш
+=== cy
+Dull gosod
+Safonol (system)
+Gosodwr adeiledig Android. Mae'n gofyn am gadarnhad.
+Gosod tawel drwy Privileged Extension (ap system neu fodiwl Magisk). Os nad yw ar gael, defnyddir y gosodwr safonol.
+Gosod tawel gyda hawliau root (Magisk, KernelSU). Os gwrthodir root, defnyddir y gosodwr safonol.
+Rhoddwyd mynediad root
+Gwrthodwyd mynediad root neu nid yw ar gael. Defnyddir y gosodwr safonol.
+Daethpwyd o hyd i Privileged Extension ac mae'n barod
+Nid yw Privileged Extension wedi'i osod. Defnyddir y gosodwr safonol.
+Mae Privileged Extension wedi'i osod, ond nid oes ganddo freintiau system neu nid yw'n ymddiried yn llofnod yr ap hwn. Defnyddir y gosodwr safonol.
+Gosod tawel drwy Shizuku (rhaid i Shizuku fod yn rhedeg a rhaid bod mynediad wedi'i roi). Os nad yw ar gael, defnyddir y gosodwr safonol.
+Mae Shizuku yn barod
+Nid yw Shizuku wedi'i osod neu nid yw'n rhedeg. Defnyddir y gosodwr safonol.
+Gwrthodwyd mynediad i Shizuku. Caniatewch F-Droid yn yr ap Shizuku. Defnyddir y gosodwr safonol.
+Mae'r fersiwn o Shizuku sydd wedi'i osod yn rhy hen. Defnyddir y gosodwr safonol.
+Gosod tawel fel perchennog y ddyfais drwy Dhizuku (rhaid i Dhizuku fod wedi'i osod i fyny a mynediad wedi'i roi). Os nad yw ar gael, defnyddir y gosodwr safonol.
+Mae Dhizuku yn barod
+Nid yw Dhizuku wedi'i osod neu nid yw'n weithredol. Defnyddir y gosodwr safonol.
+Gwrthodwyd mynediad i Dhizuku. Defnyddir y gosodwr safonol.
+Yn gosod drwy osodwr microG Companion. Mae angen microG Companion, a gall microG ddangos deialog o hyd. Os nad yw ar gael, defnyddir y gosodwr safonol.
+Daethpwyd o hyd i microG Companion
+Ni ddaethpwyd o hyd i microG Companion gyda chymorth gosod. Defnyddir y gosodwr safonol.
+Ap gosod arall
+Yn trosglwyddo'r APK i ap gosod arall yn ôl enw'r pecyn (e.e. App Manager). Os nad yw ar gael, defnyddir y gosodwr safonol.
+Daethpwyd o hyd i'r ap gosod
+Heb nodi enw pecyn. Defnyddir y gosodwr safonol nes i chi osod un.
+Nid yw'r ap hwn wedi'i osod. Defnyddir y gosodwr safonol nes i chi gywiro enw'r pecyn.
+Ni all yr ap hwn osod ffeiliau APK. Defnyddir y gosodwr safonol nes i chi ddewis un arall.
+Enw pecyn yr ap gosod
+Heb ei osod
+Er enghraifft io.github.muntashirakon.AppManager
+Nid yw hwn yn enw pecyn dilys
+=== ga
+Modh suiteála
+Caighdeánach (córas)
+Suiteálaí ionsuite Android. Iarrann sé deimhniú.
+Suiteáil chiúin trí Privileged Extension (aip chórais nó modúl Magisk). Mura bhfuil sé ar fáil, úsáidtear an suiteálaí caighdeánach.
+Suiteáil chiúin le cearta root (Magisk, KernelSU). Má dhiúltaítear root, úsáidtear an suiteálaí caighdeánach.
+Tugadh rochtain root
+Diúltaíodh rochtain root nó níl sí ar fáil. Tá an suiteálaí caighdeánach in úsáid.
+Aimsíodh Privileged Extension agus tá sé réidh
+Níl Privileged Extension suiteáilte. Tá an suiteálaí caighdeánach in úsáid.
+Tá Privileged Extension suiteáilte, ach níl pribhléidí córais aige nó ní bhíonn muinín aige as síniú na haipe seo. Tá an suiteálaí caighdeánach in úsáid.
+Suiteáil chiúin trí Shizuku (caithfidh Shizuku a bheith ag rith agus rochtain a bheith tugtha). Mura bhfuil sé ar fáil, úsáidtear an suiteálaí caighdeánach.
+Tá Shizuku réidh
+Níl Shizuku suiteáilte nó níl sé ag rith. Tá an suiteálaí caighdeánach in úsáid.
+Diúltaíodh rochtain ar Shizuku. Ceadaigh F-Droid san aip Shizuku. Tá an suiteálaí caighdeánach in úsáid.
+Tá an leagan de Shizuku atá suiteáilte róshean. Tá an suiteálaí caighdeánach in úsáid.
+Suiteáil chiúin mar úinéir na feiste trí Dhizuku (caithfear Dhizuku a bheith socraithe agus rochtain a bheith tugtha). Mura bhfuil sé ar fáil, úsáidtear an suiteálaí caighdeánach.
+Tá Dhizuku réidh
+Níl Dhizuku suiteáilte nó níl sé gníomhach. Tá an suiteálaí caighdeánach in úsáid.
+Diúltaíodh rochtain ar Dhizuku. Tá an suiteálaí caighdeánach in úsáid.
+Suiteálann sé trí shuiteálaí microG Companion. Teastaíonn microG Companion, agus d'fhéadfadh microG dialóg a thaispeáint fós. Mura bhfuil sé ar fáil, úsáidtear an suiteálaí caighdeánach.
+Aimsíodh microG Companion
+Níor aimsíodh microG Companion le tacaíocht suiteála. Tá an suiteálaí caighdeánach in úsáid.
+Aip suiteála eile
+Tugann sé an APK d'aip suiteála eile de réir ainm an phacáiste (m.sh. App Manager). Mura bhfuil sé ar fáil, úsáidtear an suiteálaí caighdeánach.
+Aimsíodh an aip suiteála
+Níor cuireadh ainm pacáiste isteach. Úsáidtear an suiteálaí caighdeánach go dtí go socraíonn tú ceann.
+Níl an aip seo suiteáilte. Úsáidtear an suiteálaí caighdeánach go dtí go gceartaíonn tú ainm an phacáiste.
+Ní féidir leis an aip seo comhaid APK a shuiteáil. Úsáidtear an suiteálaí caighdeánach go dtí go roghnaíonn tú ceann eile.
+Ainm pacáiste na haipe suiteála
+Gan socrú
+Mar shampla io.github.muntashirakon.AppManager
+Ní ainm pacáiste bailí é seo
+=== lb
+Installatiounsmethod
+Standard (System)
+Dem Android säin agebauten Installateur. Freet no Bestätegung.
+Roueg Installatioun iwwer Privileged Extension (Systemapp oder Magisk-Modul). Wann net disponibel, gëtt de Standard-Installateur benotzt.
+Roueg Installatioun mat Root-Rechter (Magisk, KernelSU). Wann Root ofgeleent gëtt, gëtt de Standard-Installateur benotzt.
+Root-Zougrëff accordéiert
+Root-Zougrëff gouf ofgeleent oder ass net disponibel. De Standard-Installateur gëtt benotzt.
+Privileged Extension fonnt a prett
+Privileged Extension ass net installéiert. De Standard-Installateur gëtt benotzt.
+Privileged Extension ass installéiert, huet awer keng Systemrechter oder vertraut der Ënnerschrëft vun dëser App net. De Standard-Installateur gëtt benotzt.
+Roueg Installatioun iwwer Shizuku (Shizuku muss lafen an den Zougrëff muss accordéiert sinn). Wann net disponibel, gëtt de Standard-Installateur benotzt.
+Shizuku ass prett
+Shizuku ass net installéiert oder leeft net. De Standard-Installateur gëtt benotzt.
+Zougrëff op Shizuku gouf ofgeleent. Erlaabt F-Droid an der Shizuku-App. De Standard-Installateur gëtt benotzt.
+Déi installéiert Shizuku-Versioun ass ze al. De Standard-Installateur gëtt benotzt.
+Roueg Installatioun als Apparatbesëtzer iwwer Dhizuku (Dhizuku muss ageriicht an den Zougrëff accordéiert sinn). Wann net disponibel, gëtt de Standard-Installateur benotzt.
+Dhizuku ass prett
+Dhizuku ass net installéiert oder net aktiv. De Standard-Installateur gëtt benotzt.
+Zougrëff op Dhizuku gouf ofgeleent. De Standard-Installateur gëtt benotzt.
+Installéiert iwwer den Installateur vu microG Companion. Brauch microG Companion, a microG ka weiderhin en Dialogfenster weisen. Wann net disponibel, gëtt de Standard-Installateur benotzt.
+microG Companion fonnt
+microG Companion mat Installatiounsënnerstëtzung gouf net fonnt. De Standard-Installateur gëtt benotzt.
+Aner Installatiouns-App
+Gëtt d'APK un eng aner Installatiouns-App weider, no dem Packagenumm (z. B. App Manager). Wann net disponibel, gëtt de Standard-Installateur benotzt.
+Installatiouns-App fonnt
+Kee Packagenumm aginn. De Standard-Installateur gëtt benotzt, bis Dir een setzt.
+Dës App ass net installéiert. De Standard-Installateur gëtt benotzt, bis Dir de Packagenumm korrigéiert.
+Dës App kann keng APK-Fichieren installéieren. De Standard-Installateur gëtt benotzt, bis Dir eng aner wielt.
+Packagenumm vun der Installatiouns-App
+Net gesat
+Zum Beispill io.github.muntashirakon.AppManager
+Dëst ass kee gültege Packagenumm
+=== fy
+Ynstallaasjemetoade
+Standert (systeem)
+It ynboude ynstallaasjeprogramma fan Android. Freget om befêstiging.
+Stille ynstallaasje fia Privileged Extension (systeemapp of Magisk-module). As it net beskikber is, wurdt it standert ynstallaasjeprogramma brûkt.
+Stille ynstallaasje mei root-rjochten (Magisk, KernelSU). As root wurdt wegere, wurdt it standert ynstallaasjeprogramma brûkt.
+Roottagong ferliend
+Roottagong is wegere of net beskikber. It standert ynstallaasjeprogramma wurdt brûkt.
+Privileged Extension fûn en klear
+Privileged Extension is net ynstallearre. It standert ynstallaasjeprogramma wurdt brûkt.
+Privileged Extension is ynstallearre, mar hat gjin systeemrjochten of fertrout de hantekening fan dizze app net. It standert ynstallaasjeprogramma wurdt brûkt.
+Stille ynstallaasje fia Shizuku (Shizuku moat rinne en tagong moat ferliend wêze). As it net beskikber is, wurdt it standert ynstallaasjeprogramma brûkt.
+Shizuku is klear
+Shizuku is net ynstallearre of draait net. It standert ynstallaasjeprogramma wurdt brûkt.
+Tagong ta Shizuku is wegere. Tastean F-Droid yn de Shizuku-app. It standert ynstallaasjeprogramma wurdt brûkt.
+De ynstallearre ferzje fan Shizuku is te âld. It standert ynstallaasjeprogramma wurdt brûkt.
+Stille ynstallaasje as apparaateigener fia Dhizuku (Dhizuku moat ynsteld wêze en tagong moat ferliend wêze). As it net beskikber is, wurdt it standert ynstallaasjeprogramma brûkt.
+Dhizuku is klear
+Dhizuku is net ynstallearre of net aktyf. It standert ynstallaasjeprogramma wurdt brûkt.
+Tagong ta Dhizuku is wegere. It standert ynstallaasjeprogramma wurdt brûkt.
+Ynstallearret fia it ynstallaasjeprogramma fan microG Companion. Hat microG Companion nedich, en microG kin noch altyd in dialooch sjen litte. As it net beskikber is, wurdt it standert ynstallaasjeprogramma brûkt.
+microG Companion fûn
+microG Companion mei ynstallaasjestipe is net fûn. It standert ynstallaasjeprogramma wurdt brûkt.
+Oare ynstallaasje-app
+Jout de APK troch oan in oare ynstallaasje-app op basis fan de pakketnamme (bygelyks App Manager). As it net beskikber is, wurdt it standert ynstallaasjeprogramma brûkt.
+Ynstallaasje-app fûn
+Gjin pakketnamme ynfierd. It standert ynstallaasjeprogramma wurdt brûkt oant jo ien ynstelle.
+Dizze app is net ynstallearre. It standert ynstallaasjeprogramma wurdt brûkt oant jo de pakketnamme korrigearje.
+Dizze app kin gjin APK-bestannen ynstallearje. It standert ynstallaasjeprogramma wurdt brûkt oant jo in oare kieze.
+Pakketnamme fan de ynstallaasje-app
+Net ynsteld
+Bygelyks io.github.muntashirakon.AppManager
+Dit is gjin jildige pakketnamme
+=== ast
+Métodu d'instalación
+Estándar (sistema)
+L'instalador integráu d'Android. Pide confirmación.
+Instalación silenciosa per Privileged Extension (aplicación del sistema o módulu de Magisk). Si nun ta disponible, úsase l'instalador estándar.
+Instalación silenciosa con permisos de root (Magisk, KernelSU). Si se refuga'l root, úsase l'instalador estándar.
+Concedióse l'accesu root
+Refugóse l'accesu root o nun ta disponible. Úsase l'instalador estándar.
+Privileged Extension atopada y preparada
+Privileged Extension nun ta instalada. Úsase l'instalador estándar.
+Privileged Extension ta instalada, pero nun tien privilexos del sistema o nun se fía de la robla d'esta aplicación. Úsase l'instalador estándar.
+Instalación silenciosa per Shizuku (Shizuku tien de tar executándose y l'accesu concedíu). Si nun ta disponible, úsase l'instalador estándar.
+Shizuku ta preparáu
+Shizuku nun ta instaláu o nun s'ejecuta. Úsase l'instalador estándar.
+Refugóse l'accesu a Shizuku. Permite F-Droid na aplicación Shizuku. Úsase l'instalador estándar.
+La versión instalada de Shizuku ye demasiao vieya. Úsase l'instalador estándar.
+Instalación silenciosa como propietariu del preséu per Dhizuku (Dhizuku tien de tar configuráu y l'accesu concedíu). Si nun ta disponible, úsase l'instalador estándar.
+Dhizuku ta preparáu
+Dhizuku nun ta instaláu o nun ta activu. Úsase l'instalador estándar.
+Refugóse l'accesu a Dhizuku. Úsase l'instalador estándar.
+Instala per mediu del instalador de microG Companion. Requier microG Companion y microG inda pue amosar un diálogu. Si nun ta disponible, úsase l'instalador estándar.
+microG Companion atopáu
+Nun s'alcontró microG Companion con sofitu d'instalación. Úsase l'instalador estándar.
+Otra aplicación instaladora
+Entrega l'APK a otra aplicación instaladora según el nome del paquete (p. ex., App Manager). Si nun ta disponible, úsase l'instalador estándar.
+Aplicación instaladora atopada
+Nun s'introdució nengún nome de paquete. Úsase l'instalador estándar hasta que establezas unu.
+Esta aplicación nun ta instalada. Úsase l'instalador estándar hasta que correxas el nome del paquete.
+Esta aplicación nun pue instalar ficheros APK. Úsase l'instalador estándar hasta que escueyas otra.
+Nome del paquete de l'aplicación instaladora
+Ensin definir
+Por exemplu, io.github.muntashirakon.AppManager
+Esti nun ye un nome de paquete válidu
+=== oc
+Metòde d'installacion
+Estandard (sistèma)
+L'installador integrat d'Android. Demanda una confirmacion.
+Installacion silenciosa via Privileged Extension (aplicacion sistèma o modul Magisk). S'es pas disponible, l'installador estandard es utilizat.
+Installacion silenciosa amb de drets root (Magisk, KernelSU). Se root es refusat, l'installador estandard es utilizat.
+Accès root acordat
+L'accès root es estat refusat o es pas disponible. L'installador estandard es utilizat.
+Privileged Extension trobada e prèsta
+Privileged Extension es pas installada. L'installador estandard es utilizat.
+Privileged Extension es installada, mas a pas de privilègis sistèma o fa pas confiança a la signatura d'aquesta aplicacion. L'installador estandard es utilizat.
+Installacion silenciosa via Shizuku (Shizuku deu èstre en cors d'execucion e l'accès acordat). S'es pas disponible, l'installador estandard es utilizat.
+Shizuku es prèst
+Shizuku es pas installat o es pas en cors d'execucion. L'installador estandard es utilizat.
+L'accès a Shizuku es estat refusat. Autorizatz F-Droid dins l'aplicacion Shizuku. L'installador estandard es utilizat.
+La version installada de Shizuku es tròp vièlha. L'installador estandard es utilizat.
+Installacion silenciosa coma proprietari de l'aparelh via Dhizuku (Dhizuku deu èstre configurat e l'accès acordat). S'es pas disponible, l'installador estandard es utilizat.
+Dhizuku es prèst
+Dhizuku es pas installat o es pas actiu. L'installador estandard es utilizat.
+L'accès a Dhizuku es estat refusat. L'installador estandard es utilizat.
+Installa via l'installador de microG Companion. Requerís microG Companion e microG pòt totjorn afichar una fenèstra de dialòg. S'es pas disponible, l'installador estandard es utilizat.
+microG Companion trobat
+microG Companion amb sosten d'installacion es pas estat trobat. L'installador estandard es utilizat.
+Autra aplicacion d'installacion
+Transmet l'APK a una autra aplicacion d'installacion segon lo nom del paquet (ex. App Manager). S'es pas disponible, l'installador estandard es utilizat.
+Aplicacion d'installacion trobada
+Cap de nom de paquet es pas estat picat. L'installador estandard es utilizat fins que ne definiscatz un.
+Aquesta aplicacion es pas installada. L'installador estandard es utilizat fins que corregissiatz lo nom del paquet.
+Aquesta aplicacion pòt pas installar de fichièrs APK. L'installador estandard es utilizat fins que n'causissiatz una autra.
+Nom del paquet de l'aplicacion d'installacion
+Pas definit
+Per exemple io.github.muntashirakon.AppManager
+Aquò es pas un nom de paquet valid

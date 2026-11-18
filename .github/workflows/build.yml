@@ -1,0 +1,82 @@
+name: Build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Compile, test, check translations
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      # installs the Android command-line tools and accepts the licenses, AGP downloads the rest
+      - uses: android-actions/setup-android@v3
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Check translations
+        run: python3 tools/check_translations.py
+
+      # The new libraries are not in gradle/verification-metadata.xml yet (see the job below),
+      # so verification only warns here. Everything else is verified as usual.
+      - name: Unit tests
+        run: ./gradlew --no-daemon --stacktrace --dependency-verification=lenient :app:testFullDefaultDebugUnitTest
+
+      - name: Build extension and app (debug)
+        run: ./gradlew --no-daemon --stacktrace --dependency-verification=lenient :privileged-extension:assembleDebug :app:assembleFullDefaultDebug
+
+      - name: Upload test reports on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: |
+            app/build/reports/tests
+            app/build/test-results
+          if-no-files-found: ignore
+
+      # Debug builds are signed with a debug key, so they are for checking that everything compiles.
+      # Use build-ubuntu.sh with your own key for the APK you install.
+      - name: Upload debug APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-apks
+          path: |
+            app/build/outputs/apk/**/*.apk
+            privileged-extension/build/outputs/apk/**/*.apk
+          if-no-files-found: warn
+
+  verification-metadata:
+    name: Generate gradle/verification-metadata.xml (manual)
+    # Run it by hand: Actions > Build and test > Run workflow. Download the artifact and commit the file.
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - uses: android-actions/setup-android@v3
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Write verification metadata
+        run: ./gradlew --no-daemon --stacktrace --write-verification-metadata sha256 :app:assembleFullDefaultDebug :privileged-extension:assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: verification-metadata
+          path: gradle/verification-metadata.xml

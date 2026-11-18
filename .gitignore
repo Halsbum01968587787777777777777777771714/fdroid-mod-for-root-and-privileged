@@ -62,3 +62,5 @@ build-ubuntu.log
 gradle/verification-metadata.xml.bak
 app/src/screenshotTestBasicDefaultDebug/reference/
 src/basic/fastlane/metadata/android/en-US/images/icon.png
+app/src/screenshotTestBasicDefaultDebug/reference/
+src/basic/fastlane/metadata/android/en-US/images/icon.png

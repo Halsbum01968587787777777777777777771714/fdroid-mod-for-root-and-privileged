@@ -1,0 +1,6 @@
+id=fdroid-privileged-extension-own
+name=F-Droid Privileged Extension (own build)
+version=v0.2.13-own
+versionCode=2130
+author=self-built
+description=Silent installs for F-Droid via the Privileged Extension (priv-app). Trusts F-Droid builds signed with your own key.
